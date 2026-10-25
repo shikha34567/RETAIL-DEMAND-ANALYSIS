@@ -1,0 +1,163 @@
+=====================================================
+DATASET: Taxi Trips (2013-2023) ( wrvz-psew )
+COLUMNS:
+  - sid [:sid] (meta_data): 
+  - id [:id] (meta_data): 
+  - position [:position] (meta_data): 
+  - created_at [:created_at] (meta_data): 
+  - created_meta [:created_meta] (meta_data): 
+  - updated_at [:updated_at] (meta_data): 
+  - updated_meta [:updated_meta] (meta_data): 
+  - meta [:meta] (meta_data): 
+  - Trip ID [trip_id] (text): A unique identifier for the trip.
+  - Taxi ID [taxi_id] (text): A unique identifier for the taxi.
+  - Trip Start Timestamp [trip_start_timestamp] (calendar_date): When the trip started, rounded to the nearest 15 minutes.
+  - Trip End Timestamp [trip_end_timestamp] (calendar_date): When the trip ended, rounded to the nearest 15 minutes.
+  - Trip Seconds [trip_seconds] (number): Time of the trip in seconds.
+  - Trip Miles [trip_miles] (number): Distance of the trip in miles.
+  - Pickup Census Tract [pickup_census_tract] (text): The Census Tract where the trip began.  For privacy, this Census Tract is not sh
+  - Dropoff Census Tract [dropoff_census_tract] (text): The Census Tract where the trip ended.  For privacy, this Census Tract is not sh
+  - Pickup Community Area [pickup_community_area] (number): The Community Area where the trip began. This column will be blank for locations
+  - Dropoff Community Area [dropoff_community_area] (number): The Community Area where the trip ended. This column will be blank for locations
+  - Fare [fare] (number): The fare for the trip.
+  - Tips [tips] (number): The tip for the trip. Cash tips generally will not be recorded.
+  - Tolls [tolls] (number): The tolls for the trip.
+  - Extras [extras] (number): Extra charges for the trip.
+  - Trip Total [trip_total] (number): Total cost of the trip, the total of the previous columns.
+  - Payment Type [payment_type] (text): Type of payment for the trip.
+  - Company [company] (text): The taxi company.
+  - Pickup Centroid Latitude [pickup_centroid_latitude] (number): The latitude of the center of the pickup census tract or the community area if t
+  - Pickup Centroid Longitude [pickup_centroid_longitude] (number): The longitude of the center of the pickup census tract or the community area if 
+  - Pickup Centroid Location [pickup_centroid_location] (point): The location of the center of the pickup census tract or the community area if t
+  - Dropoff Centroid Latitude [dropoff_centroid_latitude] (number): The latitude of the center of the dropoff census tract or the community area if 
+  - Dropoff Centroid Longitude [dropoff_centroid_longitude] (number): The longitude of the center of the dropoff census tract or the community area if
+  - Dropoff Centroid  Location [dropoff_centroid_location] (point): The location of the center of the dropoff census tract or the community area if 
+  - Community Areas [:@computed_region_vrxf_vc4k] (number): 
+
+SAMPLE ROW 0:
+  trip_id: 'f9dbcb3826d6865d129a37ecf76211d1b7c58c35'
+  taxi_id: '548bfc030e169c239e690606d2e6df8c2a2a240a38a424eff375e8388b8766604b872d29bc26e4353388b2d2e9b819a7a39053764d7d648f4dab989b0c337841'
+  trip_start_timestamp: '2013-12-10T18:15:00'
+  trip_end_timestamp: '2013-12-10T18:15:00'
+  trip_seconds: '300'
+  trip_miles: '0.6'
+  pickup_census_tract: '17031081800'
+  dropoff_census_tract: '17031081500'
+  pickup_community_area: '8'
+  dropoff_community_area: '8'
+  fare: '5.45'
+  tips: '0.00'
+  tolls: '0.00'
+  extras: '0.00'
+  trip_total: '5.45'
+  payment_type: 'Cash'
+  company: 'Dispatch Taxi Affiliation'
+  pickup_centroid_latitude: '41.89321636'
+  pickup_centroid_longitude: '-87.63784421'
+  pickup_centroid_location: 'POINT (-87.6378442095 41.8932163595)'
+  dropoff_centroid_latitude: '41.892507781'
+  dropoff_centroid_longitude: '-87.626214906'
+  dropoff_centroid_location: 'POINT (-87.6262149064 41.8925077809)'
+
+SAMPLE ROW 1:
+  trip_id: '45056acbeb36eea3cb0863b57487819cfc45b3f6'
+  taxi_id: '71fc920551d68200d0ff75b7e53bf41ba482b1a6075b137c4001dd759c4784aef6b9cfe90017790e7fbaf5b31fb85208a22de2396fd72f40440ed9beedb56e5e'
+  trip_start_timestamp: '2014-01-19T18:15:00'
+  trip_end_timestamp: '2014-01-19T18:30:00'
+  trip_seconds: '600'
+  trip_miles: '2.7'
+  pickup_census_tract: '17031241400'
+  dropoff_census_tract: '17031833000'
+  pickup_community_area: '24'
+  dropoff_community_area: '28'
+  fare: '9.05'
+  tips: '0.00'
+  tolls: '0.00'
+  extras: '0.00'
+  trip_total: '9.05'
+  payment_type: 'Cash'
+  company: 'KOAM Taxi Association'
+  pickup_centroid_latitude: '41.906025969'
+  pickup_centroid_longitude: '-87.675311622'
+  pickup_centroid_location: 'POINT (-87.6753116216 41.906025969)'
+  dropoff_centroid_latitude: '41.88528132'
+  dropoff_centroid_longitude: '-87.6572332'
+  dropoff_centroid_location: 'POINT (-87.6572331997 41.8852813201)'
+=====================================================
+DATASET: Transportation Network Providers - Trips (2018-2022) ( m6dm-c72p )
+COLUMNS:
+  - sid [:sid] (meta_data): 
+  - id [:id] (meta_data): 
+  - position [:position] (meta_data): 
+  - created_at [:created_at] (meta_data): 
+  - created_meta [:created_meta] (meta_data): 
+  - updated_at [:updated_at] (meta_data): 
+  - updated_meta [:updated_meta] (meta_data): 
+  - meta [:meta] (meta_data): 
+  - Trip ID [trip_id] (text): A unique identifier for the trip.
+  - Trip Start Timestamp [trip_start_timestamp] (calendar_date): When the trip started, rounded to the nearest 15 minutes.
+  - Trip End Timestamp [trip_end_timestamp] (calendar_date): When the trip ended, rounded to the nearest 15 minutes.
+  - Trip Seconds [trip_seconds] (number): Time of the trip in seconds.
+  - Trip Miles [trip_miles] (number): Distance of the trip in miles.
+  - Pickup Census Tract [pickup_census_tract] (text): The Census Tract where the trip began.This column often will be blank for locati
+  - Dropoff Census Tract [dropoff_census_tract] (text): The Census Tract where the trip ended. This column often will be blank for locat
+  - Pickup Community Area [pickup_community_area] (number): The Community Area where the trip began. This column will be blank for locations
+  - Dropoff Community Area [dropoff_community_area] (number): The Community Area where the trip ended. This column will be blank for locations
+  - Fare [fare] (number): The fare for the trip, rounded to the nearest $2.50.
+  - Tip [tip] (number): The tip for the trip, rounded to the nearest $1.00. Cash tips will not be record
+  - Additional Charges [additional_charges] (number): The taxes, fees, and any other charges for the trip.
+  - Trip Total [trip_total] (number): Total cost of the trip. This is calculated as the total of the previous columns,
+  - Shared Trip Authorized [shared_trip_authorized] (checkbox): Whether the customer agreed to a shared trip with another customer, regardless o
+  - Trips Pooled [trips_pooled] (number): If customers were matched for a shared trip, how many trips, including this one,
+  - Pickup Centroid Latitude [pickup_centroid_latitude] (number): The latitude of the center of the pickup census tract or the community area if t
+  - Pickup Centroid Longitude [pickup_centroid_longitude] (number): The longitude of the center of the pickup census tract or the community area if 
+  - Pickup Centroid Location [pickup_centroid_location] (point): The location of the center of the pickup census tract or the community area if t
+  - Dropoff Centroid Latitude [dropoff_centroid_latitude] (number): The latitude of the center of the dropoff census tract or the community area if 
+  - Dropoff Centroid Longitude [dropoff_centroid_longitude] (number): The longitude of the center of the dropoff census tract or the community area if
+  - Dropoff Centroid Location [dropoff_centroid_location] (point): The location of the center of the dropoff census tract or the community area if 
+
+SAMPLE ROW 0:
+  trip_id: '0013597ec799b3582fbaf8000c09a9aeffde5a27'
+  trip_start_timestamp: '2019-08-22T05:00:00'
+  trip_end_timestamp: '2019-08-22T05:30:00'
+  trip_seconds: '1309'
+  trip_miles: '17.609689'
+  pickup_census_tract: '17031081600'
+  dropoff_census_tract: '17031980000'
+  pickup_community_area: '8'
+  dropoff_community_area: '76'
+  fare: '22.5'
+  tip: '0'
+  additional_charges: '7.55'
+  trip_total: '30.05'
+  shared_trip_authorized: False
+  trips_pooled: '1'
+  pickup_centroid_latitude: '41.8920726347'
+  pickup_centroid_longitude: '-87.6288741572'
+  pickup_centroid_location: 'POINT (-87.6288741572 41.8920726347)'
+  dropoff_centroid_latitude: '41.9790708201'
+  dropoff_centroid_longitude: '-87.9030396611'
+  dropoff_centroid_location: 'POINT (-87.9030396611 41.9790708201)'
+
+SAMPLE ROW 1:
+  trip_id: '001359b303f522db96e59c4410cb1816add77550'
+  trip_start_timestamp: '2019-08-28T23:45:00'
+  trip_end_timestamp: '2019-08-28T23:45:00'
+  trip_seconds: '720'
+  trip_miles: '5.581765'
+  pickup_census_tract: '17031081500'
+  dropoff_census_tract: '17031220500'
+  pickup_community_area: '8'
+  dropoff_community_area: '22'
+  fare: '0'
+  tip: '0'
+  additional_charges: '0.72'
+  trip_total: '0.72'
+  shared_trip_authorized: False
+  trips_pooled: '1'
+  pickup_centroid_latitude: '41.8925077809'
+  pickup_centroid_longitude: '-87.6262149064'
+  pickup_centroid_location: 'POINT (-87.6262149064 41.8925077809)'
+  dropoff_centroid_latitude: '41.9283913974'
+  dropoff_centroid_longitude: '-87.7049072355'
+  dropoff_centroid_location: 'POINT (-87.7049072355 41.9283913974)'

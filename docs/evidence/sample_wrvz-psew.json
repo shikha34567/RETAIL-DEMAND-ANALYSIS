@@ -1,0 +1,3110 @@
+{
+  "dataset_id": "wrvz-psew",
+  "dataset_name": "Taxi Trips (2013-2023)",
+  "columns": [
+    {
+      "id": -1,
+      "name": "sid",
+      "dataTypeName": "meta_data",
+      "fieldName": ":sid",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": -1,
+      "name": "id",
+      "dataTypeName": "meta_data",
+      "fieldName": ":id",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": -1,
+      "name": "position",
+      "dataTypeName": "meta_data",
+      "fieldName": ":position",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": -1,
+      "name": "created_at",
+      "dataTypeName": "meta_data",
+      "fieldName": ":created_at",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": -1,
+      "name": "created_meta",
+      "dataTypeName": "meta_data",
+      "fieldName": ":created_meta",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": -1,
+      "name": "updated_at",
+      "dataTypeName": "meta_data",
+      "fieldName": ":updated_at",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": -1,
+      "name": "updated_meta",
+      "dataTypeName": "meta_data",
+      "fieldName": ":updated_meta",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": -1,
+      "name": "meta",
+      "dataTypeName": "meta_data",
+      "fieldName": ":meta",
+      "position": 0,
+      "renderTypeName": "meta_data",
+      "format": {},
+      "flags": [
+        "hidden"
+      ]
+    },
+    {
+      "id": 277282874,
+      "name": "Trip ID",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the trip.",
+      "fieldName": "trip_id",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 37178642,
+      "width": 115,
+      "cachedContents": {
+        "largest": "fffffffc16239a3f3ea90c4d398cd427015ddf2b",
+        "non_null": "211670894",
+        "null": "0",
+        "top": [
+          {
+            "item": "00000019ef3c0b419a9e6b1843b83530b79627a4",
+            "count": "1"
+          },
+          {
+            "item": "00000023035db9c57ce41840d9b350ada2041145",
+            "count": "1"
+          },
+          {
+            "item": "0000003dfd0ab4ef5555e2ad299a2ba602b1dfa3",
+            "count": "1"
+          },
+          {
+            "item": "0000006062f55c7d703cbb90d2eee416a5a76db2",
+            "count": "1"
+          },
+          {
+            "item": "000000667ce8625dbec259647ff0bd26c40d45ee",
+            "count": "1"
+          },
+          {
+            "item": "00000077d5ad772683ffaaf9ee7883d5aab7713b",
+            "count": "1"
+          },
+          {
+            "item": "00000083123c5984fa57717f28f6ead1bb6825ef",
+            "count": "1"
+          },
+          {
+            "item": "00000088085c9d2854b0dbc1bfba82bc23ea5d64",
+            "count": "1"
+          },
+          {
+            "item": "00000096f27c4380ac7a5dd532d1309e814f3b2f",
+            "count": "1"
+          },
+          {
+            "item": "000000bb18f0563c13ad977fc05b901474cd3941",
+            "count": "1"
+          },
+          {
+            "item": "00000102f5f06a008f13ccc017863a06a8c5e38a",
+            "count": "1"
+          },
+          {
+            "item": "0000010e3935f2796c1489cffb3089c5d784a098",
+            "count": "1"
+          },
+          {
+            "item": "0000011144b4d29c5ad04f4d44c0372ca99e4a81",
+            "count": "1"
+          },
+          {
+            "item": "000001170663100ecf9740df975e439692f15199",
+            "count": "1"
+          },
+          {
+            "item": "00000121ac52ffb0475f4560381aeff2af5e9b64",
+            "count": "1"
+          },
+          {
+            "item": "0000012dc0b448ec656a081b91fadc03d393a332",
+            "count": "1"
+          },
+          {
+            "item": "0000012deb83dbb55726d5a75c374197d0641fa0",
+            "count": "1"
+          },
+          {
+            "item": "000001364dc24d9faaa11b42f876e3eff284c0c0",
+            "count": "1"
+          },
+          {
+            "item": "000001597d7ab3e74ca99b1378b77d058112cb7e",
+            "count": "1"
+          },
+          {
+            "item": "0000015a376f59b0d12bf3a152c787be3a3ec74b",
+            "count": "1"
+          }
+        ],
+        "smallest": "0000000c78d0cda3fb5c2018c254ad51fbdb32dd",
+        "count": "211670894",
+        "cardinality": "211670894"
+      },
+      "format": {
+        "displayStyle": "plain",
+        "align": "left",
+        "aggregate": "count"
+      }
+    },
+    {
+      "id": 277282875,
+      "name": "Taxi ID",
+      "dataTypeName": "text",
+      "description": "A unique identifier for the taxi.",
+      "fieldName": "taxi_id",
+      "position": 2,
+      "renderTypeName": "text",
+      "tableColumnId": 36436895,
+      "width": 116,
+      "cachedContents": {
+        "largest": "NA",
+        "non_null": "211670894",
+        "null": "0",
+        "top": [
+          {
+            "item": "b4ac2893286a7c3a55df851a3732ea65d7fb82e1da7a19f728a71651761babfd88544152301073319650be263fd4e1aabc072601e6f452daf22ceb764f8d70d5",
+            "count": "85295"
+          },
+          {
+            "item": "f68eb3233f3e33e98e337a0442bfe5eb660e6f58de5df0bf5950f92efae803e34c430d71038e2d6a0d2472595c305e4f54be0c42f946d3971af121f08734ac08",
+            "count": "81625"
+          },
+          {
+            "item": "f19677875bae72f431e9e35abbf3fd29aedd79e11f2f04812f96ae4f7cc4cd260e4902a8d3a03ffff9c4ecbb3db67e51070e5097c1125c0c6c67d42a743b4b35",
+            "count": "80939"
+          },
+          {
+            "item": "4f4cae403660ec4c1e2e3b03128bd7a5af139619e3e513246c1a45c19a9d2a04bf8831972ebde690feedb335deba34acfba89ebada6a6101b1c1e32e58ba8e7a",
+            "count": "80590"
+          },
+          {
+            "item": "74b9b3ba2f90ab6dfe7352dc2cac4dfebb2fffa053bafe09f7a8068ee65170acb964079c0d87065050ecd7b69d97c3b83c71f76ce9e54d539854ef0a9f4519b0",
+            "count": "80159"
+          },
+          {
+            "item": "ffc2a618ad19a63fa5e9ce8b1bd68656172b2eac505f0a29b2a5a9460b7035e208d4871b529b55ec38efbb431acb50f123c39db0a8012c1c0a4a2fc20799e3ca",
+            "count": "76689"
+          },
+          {
+            "item": "9eb860ce5cb7ff8e35eaf83b4a6d5a5f97710448b10fd7b0c3daf9c3c997c7ceba798cea504c8fa1268e91c850f4180a86ed7221ac3d42c68a92b931da61132b",
+            "count": "76475"
+          },
+          {
+            "item": "c545ff2dbd16e8f36d11fc6c3b42188d3ecd5f17e2d178941712970b9e72847f956de55a71615efc6048116cae4afb4a729d103778d4df8cca0e8c4092b31f81",
+            "count": "75735"
+          },
+          {
+            "item": "4c437b70b55212de32439053c915572d336a8cc2fb712999ae6fe0fef3b8d0018beacdd3643cf559873ae04b6a2a9c3b01a821ff06f47bffdc6d03efa200d78d",
+            "count": "75459"
+          },
+          {
+            "item": "8b16fbd9daba8152a0e6afae54e6b3f343aae2a69b56b126523446e61d64fff167542aecf7fc3eb6573f66b0fc47db9a2ee363d3053c29211c7d340684632cb2",
+            "count": "75275"
+          },
+          {
+            "item": "b2a007b1410c7208af92ef3a97b87c0af4c3e7b49c2b765a39fccd2f06b2f836ed410f8507081389b033082d814a0ee5598e1fa925facbc5c0d20e13b7bc0e5a",
+            "count": "74936"
+          },
+          {
+            "item": "847cf962bd6f62040673e6c24c24940aeb2d7fdaa54677eed6a0aaa4aeef61984916b32d763b4baa6c32476531543bb77e2346cd64f505618f6b9d562243f950",
+            "count": "74735"
+          },
+          {
+            "item": "73671d8d04e67d4eabdbbab93357ea36c3aa7afd6e6a2881cf21f258b52f43882fc07437fedb05acc79f872e8592d804fcb992f289567500f15606511eb70745",
+            "count": "74234"
+          },
+          {
+            "item": "53f28dea0e1172c2846d93d12b453aa443f6a75dbc3f855d9805cecff71c6b2d7f46d8309f27c60e8df24b90192f0723293eeac2f05126d95c4dd3ff32d420d4",
+            "count": "74201"
+          },
+          {
+            "item": "9bd5a7edc6dbe0bbdf33ea4681ee181f49cf98c3745b1c84a6d53da4cc9048077c47ba32ac139c4d2c2109024b8b7a8042f067c60c328e87c72c179794dd6722",
+            "count": "74103"
+          },
+          {
+            "item": "aebf720288b80a8ee36860541db64951c696c749f1a392d312fa4d2a8cd3f95dfb0be580fda7eb63455f809a1be9b3acad19a3ca167073126d0350b50f30741a",
+            "count": "73940"
+          },
+          {
+            "item": "e1aff5afebc38449dafb6f180ceb9f5dc86cf771aeffec64996e2033d39bdc672381805a199c1e2c088e4acada9b976e703f7736baafa2da9bfe927a4b031277",
+            "count": "73430"
+          },
+          {
+            "item": "842e2b1cd011fab01b6cc042f40c5941798405df1b3b02c5dafe36612149b5b4590afe2cc04e87065f521768082650e39464988fb3df02a8f73a9ef88c9ca4c0",
+            "count": "73272"
+          },
+          {
+            "item": "89bfd3f9c1a6014be246046cff548f19edbcb2030d129c98475f43f8bce58efd40f40cc69ca27e6665dbe596070ce5d196f77bc4449c9b1ee0b5647ac687abb5",
+            "count": "73018"
+          },
+          {
+            "item": "be200602932e31e682a64d1056c8a8bcde3ce25bad4834049d2343849f67a9e0ec2173f98eaff60a509961c3ec634cf9df089d6bbca0658a90b0630ce549dddc",
+            "count": "72915"
+          }
+        ],
+        "smallest": "0004366432bcef5a9526884fdec76bca727b29345266e73769ef214408d88dc4862c8ab68160abdf12b56919e88744523f72c2e9ba3f8e69c3114dd65dc7e475",
+        "count": "211670894",
+        "cardinality": "9806"
+      },
+      "format": {
+        "displayStyle": "plain",
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282876,
+      "name": "Trip Start Timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip started, rounded to the nearest 15 minutes.",
+      "fieldName": "trip_start_timestamp",
+      "position": 3,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 36436896,
+      "width": 188,
+      "cachedContents": {
+        "largest": "2023-12-31T23:45:00.000",
+        "non_null": "211670894",
+        "null": "0",
+        "top": [
+          {
+            "item": "2014-11-02T01:15:00.000",
+            "count": "3880"
+          },
+          {
+            "item": "2014-11-06T19:00:00.000",
+            "count": "3700"
+          },
+          {
+            "item": "2015-11-01T01:30:00.000",
+            "count": "3662"
+          },
+          {
+            "item": "2015-11-01T01:45:00.000",
+            "count": "3644"
+          },
+          {
+            "item": "2014-11-02T01:45:00.000",
+            "count": "3638"
+          },
+          {
+            "item": "2014-11-02T01:30:00.000",
+            "count": "3627"
+          },
+          {
+            "item": "2015-11-01T01:15:00.000",
+            "count": "3581"
+          },
+          {
+            "item": "2014-11-02T01:00:00.000",
+            "count": "3152"
+          },
+          {
+            "item": "2014-11-01T01:45:00.000",
+            "count": "3099"
+          },
+          {
+            "item": "2014-11-01T01:30:00.000",
+            "count": "3085"
+          },
+          {
+            "item": "2013-11-03T01:15:00.000",
+            "count": "3080"
+          },
+          {
+            "item": "2014-11-01T02:00:00.000",
+            "count": "2973"
+          },
+          {
+            "item": "2014-11-01T01:15:00.000",
+            "count": "2967"
+          },
+          {
+            "item": "2014-03-15T20:45:00.000",
+            "count": "2947"
+          },
+          {
+            "item": "2014-11-01T01:00:00.000",
+            "count": "2945"
+          },
+          {
+            "item": "2013-11-03T01:30:00.000",
+            "count": "2935"
+          },
+          {
+            "item": "2014-03-15T19:30:00.000",
+            "count": "2935"
+          },
+          {
+            "item": "2013-11-03T01:45:00.000",
+            "count": "2929"
+          },
+          {
+            "item": "2014-03-15T21:00:00.000",
+            "count": "2923"
+          },
+          {
+            "item": "2014-03-15T21:15:00.000",
+            "count": "2920"
+          }
+        ],
+        "smallest": "2013-01-01T00:00:00.000",
+        "count": "211670894",
+        "cardinality": "385536"
+      },
+      "format": {
+        "view": "date_time",
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282877,
+      "name": "Trip End Timestamp",
+      "dataTypeName": "calendar_date",
+      "description": "When the trip ended, rounded to the nearest 15 minutes.",
+      "fieldName": "trip_end_timestamp",
+      "position": 4,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 36436897,
+      "width": 173,
+      "cachedContents": {
+        "largest": "2024-01-02T13:00:00.000",
+        "non_null": "211652416",
+        "null": "18478",
+        "top": [
+          {
+            "item": "2014-11-02T01:15:00.000",
+            "count": "3953"
+          },
+          {
+            "item": "2014-11-06T19:00:00.000",
+            "count": "3779"
+          },
+          {
+            "item": "2014-11-02T01:30:00.000",
+            "count": "3729"
+          },
+          {
+            "item": "2015-11-01T01:30:00.000",
+            "count": "3672"
+          },
+          {
+            "item": "2014-11-02T01:45:00.000",
+            "count": "3617"
+          },
+          {
+            "item": "2015-11-01T01:45:00.000",
+            "count": "3585"
+          },
+          {
+            "item": "2015-11-01T01:15:00.000",
+            "count": "3504"
+          },
+          {
+            "item": "2014-11-01T01:30:00.000",
+            "count": "3072"
+          },
+          {
+            "item": "2014-11-01T01:45:00.000",
+            "count": "3050"
+          },
+          {
+            "item": "2013-11-03T01:15:00.000",
+            "count": "3031"
+          },
+          {
+            "item": "2014-11-02T01:00:00.000",
+            "count": "3024"
+          },
+          {
+            "item": "2014-03-15T20:45:00.000",
+            "count": "3023"
+          },
+          {
+            "item": "2014-11-01T02:00:00.000",
+            "count": "3018"
+          },
+          {
+            "item": "2013-11-03T01:30:00.000",
+            "count": "3016"
+          },
+          {
+            "item": "2014-06-08T00:00:00.000",
+            "count": "2977"
+          },
+          {
+            "item": "2014-03-15T21:15:00.000",
+            "count": "2952"
+          },
+          {
+            "item": "2014-03-15T20:00:00.000",
+            "count": "2945"
+          },
+          {
+            "item": "2014-11-01T01:15:00.000",
+            "count": "2945"
+          },
+          {
+            "item": "2014-03-15T19:45:00.000",
+            "count": "2933"
+          },
+          {
+            "item": "2013-11-03T01:45:00.000",
+            "count": "2926"
+          }
+        ],
+        "smallest": "1900-01-01T00:00:00.000",
+        "count": "211670894",
+        "cardinality": "385549"
+      },
+      "format": {
+        "view": "date_time",
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282878,
+      "name": "Trip Seconds",
+      "dataTypeName": "number",
+      "description": "Time of the trip in seconds.",
+      "fieldName": "trip_seconds",
+      "position": 5,
+      "renderTypeName": "number",
+      "tableColumnId": 36436898,
+      "width": 132,
+      "cachedContents": {
+        "largest": "86400",
+        "non_null": "210368359",
+        "null": "1302535",
+        "top": [
+          {
+            "item": "0",
+            "count": "10768503"
+          },
+          {
+            "item": "360",
+            "count": "9968283"
+          },
+          {
+            "item": "420",
+            "count": "9843318"
+          },
+          {
+            "item": "300",
+            "count": "9377627"
+          },
+          {
+            "item": "480",
+            "count": "9235678"
+          },
+          {
+            "item": "540",
+            "count": "8402756"
+          },
+          {
+            "item": "240",
+            "count": "7878266"
+          },
+          {
+            "item": "600",
+            "count": "7486658"
+          },
+          {
+            "item": "660",
+            "count": "6582540"
+          },
+          {
+            "item": "720",
+            "count": "5732139"
+          },
+          {
+            "item": "180",
+            "count": "5447459"
+          },
+          {
+            "item": "780",
+            "count": "4944900"
+          },
+          {
+            "item": "840",
+            "count": "4239294"
+          },
+          {
+            "item": "900",
+            "count": "3619820"
+          },
+          {
+            "item": "960",
+            "count": "3092627"
+          },
+          {
+            "item": "120",
+            "count": "2833055"
+          },
+          {
+            "item": "1020",
+            "count": "2653843"
+          },
+          {
+            "item": "1080",
+            "count": "2306245"
+          },
+          {
+            "item": "1140",
+            "count": "2051251"
+          },
+          {
+            "item": "60",
+            "count": "1914540"
+          }
+        ],
+        "smallest": "0",
+        "count": "211670894",
+        "cardinality": "48276"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right",
+        "aggregate": "sum"
+      }
+    },
+    {
+      "id": 277282879,
+      "name": "Trip Miles",
+      "dataTypeName": "number",
+      "description": "Distance of the trip in miles.",
+      "fieldName": "trip_miles",
+      "position": 6,
+      "renderTypeName": "number",
+      "tableColumnId": 36436899,
+      "width": 124,
+      "cachedContents": {
+        "largest": "3460",
+        "non_null": "211667995",
+        "null": "2899",
+        "top": [
+          {
+            "item": "0",
+            "count": "44130976"
+          },
+          {
+            "item": "1",
+            "count": "5752898"
+          },
+          {
+            "item": "0.8",
+            "count": "5570522"
+          },
+          {
+            "item": "0.9",
+            "count": "5498147"
+          },
+          {
+            "item": "1.1",
+            "count": "5363260"
+          },
+          {
+            "item": "0.7",
+            "count": "5269989"
+          },
+          {
+            "item": "0.1",
+            "count": "5156831"
+          },
+          {
+            "item": "1.2",
+            "count": "4632409"
+          },
+          {
+            "item": "0.6",
+            "count": "4615509"
+          },
+          {
+            "item": "1.3",
+            "count": "4168681"
+          },
+          {
+            "item": "0.5",
+            "count": "3793721"
+          },
+          {
+            "item": "1.4",
+            "count": "3786895"
+          },
+          {
+            "item": "1.5",
+            "count": "3502975"
+          },
+          {
+            "item": "1.6",
+            "count": "3212040"
+          },
+          {
+            "item": "1.7",
+            "count": "2990815"
+          },
+          {
+            "item": "0.4",
+            "count": "2896693"
+          },
+          {
+            "item": "1.8",
+            "count": "2710113"
+          },
+          {
+            "item": "0.2",
+            "count": "2504595"
+          },
+          {
+            "item": "1.9",
+            "count": "2428271"
+          },
+          {
+            "item": "0.3",
+            "count": "2319858"
+          }
+        ],
+        "smallest": "0",
+        "count": "211670894",
+        "cardinality": "14666"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right",
+        "aggregate": "sum"
+      }
+    },
+    {
+      "id": 277282880,
+      "name": "Pickup Census Tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip began.  For privacy, this Census Tract is not shown for some trips. This column often will be blank for locations outside Chicago.",
+      "fieldName": "pickup_census_tract",
+      "position": 7,
+      "renderTypeName": "text",
+      "tableColumnId": 37433652,
+      "width": 182,
+      "cachedContents": {
+        "largest": "17031990000",
+        "non_null": "133776109",
+        "null": "77894785",
+        "top": [
+          {
+            "item": "17031839100",
+            "count": "20260332"
+          },
+          {
+            "item": "17031320100",
+            "count": "11881805"
+          },
+          {
+            "item": "17031980000",
+            "count": "9664421"
+          },
+          {
+            "item": "17031081500",
+            "count": "8426740"
+          },
+          {
+            "item": "17031081700",
+            "count": "7246995"
+          },
+          {
+            "item": "17031281900",
+            "count": "6952907"
+          },
+          {
+            "item": "17031081403",
+            "count": "5279161"
+          },
+          {
+            "item": "17031081800",
+            "count": "4427997"
+          },
+          {
+            "item": "17031081201",
+            "count": "4355088"
+          },
+          {
+            "item": "17031280100",
+            "count": "4031718"
+          },
+          {
+            "item": "17031320400",
+            "count": "3774088"
+          },
+          {
+            "item": "17031081401",
+            "count": "3491422"
+          },
+          {
+            "item": "17031081300",
+            "count": "3411052"
+          },
+          {
+            "item": "17031081600",
+            "count": "3358457"
+          },
+          {
+            "item": "17031330100",
+            "count": "2877066"
+          },
+          {
+            "item": "17031980100",
+            "count": "2447376"
+          },
+          {
+            "item": "17031320600",
+            "count": "1973048"
+          },
+          {
+            "item": "17031081402",
+            "count": "1930928"
+          },
+          {
+            "item": "17031833000",
+            "count": "1764917"
+          },
+          {
+            "item": "17031080300",
+            "count": "1347399"
+          }
+        ],
+        "smallest": "17031010100",
+        "count": "211670894",
+        "cardinality": "1292"
+      },
+      "format": {
+        "displayStyle": "plain",
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282881,
+      "name": "Dropoff Census Tract",
+      "dataTypeName": "text",
+      "description": "The Census Tract where the trip ended.  For privacy, this Census Tract is not shown for some trips. This column often will be blank for locations outside Chicago.",
+      "fieldName": "dropoff_census_tract",
+      "position": 8,
+      "renderTypeName": "text",
+      "tableColumnId": 37433680,
+      "width": 182,
+      "cachedContents": {
+        "largest": "17031990000",
+        "non_null": "132814267",
+        "null": "78856627",
+        "top": [
+          {
+            "item": "17031839100",
+            "count": "17475223"
+          },
+          {
+            "item": "17031320100",
+            "count": "10420739"
+          },
+          {
+            "item": "17031081500",
+            "count": "6844988"
+          },
+          {
+            "item": "17031081700",
+            "count": "6355011"
+          },
+          {
+            "item": "17031281900",
+            "count": "5928033"
+          },
+          {
+            "item": "17031980000",
+            "count": "5815465"
+          },
+          {
+            "item": "17031081403",
+            "count": "5419978"
+          },
+          {
+            "item": "17031081800",
+            "count": "5065507"
+          },
+          {
+            "item": "17031081201",
+            "count": "4140259"
+          },
+          {
+            "item": "17031280100",
+            "count": "3961593"
+          },
+          {
+            "item": "17031330100",
+            "count": "3812370"
+          },
+          {
+            "item": "17031081401",
+            "count": "3775438"
+          },
+          {
+            "item": "17031320400",
+            "count": "3608092"
+          },
+          {
+            "item": "17031081300",
+            "count": "3122252"
+          },
+          {
+            "item": "17031833000",
+            "count": "2799479"
+          },
+          {
+            "item": "17031081600",
+            "count": "2690004"
+          },
+          {
+            "item": "17031320600",
+            "count": "2046713"
+          },
+          {
+            "item": "17031081402",
+            "count": "1888530"
+          },
+          {
+            "item": "17031980100",
+            "count": "1762662"
+          },
+          {
+            "item": "17031071500",
+            "count": "1593848"
+          }
+        ],
+        "smallest": "17031010100",
+        "count": "211670894",
+        "cardinality": "1312"
+      },
+      "format": {
+        "displayStyle": "plain",
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282882,
+      "name": "Pickup Community Area",
+      "dataTypeName": "number",
+      "description": "The Community Area where the trip began. This column will be blank for locations outside Chicago.",
+      "fieldName": "pickup_community_area",
+      "position": 9,
+      "renderTypeName": "number",
+      "tableColumnId": 38841242,
+      "width": 200,
+      "cachedContents": {
+        "largest": "77",
+        "non_null": "187491645",
+        "null": "24179249",
+        "top": [
+          {
+            "item": "8",
+            "count": "59861373"
+          },
+          {
+            "item": "32",
+            "count": "43454312"
+          },
+          {
+            "item": "28",
+            "count": "17762094"
+          },
+          {
+            "item": "76",
+            "count": "14756221"
+          },
+          {
+            "item": "6",
+            "count": "10865639"
+          },
+          {
+            "item": "7",
+            "count": "8373538"
+          },
+          {
+            "item": "24",
+            "count": "5455314"
+          },
+          {
+            "item": "33",
+            "count": "4856114"
+          },
+          {
+            "item": "56",
+            "count": "3710435"
+          },
+          {
+            "item": "3",
+            "count": "2898297"
+          },
+          {
+            "item": "77",
+            "count": "2024014"
+          },
+          {
+            "item": "22",
+            "count": "1917647"
+          },
+          {
+            "item": "5",
+            "count": "1049038"
+          },
+          {
+            "item": "4",
+            "count": "954202"
+          },
+          {
+            "item": "2",
+            "count": "926497"
+          },
+          {
+            "item": "1",
+            "count": "883572"
+          },
+          {
+            "item": "16",
+            "count": "814420"
+          },
+          {
+            "item": "41",
+            "count": "787002"
+          },
+          {
+            "item": "21",
+            "count": "572063"
+          },
+          {
+            "item": "14",
+            "count": "474618"
+          }
+        ],
+        "smallest": "1",
+        "count": "211670894",
+        "cardinality": "77"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "true",
+        "precision": "0",
+        "align": "right"
+      }
+    },
+    {
+      "id": 277282883,
+      "name": "Dropoff Community Area",
+      "dataTypeName": "number",
+      "description": "The Community Area where the trip ended. This column will be blank for locations outside Chicago.",
+      "fieldName": "dropoff_community_area",
+      "position": 10,
+      "renderTypeName": "number",
+      "tableColumnId": 38841254,
+      "width": 194,
+      "cachedContents": {
+        "largest": "77",
+        "non_null": "183059425",
+        "null": "28611469",
+        "top": [
+          {
+            "item": "8",
+            "count": "54584301"
+          },
+          {
+            "item": "32",
+            "count": "37107868"
+          },
+          {
+            "item": "28",
+            "count": "18877426"
+          },
+          {
+            "item": "6",
+            "count": "11780634"
+          },
+          {
+            "item": "7",
+            "count": "10686155"
+          },
+          {
+            "item": "24",
+            "count": "7867455"
+          },
+          {
+            "item": "76",
+            "count": "7642735"
+          },
+          {
+            "item": "33",
+            "count": "5936487"
+          },
+          {
+            "item": "3",
+            "count": "3487364"
+          },
+          {
+            "item": "22",
+            "count": "3029919"
+          },
+          {
+            "item": "56",
+            "count": "2413526"
+          },
+          {
+            "item": "77",
+            "count": "2343177"
+          },
+          {
+            "item": "5",
+            "count": "1707441"
+          },
+          {
+            "item": "4",
+            "count": "1441773"
+          },
+          {
+            "item": "1",
+            "count": "1159609"
+          },
+          {
+            "item": "16",
+            "count": "1128022"
+          },
+          {
+            "item": "2",
+            "count": "1123252"
+          },
+          {
+            "item": "41",
+            "count": "1056100"
+          },
+          {
+            "item": "21",
+            "count": "867393"
+          },
+          {
+            "item": "14",
+            "count": "646251"
+          }
+        ],
+        "smallest": "1",
+        "count": "211670894",
+        "cardinality": "77"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "true",
+        "precision": "0",
+        "align": "right"
+      }
+    },
+    {
+      "id": 277282884,
+      "name": "Fare",
+      "dataTypeName": "number",
+      "description": "The fare for the trip.",
+      "fieldName": "fare",
+      "position": 11,
+      "renderTypeName": "number",
+      "tableColumnId": 36436902,
+      "width": 116,
+      "cachedContents": {
+        "largest": "9999.99",
+        "non_null": "211649823",
+        "null": "21071",
+        "top": [
+          {
+            "item": "3.25",
+            "count": "6649077"
+          },
+          {
+            "item": "6.25",
+            "count": "6163591"
+          },
+          {
+            "item": "5.25",
+            "count": "5652305"
+          },
+          {
+            "item": "7.25",
+            "count": "5074787"
+          },
+          {
+            "item": "8.25",
+            "count": "3859392"
+          },
+          {
+            "item": "6",
+            "count": "3578755"
+          },
+          {
+            "item": "5.75",
+            "count": "3424495"
+          },
+          {
+            "item": "6.50",
+            "count": "3398844"
+          },
+          {
+            "item": "5.5",
+            "count": "3342874"
+          },
+          {
+            "item": "6.75",
+            "count": "3246644"
+          },
+          {
+            "item": "7",
+            "count": "3175934"
+          },
+          {
+            "item": "9.25",
+            "count": "2895610"
+          },
+          {
+            "item": "5.85",
+            "count": "2784058"
+          },
+          {
+            "item": "5.65",
+            "count": "2782517"
+          },
+          {
+            "item": "7.5",
+            "count": "2758160"
+          },
+          {
+            "item": "6.05",
+            "count": "2756880"
+          },
+          {
+            "item": "5",
+            "count": "2748367"
+          },
+          {
+            "item": "5.45",
+            "count": "2717269"
+          },
+          {
+            "item": "6.45",
+            "count": "2592868"
+          },
+          {
+            "item": "7.75",
+            "count": "2562237"
+          }
+        ],
+        "smallest": "0.00",
+        "count": "211670894",
+        "cardinality": "23487"
+      },
+      "format": {
+        "precisionStyle": "currency",
+        "humane": "false",
+        "currencyStyle": "USD",
+        "precision": "2",
+        "align": "right",
+        "aggregate": "sum"
+      }
+    },
+    {
+      "id": 277282885,
+      "name": "Tips",
+      "dataTypeName": "number",
+      "description": "The tip for the trip. Cash tips generally will not be recorded.",
+      "fieldName": "tips",
+      "position": 12,
+      "renderTypeName": "number",
+      "tableColumnId": 36436903,
+      "width": 116,
+      "cachedContents": {
+        "largest": "999.99",
+        "non_null": "211649823",
+        "null": "21071",
+        "top": [
+          {
+            "item": "0.00",
+            "count": "128326168"
+          },
+          {
+            "item": "2.00",
+            "count": "23765409"
+          },
+          {
+            "item": "3.00",
+            "count": "8538016"
+          },
+          {
+            "item": "1.00",
+            "count": "7486286"
+          },
+          {
+            "item": "4.00",
+            "count": "2396906"
+          },
+          {
+            "item": "5.00",
+            "count": "2157251"
+          },
+          {
+            "item": "1.50",
+            "count": "1292893"
+          },
+          {
+            "item": "10.00",
+            "count": "743791"
+          },
+          {
+            "item": "6.00",
+            "count": "647161"
+          },
+          {
+            "item": "2.50",
+            "count": "611100"
+          },
+          {
+            "item": "8.00",
+            "count": "498880"
+          },
+          {
+            "item": "7.00",
+            "count": "457951"
+          },
+          {
+            "item": "2.05",
+            "count": "411440"
+          },
+          {
+            "item": "2.25",
+            "count": "397788"
+          },
+          {
+            "item": "2.65",
+            "count": "328669"
+          },
+          {
+            "item": "2.55",
+            "count": "319596"
+          },
+          {
+            "item": "2.10",
+            "count": "302808"
+          },
+          {
+            "item": "2.75",
+            "count": "288222"
+          },
+          {
+            "item": "3.05",
+            "count": "282549"
+          },
+          {
+            "item": "2.45",
+            "count": "281716"
+          }
+        ],
+        "smallest": "0.00",
+        "count": "211670894",
+        "cardinality": "6236"
+      },
+      "format": {
+        "precisionStyle": "currency",
+        "humane": "false",
+        "currencyStyle": "USD",
+        "precision": "2",
+        "align": "right",
+        "aggregate": "sum"
+      }
+    },
+    {
+      "id": 277282886,
+      "name": "Tolls",
+      "dataTypeName": "number",
+      "description": "The tolls for the trip.",
+      "fieldName": "tolls",
+      "position": 13,
+      "renderTypeName": "number",
+      "tableColumnId": 36436904,
+      "width": 115,
+      "cachedContents": {
+        "largest": "NA",
+        "non_null": "211670894",
+        "null": "0",
+        "top": [
+          {
+            "item": "b4ac2893286a7c3a55df851a3732ea65d7fb82e1da7a19f728a71651761babfd88544152301073319650be263fd4e1aabc072601e6f452daf22ceb764f8d70d5",
+            "count": "85295"
+          },
+          {
+            "item": "f68eb3233f3e33e98e337a0442bfe5eb660e6f58de5df0bf5950f92efae803e34c430d71038e2d6a0d2472595c305e4f54be0c42f946d3971af121f08734ac08",
+            "count": "81625"
+          },
+          {
+            "item": "f19677875bae72f431e9e35abbf3fd29aedd79e11f2f04812f96ae4f7cc4cd260e4902a8d3a03ffff9c4ecbb3db67e51070e5097c1125c0c6c67d42a743b4b35",
+            "count": "80939"
+          },
+          {
+            "item": "4f4cae403660ec4c1e2e3b03128bd7a5af139619e3e513246c1a45c19a9d2a04bf8831972ebde690feedb335deba34acfba89ebada6a6101b1c1e32e58ba8e7a",
+            "count": "80590"
+          },
+          {
+            "item": "74b9b3ba2f90ab6dfe7352dc2cac4dfebb2fffa053bafe09f7a8068ee65170acb964079c0d87065050ecd7b69d97c3b83c71f76ce9e54d539854ef0a9f4519b0",
+            "count": "80159"
+          },
+          {
+            "item": "ffc2a618ad19a63fa5e9ce8b1bd68656172b2eac505f0a29b2a5a9460b7035e208d4871b529b55ec38efbb431acb50f123c39db0a8012c1c0a4a2fc20799e3ca",
+            "count": "76689"
+          },
+          {
+            "item": "9eb860ce5cb7ff8e35eaf83b4a6d5a5f97710448b10fd7b0c3daf9c3c997c7ceba798cea504c8fa1268e91c850f4180a86ed7221ac3d42c68a92b931da61132b",
+            "count": "76475"
+          },
+          {
+            "item": "c545ff2dbd16e8f36d11fc6c3b42188d3ecd5f17e2d178941712970b9e72847f956de55a71615efc6048116cae4afb4a729d103778d4df8cca0e8c4092b31f81",
+            "count": "75735"
+          },
+          {
+            "item": "4c437b70b55212de32439053c915572d336a8cc2fb712999ae6fe0fef3b8d0018beacdd3643cf559873ae04b6a2a9c3b01a821ff06f47bffdc6d03efa200d78d",
+            "count": "75459"
+          },
+          {
+            "item": "8b16fbd9daba8152a0e6afae54e6b3f343aae2a69b56b126523446e61d64fff167542aecf7fc3eb6573f66b0fc47db9a2ee363d3053c29211c7d340684632cb2",
+            "count": "75275"
+          },
+          {
+            "item": "b2a007b1410c7208af92ef3a97b87c0af4c3e7b49c2b765a39fccd2f06b2f836ed410f8507081389b033082d814a0ee5598e1fa925facbc5c0d20e13b7bc0e5a",
+            "count": "74936"
+          },
+          {
+            "item": "847cf962bd6f62040673e6c24c24940aeb2d7fdaa54677eed6a0aaa4aeef61984916b32d763b4baa6c32476531543bb77e2346cd64f505618f6b9d562243f950",
+            "count": "74735"
+          },
+          {
+            "item": "73671d8d04e67d4eabdbbab93357ea36c3aa7afd6e6a2881cf21f258b52f43882fc07437fedb05acc79f872e8592d804fcb992f289567500f15606511eb70745",
+            "count": "74234"
+          },
+          {
+            "item": "53f28dea0e1172c2846d93d12b453aa443f6a75dbc3f855d9805cecff71c6b2d7f46d8309f27c60e8df24b90192f0723293eeac2f05126d95c4dd3ff32d420d4",
+            "count": "74201"
+          },
+          {
+            "item": "9bd5a7edc6dbe0bbdf33ea4681ee181f49cf98c3745b1c84a6d53da4cc9048077c47ba32ac139c4d2c2109024b8b7a8042f067c60c328e87c72c179794dd6722",
+            "count": "74103"
+          },
+          {
+            "item": "aebf720288b80a8ee36860541db64951c696c749f1a392d312fa4d2a8cd3f95dfb0be580fda7eb63455f809a1be9b3acad19a3ca167073126d0350b50f30741a",
+            "count": "73940"
+          },
+          {
+            "item": "e1aff5afebc38449dafb6f180ceb9f5dc86cf771aeffec64996e2033d39bdc672381805a199c1e2c088e4acada9b976e703f7736baafa2da9bfe927a4b031277",
+            "count": "73430"
+          },
+          {
+            "item": "842e2b1cd011fab01b6cc042f40c5941798405df1b3b02c5dafe36612149b5b4590afe2cc04e87065f521768082650e39464988fb3df02a8f73a9ef88c9ca4c0",
+            "count": "73272"
+          },
+          {
+            "item": "89bfd3f9c1a6014be246046cff548f19edbcb2030d129c98475f43f8bce58efd40f40cc69ca27e6665dbe596070ce5d196f77bc4449c9b1ee0b5647ac687abb5",
+            "count": "73018"
+          },
+          {
+            "item": "be200602932e31e682a64d1056c8a8bcde3ce25bad4834049d2343849f67a9e0ec2173f98eaff60a509961c3ec634cf9df089d6bbca0658a90b0630ce549dddc",
+            "count": "72915"
+          }
+        ],
+        "smallest": "0004366432bcef5a9526884fdec76bca727b29345266e73769ef214408d88dc4862c8ab68160abdf12b56919e88744523f72c2e9ba3f8e69c3114dd65dc7e475",
+        "count": "211670894",
+        "cardinality": "9806"
+      },
+      "format": {
+        "precisionStyle": "currency",
+        "humane": "false",
+        "currencyStyle": "USD",
+        "precision": "2",
+        "align": "right",
+        "aggregate": "sum"
+      }
+    },
+    {
+      "id": 277282887,
+      "name": "Extras",
+      "dataTypeName": "number",
+      "description": "Extra charges for the trip.",
+      "fieldName": "extras",
+      "position": 14,
+      "renderTypeName": "number",
+      "tableColumnId": 36436905,
+      "width": 132,
+      "cachedContents": {
+        "largest": "9993.41",
+        "non_null": "211649823",
+        "null": "21071",
+        "top": [
+          {
+            "item": "0.00",
+            "count": "133583127"
+          },
+          {
+            "item": "1.00",
+            "count": "35749936"
+          },
+          {
+            "item": "2.00",
+            "count": "12862571"
+          },
+          {
+            "item": "1.50",
+            "count": "8640617"
+          },
+          {
+            "item": "4.00",
+            "count": "8311344"
+          },
+          {
+            "item": "3.00",
+            "count": "2817643"
+          },
+          {
+            "item": "5.00",
+            "count": "2669741"
+          },
+          {
+            "item": "2.50",
+            "count": "1205747"
+          },
+          {
+            "item": "0.50",
+            "count": "768574"
+          },
+          {
+            "item": "6.00",
+            "count": "580380"
+          },
+          {
+            "item": "3.50",
+            "count": "510525"
+          },
+          {
+            "item": "5.50",
+            "count": "509740"
+          },
+          {
+            "item": "4.50",
+            "count": "419702"
+          },
+          {
+            "item": "7.00",
+            "count": "227910"
+          },
+          {
+            "item": "6.50",
+            "count": "144328"
+          },
+          {
+            "item": "8.00",
+            "count": "130099"
+          },
+          {
+            "item": "10.00",
+            "count": "91854"
+          },
+          {
+            "item": "7.50",
+            "count": "73667"
+          },
+          {
+            "item": "25.00",
+            "count": "69392"
+          },
+          {
+            "item": "9.00",
+            "count": "68182"
+          }
+        ],
+        "smallest": "0.00",
+        "count": "211670894",
+        "cardinality": "10120"
+      },
+      "format": {
+        "precisionStyle": "currency",
+        "humane": "false",
+        "currencyStyle": "USD",
+        "precision": "2",
+        "align": "right",
+        "aggregate": "sum"
+      }
+    },
+    {
+      "id": 277282889,
+      "name": "Trip Total",
+      "dataTypeName": "number",
+      "description": "Total cost of the trip, the total of the previous columns.",
+      "fieldName": "trip_total",
+      "position": 16,
+      "renderTypeName": "number",
+      "tableColumnId": 36436907,
+      "width": 127,
+      "cachedContents": {
+        "largest": "9999.99",
+        "non_null": "211649823",
+        "null": "21071",
+        "top": [
+          {
+            "item": "3.25",
+            "count": "4965693"
+          },
+          {
+            "item": "7.25",
+            "count": "4273281"
+          },
+          {
+            "item": "8.25",
+            "count": "4117372"
+          },
+          {
+            "item": "6.25",
+            "count": "3997922"
+          },
+          {
+            "item": "9.25",
+            "count": "3506442"
+          },
+          {
+            "item": "5.25",
+            "count": "3124370"
+          },
+          {
+            "item": "10.25",
+            "count": "2866553"
+          },
+          {
+            "item": "7.75",
+            "count": "2666114"
+          },
+          {
+            "item": "8.00",
+            "count": "2647465"
+          },
+          {
+            "item": "7.50",
+            "count": "2541340"
+          },
+          {
+            "item": "8.75",
+            "count": "2506598"
+          },
+          {
+            "item": "7.00",
+            "count": "2496022"
+          },
+          {
+            "item": "9.00",
+            "count": "2435097"
+          },
+          {
+            "item": "6.75",
+            "count": "2420775"
+          },
+          {
+            "item": "8.50",
+            "count": "2413380"
+          },
+          {
+            "item": "11.25",
+            "count": "2239079"
+          },
+          {
+            "item": "6.50",
+            "count": "2230736"
+          },
+          {
+            "item": "10.00",
+            "count": "2174611"
+          },
+          {
+            "item": "6.00",
+            "count": "2130550"
+          },
+          {
+            "item": "9.75",
+            "count": "2109908"
+          }
+        ],
+        "smallest": "0.00",
+        "count": "211670894",
+        "cardinality": "37925"
+      },
+      "format": {
+        "precisionStyle": "currency",
+        "humane": "false",
+        "currencyStyle": "USD",
+        "precision": "2",
+        "align": "right",
+        "aggregate": "sum"
+      }
+    },
+    {
+      "id": 277282890,
+      "name": "Payment Type",
+      "dataTypeName": "text",
+      "description": "Type of payment for the trip.",
+      "fieldName": "payment_type",
+      "position": 17,
+      "renderTypeName": "text",
+      "tableColumnId": 36436908,
+      "width": 152,
+      "cachedContents": {
+        "largest": "Way2ride",
+        "non_null": "211670894",
+        "null": "0",
+        "top": [
+          {
+            "item": "Cash",
+            "count": "118863249"
+          },
+          {
+            "item": "Credit Card",
+            "count": "85549900"
+          },
+          {
+            "item": "Mobile",
+            "count": "2583327"
+          },
+          {
+            "item": "Prcard",
+            "count": "2189984"
+          },
+          {
+            "item": "Unknown",
+            "count": "1530274"
+          },
+          {
+            "item": "No Charge",
+            "count": "823410"
+          },
+          {
+            "item": "Dispute",
+            "count": "88479"
+          },
+          {
+            "item": "Pcard",
+            "count": "36874"
+          },
+          {
+            "item": "Split",
+            "count": "3442"
+          },
+          {
+            "item": "Prepaid",
+            "count": "1813"
+          },
+          {
+            "item": "Way2ride",
+            "count": "142"
+          }
+        ],
+        "smallest": "Cash",
+        "count": "211670894",
+        "cardinality": "11"
+      },
+      "format": {
+        "displayStyle": "plain",
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282891,
+      "name": "Company",
+      "dataTypeName": "text",
+      "description": "The taxi company.",
+      "fieldName": "company",
+      "position": 18,
+      "renderTypeName": "text",
+      "tableColumnId": 36436909,
+      "width": 271,
+      "cachedContents": {
+        "largest": "Yellow Cab",
+        "non_null": "178077487",
+        "null": "33593407",
+        "top": [
+          {
+            "item": "Taxi Affiliation Services",
+            "count": "44171104"
+          },
+          {
+            "item": "Flash Cab",
+            "count": "21514958"
+          },
+          {
+            "item": "Dispatch Taxi Affiliation",
+            "count": "10429966"
+          },
+          {
+            "item": "Blue Ribbon Taxi Association Inc.",
+            "count": "10145135"
+          },
+          {
+            "item": "Yellow Cab",
+            "count": "10068857"
+          },
+          {
+            "item": "Chicago Carriage Cab Corp",
+            "count": "8036863"
+          },
+          {
+            "item": "Choice Taxi Association",
+            "count": "8012393"
+          },
+          {
+            "item": "Sun Taxi",
+            "count": "6824533"
+          },
+          {
+            "item": "City Service",
+            "count": "6753146"
+          },
+          {
+            "item": "Medallion Leasin",
+            "count": "5319939"
+          },
+          {
+            "item": "Chicago Elite Cab Corp. (Chicago Carriag",
+            "count": "5264156"
+          },
+          {
+            "item": "Northwest Management LLC",
+            "count": "3692003"
+          },
+          {
+            "item": "Taxi Affiliation Service Yellow",
+            "count": "3655434"
+          },
+          {
+            "item": "American United",
+            "count": "3157995"
+          },
+          {
+            "item": "Globe Taxi",
+            "count": "2867275"
+          },
+          {
+            "item": "Star North Management LLC",
+            "count": "2826824"
+          },
+          {
+            "item": "KOAM Taxi Association",
+            "count": "1989013"
+          },
+          {
+            "item": "303 Taxi",
+            "count": "1967270"
+          },
+          {
+            "item": "Top Cab Affiliation",
+            "count": "1853112"
+          },
+          {
+            "item": "Chicago Independents",
+            "count": "1808994"
+          }
+        ],
+        "smallest": "0118 - 42111 Godfrey S.Awir",
+        "count": "211670894",
+        "cardinality": "178"
+      },
+      "format": {
+        "displayStyle": "plain",
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282892,
+      "name": "Pickup Centroid Latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "fieldName": "pickup_centroid_latitude",
+      "position": 19,
+      "renderTypeName": "number",
+      "tableColumnId": 37162766,
+      "width": 208,
+      "cachedContents": {
+        "largest": "42.021223593",
+        "non_null": "187519071",
+        "null": "24151823",
+        "top": [
+          {
+            "item": "41.880994471",
+            "count": "20260332"
+          },
+          {
+            "item": "41.884987192",
+            "count": "11881805"
+          },
+          {
+            "item": "41.97907082",
+            "count": "9664421"
+          },
+          {
+            "item": "41.899602111",
+            "count": "9452076"
+          },
+          {
+            "item": "41.892507781",
+            "count": "8426740"
+          },
+          {
+            "item": "41.892042136",
+            "count": "7246995"
+          },
+          {
+            "item": "41.879255084",
+            "count": "6952907"
+          },
+          {
+            "item": "41.944226601",
+            "count": "5973317"
+          },
+          {
+            "item": "41.890922026",
+            "count": "5279161"
+          },
+          {
+            "item": "41.878865584",
+            "count": "5231350"
+          },
+          {
+            "item": "41.980264315",
+            "count": "5086162"
+          },
+          {
+            "item": "41.89321636",
+            "count": "4427997"
+          },
+          {
+            "item": "41.899155613",
+            "count": "4355088"
+          },
+          {
+            "item": "41.885300022",
+            "count": "4031718"
+          },
+          {
+            "item": "41.877406123",
+            "count": "3774088"
+          },
+          {
+            "item": "41.874005383",
+            "count": "3539683"
+          },
+          {
+            "item": "41.922686284",
+            "count": "3492943"
+          },
+          {
+            "item": "41.89503345",
+            "count": "3491422"
+          },
+          {
+            "item": "41.898331794",
+            "count": "3411052"
+          },
+          {
+            "item": "41.892072635",
+            "count": "3358457"
+          }
+        ],
+        "smallest": "41.650221676",
+        "count": "211670894",
+        "cardinality": "861"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right"
+      }
+    },
+    {
+      "id": 277282893,
+      "name": "Pickup Centroid Longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "fieldName": "pickup_centroid_longitude",
+      "position": 20,
+      "renderTypeName": "number",
+      "tableColumnId": 37162798,
+      "width": 214,
+      "cachedContents": {
+        "largest": "-87.529950466",
+        "non_null": "187519071",
+        "null": "24151823",
+        "top": [
+          {
+            "item": "-87.632746489",
+            "count": "20260332"
+          },
+          {
+            "item": "-87.620992913",
+            "count": "11881805"
+          },
+          {
+            "item": "-87.903039661",
+            "count": "9664421"
+          },
+          {
+            "item": "-87.633308037",
+            "count": "9452076"
+          },
+          {
+            "item": "-87.626214906",
+            "count": "8426740"
+          },
+          {
+            "item": "-87.63186395",
+            "count": "7246995"
+          },
+          {
+            "item": "-87.642648998",
+            "count": "6952907"
+          },
+          {
+            "item": "-87.655998182",
+            "count": "5973317"
+          },
+          {
+            "item": "-87.618868355",
+            "count": "5279161"
+          },
+          {
+            "item": "-87.625192142",
+            "count": "5231350"
+          },
+          {
+            "item": "-87.913624596",
+            "count": "5086162"
+          },
+          {
+            "item": "-87.63784421",
+            "count": "4427997"
+          },
+          {
+            "item": "-87.626210532",
+            "count": "4355088"
+          },
+          {
+            "item": "-87.642808466",
+            "count": "4031718"
+          },
+          {
+            "item": "-87.621971652",
+            "count": "3774088"
+          },
+          {
+            "item": "-87.66351755",
+            "count": "3539683"
+          },
+          {
+            "item": "-87.649488729",
+            "count": "3492943"
+          },
+          {
+            "item": "-87.619710672",
+            "count": "3491422"
+          },
+          {
+            "item": "-87.620762865",
+            "count": "3411052"
+          },
+          {
+            "item": "-87.628874157",
+            "count": "3358457"
+          }
+        ],
+        "smallest": "-87.913624596",
+        "count": "211670894",
+        "cardinality": "861"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right"
+      }
+    },
+    {
+      "id": 277282894,
+      "name": "Pickup Centroid Location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the pickup census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "fieldName": "pickup_centroid_location",
+      "position": 21,
+      "renderTypeName": "point",
+      "tableColumnId": 37162799,
+      "width": 210,
+      "cachedContents": {
+        "non_null": "187519071",
+        "null": "24151823",
+        "top": [
+          {
+            "item": {
+              "coordinates": [
+                -87.6327464887,
+                41.8809944707
+              ],
+              "type": "Point"
+            },
+            "count": "20260332"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6209929134,
+                41.8849871918
+              ],
+              "type": "Point"
+            },
+            "count": "11881805"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.9030396611,
+                41.9790708201
+              ],
+              "type": "Point"
+            },
+            "count": "9664421"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6333080367,
+                41.899602111
+              ],
+              "type": "Point"
+            },
+            "count": "9452076"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6262149064,
+                41.8925077809
+              ],
+              "type": "Point"
+            },
+            "count": "8426740"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6318639497,
+                41.8920421365
+              ],
+              "type": "Point"
+            },
+            "count": "7246995"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.642648998,
+                41.8792550844
+              ],
+              "type": "Point"
+            },
+            "count": "6952907"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6559981815,
+                41.9442266014
+              ],
+              "type": "Point"
+            },
+            "count": "5973317"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6188683546,
+                41.8909220259
+              ],
+              "type": "Point"
+            },
+            "count": "5279161"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6251921424,
+                41.8788655841
+              ],
+              "type": "Point"
+            },
+            "count": "5231350"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.913624596,
+                41.9802643146
+              ],
+              "type": "Point"
+            },
+            "count": "5086162"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6378442095,
+                41.8932163595
+              ],
+              "type": "Point"
+            },
+            "count": "4427997"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6262105324,
+                41.8991556134
+              ],
+              "type": "Point"
+            },
+            "count": "4355088"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6428084655,
+                41.8853000224
+              ],
+              "type": "Point"
+            },
+            "count": "4031718"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6219716519,
+                41.8774061234
+              ],
+              "type": "Point"
+            },
+            "count": "3774088"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6635175498,
+                41.874005383
+              ],
+              "type": "Point"
+            },
+            "count": "3539683"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6494887289,
+                41.9226862843
+              ],
+              "type": "Point"
+            },
+            "count": "3492943"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6197106717,
+                41.8950334495
+              ],
+              "type": "Point"
+            },
+            "count": "3491422"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6207628651,
+                41.8983317935
+              ],
+              "type": "Point"
+            },
+            "count": "3411052"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6288741572,
+                41.8920726347
+              ],
+              "type": "Point"
+            },
+            "count": "3358457"
+          }
+        ],
+        "count": "211670894",
+        "cardinality": "949"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282895,
+      "name": "Dropoff Centroid Latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "fieldName": "dropoff_centroid_latitude",
+      "position": 22,
+      "renderTypeName": "number",
+      "tableColumnId": 37162800,
+      "width": 208,
+      "cachedContents": {
+        "largest": "42.021223593",
+        "non_null": "183605695",
+        "null": "28065199",
+        "top": [
+          {
+            "item": "41.880994471",
+            "count": "17475223"
+          },
+          {
+            "item": "41.884987192",
+            "count": "10420739"
+          },
+          {
+            "item": "41.892507781",
+            "count": "6844988"
+          },
+          {
+            "item": "41.892042136",
+            "count": "6355011"
+          },
+          {
+            "item": "41.899602111",
+            "count": "6147569"
+          },
+          {
+            "item": "41.944226601",
+            "count": "5985061"
+          },
+          {
+            "item": "41.879255084",
+            "count": "5928033"
+          },
+          {
+            "item": "41.97907082",
+            "count": "5815465"
+          },
+          {
+            "item": "41.890922026",
+            "count": "5419978"
+          },
+          {
+            "item": "41.89321636",
+            "count": "5065507"
+          },
+          {
+            "item": "41.899155613",
+            "count": "4140259"
+          },
+          {
+            "item": "41.885300022",
+            "count": "3961593"
+          },
+          {
+            "item": "41.901206994",
+            "count": "3884820"
+          },
+          {
+            "item": "41.922686284",
+            "count": "3853163"
+          },
+          {
+            "item": "41.859349715",
+            "count": "3812370"
+          },
+          {
+            "item": "41.89503345",
+            "count": "3775438"
+          },
+          {
+            "item": "41.877406123",
+            "count": "3608092"
+          },
+          {
+            "item": "41.898331794",
+            "count": "3122252"
+          },
+          {
+            "item": "41.874005383",
+            "count": "3073695"
+          },
+          {
+            "item": "41.88528132",
+            "count": "2799479"
+          }
+        ],
+        "smallest": "41.650221676",
+        "count": "211670894",
+        "cardinality": "874"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right"
+      }
+    },
+    {
+      "id": 277282896,
+      "name": "Dropoff Centroid Longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "fieldName": "dropoff_centroid_longitude",
+      "position": 23,
+      "renderTypeName": "number",
+      "tableColumnId": 37162801,
+      "width": 217,
+      "cachedContents": {
+        "largest": "-87.529950466",
+        "non_null": "183605695",
+        "null": "28065199",
+        "top": [
+          {
+            "item": "-87.632746489",
+            "count": "17475223"
+          },
+          {
+            "item": "-87.620992913",
+            "count": "10420739"
+          },
+          {
+            "item": "-87.626214906",
+            "count": "6844988"
+          },
+          {
+            "item": "-87.63186395",
+            "count": "6355011"
+          },
+          {
+            "item": "-87.633308037",
+            "count": "6147569"
+          },
+          {
+            "item": "-87.655998182",
+            "count": "5985061"
+          },
+          {
+            "item": "-87.642648998",
+            "count": "5928033"
+          },
+          {
+            "item": "-87.903039661",
+            "count": "5815465"
+          },
+          {
+            "item": "-87.618868355",
+            "count": "5419978"
+          },
+          {
+            "item": "-87.63784421",
+            "count": "5065507"
+          },
+          {
+            "item": "-87.626210532",
+            "count": "4140259"
+          },
+          {
+            "item": "-87.642808466",
+            "count": "3961593"
+          },
+          {
+            "item": "-87.676355989",
+            "count": "3884820"
+          },
+          {
+            "item": "-87.649488729",
+            "count": "3853163"
+          },
+          {
+            "item": "-87.617358006",
+            "count": "3812370"
+          },
+          {
+            "item": "-87.619710672",
+            "count": "3775438"
+          },
+          {
+            "item": "-87.621971652",
+            "count": "3608092"
+          },
+          {
+            "item": "-87.620762865",
+            "count": "3122252"
+          },
+          {
+            "item": "-87.66351755",
+            "count": "3073695"
+          },
+          {
+            "item": "-87.6572332",
+            "count": "2799479"
+          }
+        ],
+        "smallest": "-87.913624596",
+        "count": "211670894",
+        "cardinality": "874"
+      },
+      "format": {
+        "precisionStyle": "standard",
+        "noCommas": "false",
+        "align": "right"
+      }
+    },
+    {
+      "id": 277282897,
+      "name": "Dropoff Centroid  Location",
+      "dataTypeName": "point",
+      "description": "The location of the center of the dropoff census tract or the community area if the census tract has been hidden for privacy. This column often will be blank for locations outside Chicago.",
+      "fieldName": "dropoff_centroid_location",
+      "position": 24,
+      "renderTypeName": "point",
+      "tableColumnId": 37162802,
+      "width": 210,
+      "cachedContents": {
+        "non_null": "183605695",
+        "null": "28065199",
+        "top": [
+          {
+            "item": {
+              "coordinates": [
+                -87.6327464887,
+                41.8809944707
+              ],
+              "type": "Point"
+            },
+            "count": "17475223"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6209929134,
+                41.8849871918
+              ],
+              "type": "Point"
+            },
+            "count": "10420739"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6262149064,
+                41.8925077809
+              ],
+              "type": "Point"
+            },
+            "count": "6844988"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6318639497,
+                41.8920421365
+              ],
+              "type": "Point"
+            },
+            "count": "6355011"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6333080367,
+                41.899602111
+              ],
+              "type": "Point"
+            },
+            "count": "6147569"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6559981815,
+                41.9442266014
+              ],
+              "type": "Point"
+            },
+            "count": "5985061"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.642648998,
+                41.8792550844
+              ],
+              "type": "Point"
+            },
+            "count": "5928033"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.9030396611,
+                41.9790708201
+              ],
+              "type": "Point"
+            },
+            "count": "5815465"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6188683546,
+                41.8909220259
+              ],
+              "type": "Point"
+            },
+            "count": "5419978"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6378442095,
+                41.8932163595
+              ],
+              "type": "Point"
+            },
+            "count": "5065507"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6262105324,
+                41.8991556134
+              ],
+              "type": "Point"
+            },
+            "count": "4140259"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6428084655,
+                41.8853000224
+              ],
+              "type": "Point"
+            },
+            "count": "3961593"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6494887289,
+                41.9226862843
+              ],
+              "type": "Point"
+            },
+            "count": "3853163"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6173580061,
+                41.859349715
+              ],
+              "type": "Point"
+            },
+            "count": "3812370"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6197106717,
+                41.8950334495
+              ],
+              "type": "Point"
+            },
+            "count": "3775438"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6219716519,
+                41.8774061234
+              ],
+              "type": "Point"
+            },
+            "count": "3608092"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6763559892,
+                41.90120699410001
+              ],
+              "type": "Point"
+            },
+            "count": "3185562"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6207628651,
+                41.8983317935
+              ],
+              "type": "Point"
+            },
+            "count": "3122252"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6635175498,
+                41.874005383
+              ],
+              "type": "Point"
+            },
+            "count": "3073695"
+          },
+          {
+            "item": {
+              "coordinates": [
+                -87.6572331997,
+                41.8852813201
+              ],
+              "type": "Point"
+            },
+            "count": "2799479"
+          }
+        ],
+        "count": "211670894",
+        "cardinality": "969"
+      },
+      "format": {
+        "align": "left"
+      }
+    },
+    {
+      "id": 277282898,
+      "name": "Community Areas",
+      "dataTypeName": "number",
+      "fieldName": ":@computed_region_vrxf_vc4k",
+      "position": 25,
+      "renderTypeName": "number",
+      "tableColumnId": 38895134,
+      "computationStrategy": {
+        "source_columns": [
+          "pickup_centroid_location"
+        ],
+        "type": "georegion_match_on_point",
+        "parameters": {
+          "region": "_vrxf-vc4k",
+          "primary_key": "_feature_id"
+        }
+      },
+      "format": {}
+    }
+  ],
+  "sample_records": [
+    {
+      ":sid": "row-5ti9.i2ya~4jmf",
+      ":id": "00000000-0000-0000-96A1-2527B4F6A906",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "f9dbcb3826d6865d129a37ecf76211d1b7c58c35",
+      "taxi_id": "548bfc030e169c239e690606d2e6df8c2a2a240a38a424eff375e8388b8766604b872d29bc26e4353388b2d2e9b819a7a39053764d7d648f4dab989b0c337841",
+      "trip_start_timestamp": "2013-12-10T18:15:00",
+      "trip_end_timestamp": "2013-12-10T18:15:00",
+      "trip_seconds": "300",
+      "trip_miles": "0.6",
+      "pickup_census_tract": "17031081800",
+      "dropoff_census_tract": "17031081500",
+      "pickup_community_area": "8",
+      "dropoff_community_area": "8",
+      "fare": "5.45",
+      "tips": "0.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "5.45",
+      "payment_type": "Cash",
+      "company": "Dispatch Taxi Affiliation",
+      "pickup_centroid_latitude": "41.89321636",
+      "pickup_centroid_longitude": "-87.63784421",
+      "pickup_centroid_location": "POINT (-87.6378442095 41.8932163595)",
+      "dropoff_centroid_latitude": "41.892507781",
+      "dropoff_centroid_longitude": "-87.626214906",
+      "dropoff_centroid_location": "POINT (-87.6262149064 41.8925077809)",
+      ":@computed_region_vrxf_vc4k": "37"
+    },
+    {
+      ":sid": "row-vtqd.89vt~vzj8",
+      ":id": "00000000-0000-0000-8CF8-0F0ED4B0A933",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "45056acbeb36eea3cb0863b57487819cfc45b3f6",
+      "taxi_id": "71fc920551d68200d0ff75b7e53bf41ba482b1a6075b137c4001dd759c4784aef6b9cfe90017790e7fbaf5b31fb85208a22de2396fd72f40440ed9beedb56e5e",
+      "trip_start_timestamp": "2014-01-19T18:15:00",
+      "trip_end_timestamp": "2014-01-19T18:30:00",
+      "trip_seconds": "600",
+      "trip_miles": "2.7",
+      "pickup_census_tract": "17031241400",
+      "dropoff_census_tract": "17031833000",
+      "pickup_community_area": "24",
+      "dropoff_community_area": "28",
+      "fare": "9.05",
+      "tips": "0.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "9.05",
+      "payment_type": "Cash",
+      "company": "KOAM Taxi Association",
+      "pickup_centroid_latitude": "41.906025969",
+      "pickup_centroid_longitude": "-87.675311622",
+      "pickup_centroid_location": "POINT (-87.6753116216 41.906025969)",
+      "dropoff_centroid_latitude": "41.88528132",
+      "dropoff_centroid_longitude": "-87.6572332",
+      "dropoff_centroid_location": "POINT (-87.6572331997 41.8852813201)",
+      ":@computed_region_vrxf_vc4k": "25"
+    },
+    {
+      ":sid": "row-vfre.3r83_4yzc",
+      ":id": "00000000-0000-0000-37B2-1EDB196936D3",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "e0607e439e480ff5deab68020770e314ed946f0b",
+      "taxi_id": "d6ce95b77b84d97b8ef41b3410ede13388e250cba571fb12d0794f97c7f29e4c8acbfb614b0ea69e8352e6aa1cf4a3cd145e30e2855d942ce019f09c7c873db2",
+      "trip_start_timestamp": "2014-01-28T22:45:00",
+      "trip_end_timestamp": "2014-01-28T23:00:00",
+      "trip_seconds": "1200",
+      "trip_miles": "0.8",
+      "pickup_census_tract": null,
+      "dropoff_census_tract": null,
+      "pickup_community_area": "56",
+      "dropoff_community_area": "41",
+      "fare": "27.45",
+      "tips": "5.85",
+      "tolls": "0.00",
+      "extras": "2.00",
+      "trip_total": "35.30",
+      "payment_type": "Credit Card",
+      "company": "Taxi Affiliation Services",
+      "pickup_centroid_latitude": "41.79259236",
+      "pickup_centroid_longitude": "-87.769615453",
+      "pickup_centroid_location": "POINT (-87.7696154528 41.7925923603)",
+      "dropoff_centroid_latitude": "41.794090253",
+      "dropoff_centroid_longitude": "-87.592310855",
+      "dropoff_centroid_location": "POINT (-87.592310855 41.794090253)",
+      ":@computed_region_vrxf_vc4k": "53"
+    },
+    {
+      ":sid": "row-cx4v_7j99.2f96",
+      ":id": "00000000-0000-0000-5292-6B3EDACC19C6",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "7a71fd25d32883dfaa08bdd64683449ff9ed6404",
+      "taxi_id": "5afa02dee53fbbe163bfa0176bf4181754e96eb6a64d23408d905deb8997564f92b3e02384ba7eb584b85a30e33ec2f64a0dd3cfc076e77b5d632274429b3532",
+      "trip_start_timestamp": "2014-01-24T12:00:00",
+      "trip_end_timestamp": "2014-01-24T12:15:00",
+      "trip_seconds": "180",
+      "trip_miles": "0.8",
+      "pickup_census_tract": null,
+      "dropoff_census_tract": null,
+      "pickup_community_area": "6",
+      "dropoff_community_area": "6",
+      "fare": "4.65",
+      "tips": "0.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "4.65",
+      "payment_type": "Cash",
+      "company": "Choice Taxi Association",
+      "pickup_centroid_latitude": "41.944226601",
+      "pickup_centroid_longitude": "-87.655998182",
+      "pickup_centroid_location": "POINT (-87.6559981815 41.9442266014)",
+      "dropoff_centroid_latitude": "41.944226601",
+      "dropoff_centroid_longitude": "-87.655998182",
+      "dropoff_centroid_location": "POINT (-87.6559981815 41.9442266014)",
+      ":@computed_region_vrxf_vc4k": "57"
+    },
+    {
+      ":sid": "row-yvkh~pf8e-dh9m",
+      ":id": "00000000-0000-0000-FA6E-9549A91757A4",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "7fa6ea6bef6db0d5f31f7366800ea6f7179d5bff",
+      "taxi_id": "31b314085f0b04878a93d92d27f19c036d0cd710739ecfd0ddbb7bb4d949f25341167613f84e7fb6ebaf6a59dc80a16f90fde008feb217cc67f550b9a7489a14",
+      "trip_start_timestamp": "2013-12-10T18:15:00",
+      "trip_end_timestamp": "2013-12-10T18:30:00",
+      "trip_seconds": "1380",
+      "trip_miles": "0",
+      "pickup_census_tract": null,
+      "dropoff_census_tract": null,
+      "pickup_community_area": "8",
+      "dropoff_community_area": "3",
+      "fare": "17.85",
+      "tips": "0.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "17.85",
+      "payment_type": "Cash",
+      "company": "Taxi Affiliation Services",
+      "pickup_centroid_latitude": "41.899602111",
+      "pickup_centroid_longitude": "-87.633308037",
+      "pickup_centroid_location": "POINT (-87.6333080367 41.899602111)",
+      "dropoff_centroid_latitude": "41.96581197",
+      "dropoff_centroid_longitude": "-87.655878786",
+      "dropoff_centroid_location": "POINT (-87.6558787862 41.96581197)",
+      ":@computed_region_vrxf_vc4k": "37"
+    },
+    {
+      ":sid": "row-vnfv_4y3x.iuyb",
+      ":id": "00000000-0000-0000-3DAA-4D5A57114FDB",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "5b6c0cb657163306f5398c349de285697adf9644",
+      "taxi_id": "481fce01b571a5f641fc44de42820948fd3496e87854dd25c0e8784d538ea40ab4f24afc1dc284e59fcd58f678db16e90cfa466832e9563a442d3cebca8c9a93",
+      "trip_start_timestamp": "2014-01-21T17:30:00",
+      "trip_end_timestamp": "2014-01-21T17:30:00",
+      "trip_seconds": "480",
+      "trip_miles": "0",
+      "pickup_census_tract": "17031081800",
+      "dropoff_census_tract": "17031839100",
+      "pickup_community_area": "8",
+      "dropoff_community_area": "32",
+      "fare": "6.25",
+      "tips": "2.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "8.25",
+      "payment_type": "Credit Card",
+      "company": "Taxi Affiliation Services",
+      "pickup_centroid_latitude": "41.89321636",
+      "pickup_centroid_longitude": "-87.63784421",
+      "pickup_centroid_location": "POINT (-87.6378442095 41.8932163595)",
+      "dropoff_centroid_latitude": "41.880994471",
+      "dropoff_centroid_longitude": "-87.632746489",
+      "dropoff_centroid_location": "POINT (-87.6327464887 41.8809944707)",
+      ":@computed_region_vrxf_vc4k": "37"
+    },
+    {
+      ":sid": "row-wrif~gun3_umuc",
+      ":id": "00000000-0000-0000-3275-53C9C9C210E9",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "001c7ed66a8f8fec0f8601925b693735536173b2",
+      "taxi_id": "26edb3e8696634e7487211836362c9a979d32c0aad09e42f14d3e3733b63e694e6a7e791d5b4c49600ccaedbeeaec4009fd8ecbdb1fcb76f87bf6410a8e9a471",
+      "trip_start_timestamp": "2014-01-16T07:15:00",
+      "trip_end_timestamp": "2014-01-16T07:45:00",
+      "trip_seconds": "1920",
+      "trip_miles": "0.9",
+      "pickup_census_tract": null,
+      "dropoff_census_tract": null,
+      "pickup_community_area": "7",
+      "dropoff_community_area": "76",
+      "fare": "33.25",
+      "tips": "0.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "33.25",
+      "payment_type": "Cash",
+      "company": "Taxi Affiliation Services",
+      "pickup_centroid_latitude": "41.922686284",
+      "pickup_centroid_longitude": "-87.649488729",
+      "pickup_centroid_location": "POINT (-87.6494887289 41.9226862843)",
+      "dropoff_centroid_latitude": "41.980264315",
+      "dropoff_centroid_longitude": "-87.913624596",
+      "dropoff_centroid_location": "POINT (-87.913624596 41.9802643146)",
+      ":@computed_region_vrxf_vc4k": "68"
+    },
+    {
+      ":sid": "row-37uf-rhfx.7t3w",
+      ":id": "00000000-0000-0000-B37F-BC717FB1E529",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "3379bafc87502e58f591aaa494221e9a981dafa3",
+      "taxi_id": "591d85abb4783a2c718fcfab9e379e138f916c91d01473021ce072a614a579588ce7f18ed2f0f91b487adfb0c3406ab233e917b2ab9c06532e07948f3c971477",
+      "trip_start_timestamp": "2013-12-21T16:00:00",
+      "trip_end_timestamp": "2013-12-21T16:15:00",
+      "trip_seconds": "900",
+      "trip_miles": "0",
+      "pickup_census_tract": null,
+      "dropoff_census_tract": null,
+      "pickup_community_area": "6",
+      "dropoff_community_area": "8",
+      "fare": "12.25",
+      "tips": "0.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "12.25",
+      "payment_type": "Cash",
+      "company": "Taxi Affiliation Services",
+      "pickup_centroid_latitude": "41.944226601",
+      "pickup_centroid_longitude": "-87.655998182",
+      "pickup_centroid_location": "POINT (-87.6559981815 41.9442266014)",
+      "dropoff_centroid_latitude": "41.899602111",
+      "dropoff_centroid_longitude": "-87.633308037",
+      "dropoff_centroid_location": "POINT (-87.6333080367 41.899602111)",
+      ":@computed_region_vrxf_vc4k": "57"
+    },
+    {
+      ":sid": "row-x76i~pjqc~86zp",
+      ":id": "00000000-0000-0000-EFA4-EF4B523A2DC5",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "04e6924204c4af83a3a3e3c6396b5c810fe1619d",
+      "taxi_id": "66d3807bc1b0bcf7c3b90c19f7c13356cdd60995199804afe2355e2736bf4a56d616f7f783596da3bdcb6b755c43d8b26818486f213604c04b6ebbcd9b99abc8",
+      "trip_start_timestamp": "2014-01-15T20:00:00",
+      "trip_end_timestamp": "2014-01-15T20:15:00",
+      "trip_seconds": "1080",
+      "trip_miles": "3.9",
+      "pickup_census_tract": "17031839100",
+      "dropoff_census_tract": "17031070200",
+      "pickup_community_area": "32",
+      "dropoff_community_area": "7",
+      "fare": "12.25",
+      "tips": "1.50",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "13.75",
+      "payment_type": "Credit Card",
+      "company": "Taxi Affiliation Services",
+      "pickup_centroid_latitude": "41.880994471",
+      "pickup_centroid_longitude": "-87.632746489",
+      "pickup_centroid_location": "POINT (-87.6327464887 41.8809944707)",
+      "dropoff_centroid_latitude": "41.929077655",
+      "dropoff_centroid_longitude": "-87.646293476",
+      "dropoff_centroid_location": "POINT (-87.6462934762 41.9290776551)",
+      ":@computed_region_vrxf_vc4k": "38"
+    },
+    {
+      ":sid": "row-cccp~jzp3~7rbr",
+      ":id": "00000000-0000-0000-AC6F-654DCEA9FAB8",
+      ":position": 0,
+      ":created_at": 1561156335,
+      ":created_meta": null,
+      ":updated_at": 1562272404,
+      ":updated_meta": null,
+      ":meta": "{ }",
+      "trip_id": "320437b8f1fab90c6ea0d6d380085c5159de6077",
+      "taxi_id": "6f5eb205818426f97f109b424f0e2b62cfe9f2d86768554fc321ff10870ea93be5623ce461a0ffede1398f19447f75d3db6e865469eadd89f03c16d2c86a8405",
+      "trip_start_timestamp": "2014-01-21T10:30:00",
+      "trip_end_timestamp": "2014-01-21T10:45:00",
+      "trip_seconds": "660",
+      "trip_miles": "0",
+      "pickup_census_tract": "17031081401",
+      "dropoff_census_tract": "17031839100",
+      "pickup_community_area": "8",
+      "dropoff_community_area": "32",
+      "fare": "8.05",
+      "tips": "0.00",
+      "tolls": "0.00",
+      "extras": "0.00",
+      "trip_total": "8.05",
+      "payment_type": "Cash",
+      "company": "Taxi Affiliation Services",
+      "pickup_centroid_latitude": "41.89503345",
+      "pickup_centroid_longitude": "-87.619710672",
+      "pickup_centroid_location": "POINT (-87.6197106717 41.8950334495)",
+      "dropoff_centroid_latitude": "41.880994471",
+      "dropoff_centroid_longitude": "-87.632746489",
+      "dropoff_centroid_location": "POINT (-87.6327464887 41.8809944707)",
+      ":@computed_region_vrxf_vc4k": "37"
+    }
+  ]
+}

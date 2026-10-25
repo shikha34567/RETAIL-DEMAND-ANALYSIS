@@ -1,0 +1,36 @@
+{
+  "model_name": "xgboost",
+  "model_version": "v1.0.0",
+  "feature_columns": [
+    "lag_15m",
+    "lag_30m",
+    "lag_45m",
+    "lag_60m",
+    "demand_prev_30m",
+    "rolling_mean_1h",
+    "rolling_mean_4h",
+    "rolling_std_4h",
+    "lag_24h",
+    "lag_7d",
+    "hour_of_day",
+    "day_of_week",
+    "is_weekend",
+    "sin_hour",
+    "cos_hour",
+    "zone_historical_mean"
+  ],
+  "params": {
+    "n_estimators": 120,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "random_state": 42,
+    "objective": "reg:squarederror",
+    "n_jobs": 4
+  },
+  "custom_metadata": {
+    "run_id": "run-fc-b0c1db8d",
+    "train_origins": 672
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "dataset_id": "m6dm-c72p",
+  "sample_size": 1000,
+  "date_slice": "2022-06-01",
+  "missing_counts": {
+    "trip_id": 0,
+    "pickup_coordinates": 46,
+    "pickup_community_area": 46,
+    "pickup_census_tract": 634
+  },
+  "timestamp_minutes": [
+    "00"
+  ],
+  "timestamp_seconds": [
+    "00.000"
+  ],
+  "distinct_coordinates": 137,
+  "total_valid_coordinate_rows": 954,
+  "sample_distinct_coordinates": [
+    [
+      "41.7441995348",
+      "-87.5863483178"
+    ],
+    [
+      "41.8361501547",
+      "-87.6487879519"
+    ],
+    [
+      "42.0096228806",
+      "-87.6701668569"
+    ],
+    [
+      "41.9146162864",
+      "-87.6317173661"
+    ],
+    [
+      "41.9490605256",
+      "-87.6616429039"
+    ]
+  ],
+  "sample_records": [
+    {
+      "trip_id": "7bfe1231590ba8c2503a6663f4fbd5013c1b1883",
+      "trip_start_timestamp": "2022-06-01T00:00:00.000",
+      "trip_end_timestamp": "2022-06-01T00:45:00.000",
+      "trip_seconds": "2143",
+      "trip_miles": "17.2742",
+      "pickup_census_tract": "17031980000",
+      "pickup_community_area": "76",
+      "fare": "52.5",
+      "tip": "0",
+      "additional_charges": "13.13",
+      "trip_total": "65.63",
+      "shared_trip_authorized": false,
+      "trips_pooled": "1",
+      "pickup_centroid_latitude": "41.9790708201",
+      "pickup_centroid_longitude": "-87.9030396611",
+      "pickup_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.9030396611,
+          41.9790708201
+        ]
+      }
+    },
+    {
+      "trip_id": "001362576085b34fe15a11f4753a92c676b7761b",
+      "trip_start_timestamp": "2022-06-01T00:00:00.000",
+      "trip_end_timestamp": "2022-06-01T01:15:00.000",
+      "trip_seconds": "4395",
+      "trip_miles": "24.46",
+      "dropoff_community_area": "69",
+      "fare": "42.5",
+      "tip": "0",
+      "additional_charges": "1.28",
+      "trip_total": "43.78",
+      "shared_trip_authorized": false,
+      "trips_pooled": "1",
+      "dropoff_centroid_latitude": "41.7632467988",
+      "dropoff_centroid_longitude": "-87.6161341112",
+      "dropoff_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.6161341112,
+          41.7632467988
+        ]
+      }
+    },
+    {
+      "trip_id": "005bd676ded62046d8899d092e6467b164188bc4",
+      "trip_start_timestamp": "2022-06-01T00:00:00.000",
+      "trip_end_timestamp": "2022-06-01T00:15:00.000",
+      "trip_seconds": "789",
+      "trip_miles": "6.66",
+      "pickup_community_area": "32",
+      "dropoff_community_area": "29",
+      "fare": "15",
+      "tip": "0",
+      "additional_charges": "1.28",
+      "trip_total": "16.28",
+      "shared_trip_authorized": false,
+      "trips_pooled": "1",
+      "pickup_centroid_latitude": "41.8788655841",
+      "pickup_centroid_longitude": "-87.6251921424",
+      "pickup_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.6251921424,
+          41.8788655841
+        ]
+      },
+      "dropoff_centroid_latitude": "41.8601900192",
+      "dropoff_centroid_longitude": "-87.7172201",
+      "dropoff_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.7172201,
+          41.8601900192
+        ]
+      }
+    }
+  ]
+}

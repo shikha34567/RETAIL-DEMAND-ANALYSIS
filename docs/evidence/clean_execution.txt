@@ -1,0 +1,54 @@
+﻿Verifying raw input file checksum for: data\raw\chicago_taxi_trips_2022-06.jsonl...
+Raw Input SHA-256: c87b096ad1d243927d557be981483f233bc1ee71109c80d64490c77882d08b23
+
+Streaming data\raw\chicago_taxi_trips_2022-06.jsonl into Parquet datasets (chunk size: 50,000)...
+  Processed 100,000 rows (Clean: 92,432, Excluded: 7,568)...
+  Processed 200,000 rows (Clean: 184,130, Excluded: 15,870)...
+  Processed 300,000 rows (Clean: 275,501, Excluded: 24,499)...
+  Processed 400,000 rows (Clean: 366,535, Excluded: 33,465)...
+  Processed 500,000 rows (Clean: 456,920, Excluded: 43,080)...
+  Processed 600,000 rows (Clean: 547,870, Excluded: 52,130)...
+
+Streaming completed in 23.28s.
+
+=======================================================
+INGESTION & CLEANING EXECUTION SUMMARY
+=======================================================
+Raw Input:                     639,269 rows
+Input Checksum (Immutable):     c87b096ad1d243927d557be981483f233bc1ee71109c80d64490c77882d08b23
+Cleaned Output (Parquet):      584,001 rows
+Excluded Output (Parquet):     55,268 rows
+Reconciliation Discrepancy:    0 (Balanced: True)
+
+--- Overlapping Eligibility Counts ---
+  h3_eligible_rows:            584,001 (91.355%)
+  community_area_eligible_rows: 583,675 (91.304%)
+  Delta (H3-only border rows): 326 rows
+
+--- Mutually Exclusive Groups (Sum: 639,269) ---
+  eligible_for_both           : 583,675
+  h3_only                     :    326
+  community_area_only         :      0
+  neither                     : 55,268
+  partition_sum               : 639,269
+  partition_balanced          :      1
+
+--- Primary Exclusions by Reason ---
+  EXCLUDE_INVALID_JSON                :      0
+  EXCLUDE_MISSING_TRIP_ID             :      0
+  EXCLUDE_DUPLICATE_TRIP_ID           :      0
+  EXCLUDE_INVALID_OR_MISSING_TIMESTAMP:      0
+  EXCLUDE_OUT_OF_BOUNDS_TIMESTAMP     :      0
+  EXCLUDE_NO_SPATIAL_REFERENCE        : 55,268
+
+--- Quality Flags on Cleaned Demand Records ---
+  FLAG_COMMUNITY_AREA_MISSING_COORDS_PRESENT:    326
+  FLAG_NON_POSITIVE_MILES                   : 75,828
+  FLAG_NON_POSITIVE_SECONDS                 : 14,509
+  FLAG_ZERO_OR_MISSING_FARE                 :    800
+  FLAG_ZERO_OR_MISSING_TIPS                 : 265,717
+
+Cleaned Parquet:  data\interim\cleaned_trips_2022-06\cleaned_trips.parquet (54.02 MB)
+Excluded Parquet: data\interim\excluded_trips_2022-06\excluded_trips.parquet (15.38 MB)
+Audit Report:     reports\ingest_exclusion_audit.json
+Evidence File:    docs\evidence\clean_run_summary.json

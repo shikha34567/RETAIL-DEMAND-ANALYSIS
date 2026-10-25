@@ -1,0 +1,190 @@
+{
+  "evaluation_metadata": {
+    "evaluation_timestamp_utc": "2026-10-11T06:47:43Z",
+    "source_dataset_id": "wrvz-psew",
+    "source_slice": "2022-06",
+    "cleaned_parquet_path": "data\\interim\\cleaned_trips_2022-06\\cleaned_trips.parquet",
+    "total_cleaned_eligible_rows": 584001,
+    "source_unique_coordinate_pairs": 317,
+    "h3_dependency_version": "h3>=4.0.0"
+  },
+  "candidate_evaluations": {
+    "7": {
+      "resolution": 7,
+      "theoretical_properties": {
+        "avg_area_km2": 5.16129336,
+        "avg_edge_length_km": 1.220629786,
+        "avg_edge_length_m": 1220.6,
+        "description": "Macro-neighborhood scale (~5.2 km\u00b2)"
+      },
+      "eligible_trips_input": 584001,
+      "indexed_trips": 584001,
+      "skipped_trips": 0,
+      "indexing_duration_seconds": 1.9472,
+      "indexing_throughput_trips_per_sec": 299911.7,
+      "distinct_occupied_cells": 103,
+      "trips_per_occupied_cell": {
+        "min": 1,
+        "p10": 5.0,
+        "p25": 70.5,
+        "median": 441.0,
+        "p75": 1987.0,
+        "p90": 9187.2,
+        "p95": 21810.8,
+        "p99": 90094.3,
+        "max": 183941,
+        "mean": 5669.91,
+        "std": 21235.5
+      },
+      "sparsity_descriptive_metrics": {
+        "cells_under_10_trips": {
+          "count": 14,
+          "percentage_of_cells": 13.59
+        },
+        "cells_under_50_trips": {
+          "count": 24,
+          "percentage_of_cells": 23.3
+        },
+        "cells_under_100_trips": {
+          "count": 28,
+          "percentage_of_cells": 27.18
+        }
+      },
+      "concentration_metrics": {
+        "top_5_cells_trip_count": 399384,
+        "top_5_cells_trip_share_pct": 68.39,
+        "top_10_cells_trip_count": 477102,
+        "top_10_cells_trip_share_pct": 81.7
+      }
+    },
+    "8": {
+      "resolution": 8,
+      "theoretical_properties": {
+        "avg_area_km2": 0.737327598,
+        "avg_edge_length_km": 0.461354684,
+        "avg_edge_length_m": 461.4,
+        "description": "Urban district / walkable catchment scale (~0.74 km\u00b2, ~4-5 city blocks)"
+      },
+      "eligible_trips_input": 584001,
+      "indexed_trips": 584001,
+      "skipped_trips": 0,
+      "indexing_duration_seconds": 2.0133,
+      "indexing_throughput_trips_per_sec": 290065.0,
+      "distinct_occupied_cells": 239,
+      "trips_per_occupied_cell": {
+        "min": 1,
+        "p10": 2.0,
+        "p25": 3.0,
+        "median": 40.0,
+        "p75": 676.0,
+        "p90": 3503.8,
+        "p95": 13099.1,
+        "p99": 53234.6,
+        "max": 66000,
+        "mean": 2443.52,
+        "std": 8655.79
+      },
+      "sparsity_descriptive_metrics": {
+        "cells_under_10_trips": {
+          "count": 100,
+          "percentage_of_cells": 41.84
+        },
+        "cells_under_50_trips": {
+          "count": 122,
+          "percentage_of_cells": 51.05
+        },
+        "cells_under_100_trips": {
+          "count": 133,
+          "percentage_of_cells": 55.65
+        }
+      },
+      "concentration_metrics": {
+        "top_5_cells_trip_count": 272555,
+        "top_5_cells_trip_share_pct": 46.67,
+        "top_10_cells_trip_count": 387518,
+        "top_10_cells_trip_share_pct": 66.36
+      }
+    },
+    "9": {
+      "resolution": 9,
+      "theoretical_properties": {
+        "avg_area_km2": 0.105332513,
+        "avg_edge_length_km": 0.174375668,
+        "avg_edge_length_m": 174.4,
+        "description": "Micro-street block scale (~0.11 km\u00b2, ~174m edge)"
+      },
+      "eligible_trips_input": 584001,
+      "indexed_trips": 584001,
+      "skipped_trips": 0,
+      "indexing_duration_seconds": 2.0394,
+      "indexing_throughput_trips_per_sec": 286363.0,
+      "distinct_occupied_cells": 312,
+      "trips_per_occupied_cell": {
+        "min": 1,
+        "p10": 1.0,
+        "p25": 3.0,
+        "median": 14.0,
+        "p75": 424.8,
+        "p90": 3310.4,
+        "p95": 9052.9,
+        "p99": 33636.2,
+        "max": 60943,
+        "mean": 1871.8,
+        "std": 6744.31
+      },
+      "sparsity_descriptive_metrics": {
+        "cells_under_10_trips": {
+          "count": 147,
+          "percentage_of_cells": 47.12
+        },
+        "cells_under_50_trips": {
+          "count": 183,
+          "percentage_of_cells": 58.65
+        },
+        "cells_under_100_trips": {
+          "count": 194,
+          "percentage_of_cells": 62.18
+        }
+      },
+      "concentration_metrics": {
+        "top_5_cells_trip_count": 225850,
+        "top_5_cells_trip_share_pct": 38.67,
+        "top_10_cells_trip_count": 336666,
+        "top_10_cells_trip_share_pct": 57.65
+      }
+    }
+  },
+  "geographic_sanity_checks": {
+    "determinism_verified": true,
+    "row_count_reconciliation_verified": true,
+    "border_326_records_indexed_verified": true,
+    "no_fabricated_community_areas_verified": true,
+    "non_additive_rollups_verified": true,
+    "excluded_trips_unindexed_verified": true
+  },
+  "selection_decision": {
+    "selected_resolution": 8,
+    "decision_date": "2026-10-11",
+    "decision_status": "SELECTED_FOR_MVP",
+    "configured_file": "settings.yaml",
+    "configured_key": "h3.resolution",
+    "summary_rationale": "Resolution 8 (~0.74 km\u00b2, ~461m edge length, ~4-5 city blocks) is selected as the MVP spatial resolution. It strikes the optimal balance between spatial granularity and demand density. The source Chicago taxi dataset truncates pickup locations to 317 census tract / community centroids. At Resolution 7 (5.16 km\u00b2), over 31.5% of all Chicago taxi trips collapse into a single cell, obscuring vital neighborhood variations between the Loop, Near North, and West Loop. At Resolution 9 (0.11 km\u00b2, 174m edge length), cells are substantially smaller than the underlying census tracts from which source centroids were generated, creating false precision on centroid-aggregated data while producing extreme sparsity (47.1% of cells have <10 trips in the entire month, median 14 trips/month). Resolution 8 groups the 317 centroids into 239 operational cells, maintains dense demand in core trip generators (Loop, O'Hare, River North) for 15-minute time windows, aligns with standard urban ride-hail marketplace catchments, and avoids false micro-spatial precision.",
+    "trade_off_comparison": {
+      "resolution_7": {
+        "evaluation": "Rejected (Over-aggregated / Coarse)",
+        "pros": "High sample volume per cell (median 441 trips); only 13.6% of cells have <10 trips.",
+        "cons": "Severely obscures local spatial demand variation. A single cell absorbs 183,941 trips (31.5% of the entire monthly volume). Hex edge length (1.22 km) covers multiple distinct neighborhoods."
+      },
+      "resolution_8": {
+        "evaluation": "Selected (Optimal for MVP)",
+        "pros": "Appropriate urban scale (~461m edge, 0.74 km\u00b2). Resolves 239 distinct cells from the 317 source tract centroids. Matches pedestrian pickup catchments and taxi stands without creating artificial micro-precision on privacy-binned centroids. Maintains robust demand volume for 15-minute ML windows in active zones.",
+        "cons": "Peripheral tracts have lower monthly trips (100 cells with <10 trips/month), which will be filtered out downstream during zone_universe definition."
+      },
+      "resolution_9": {
+        "evaluation": "Rejected (Too fine / False Precision)",
+        "pros": "High visual granularity (312 occupied cells).",
+        "cons": "The 174m hex radius is smaller than the census tracts that generated the 317 centroids, creating false spatial precision. High sparsity: 47.1% of cells have <10 trips in the entire month, with a median of only 14 trips/month (<0.5 trips/day), leading to overwhelming zero-inflation in 15-minute forecasting windows."
+      }
+    }
+  }
+}

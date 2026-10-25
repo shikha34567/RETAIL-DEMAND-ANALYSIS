@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rideintel/contracts/cleaning_reason_codes/v0.1",
+  "title": "RideIntel Cleaning and Quality Reason Codes",
+  "description": "Standardized reason codes, precedence rules, and quality flags for raw taxi trip data ingestion and quality auditing.",
+  "version": "0.1.1",
+  "categories": {
+    "PRIMARY_EXCLUSION": "Record dropped from the pipeline. Assigned strictly by evaluation precedence (rank 1 to 6) so each excluded record has exactly one primary reason.",
+    "QUALITY_FLAG": "Informational flag attached to retained records. Non-exclusionary; does not affect demand counting and must never be counted in the exclusion reconciliation equation."
+  },
+  "precedence_rules": "When a record fails multiple validation criteria, the primary exclusion code with the lowest rank number is assigned. Only one primary exclusion is recorded per dropped record.",
+  "codes": {
+    "EXCLUDE_INVALID_JSON": {
+      "category": "PRIMARY_EXCLUSION",
+      "precedence_rank": 1,
+      "action": "EXCLUDE",
+      "applies_to": ["all_pipelines"],
+      "description": "Malformed JSON line that could not be parsed."
+    },
+    "EXCLUDE_MISSING_TRIP_ID": {
+      "category": "PRIMARY_EXCLUSION",
+      "precedence_rank": 2,
+      "action": "EXCLUDE",
+      "applies_to": ["all_pipelines"],
+      "description": "Missing, null, or blank trip_id; deterministic event_id cannot be constructed."
+    },
+    "EXCLUDE_DUPLICATE_TRIP_ID": {
+      "category": "PRIMARY_EXCLUSION",
+      "precedence_rank": 3,
+      "action": "EXCLUDE",
+      "applies_to": ["all_pipelines"],
+      "description": "Subsequent occurrence of an already-processed trip_id within the deduplication scope."
+    },
+    "EXCLUDE_INVALID_OR_MISSING_TIMESTAMP": {
+      "category": "PRIMARY_EXCLUSION",
+      "precedence_rank": 4,
+      "action": "EXCLUDE",
+      "applies_to": ["all_pipelines"],
+      "description": "Missing or unparseable trip_start_timestamp; cannot assign to a temporal demand window."
+    },
+    "EXCLUDE_OUT_OF_BOUNDS_TIMESTAMP": {
+      "category": "PRIMARY_EXCLUSION",
+      "precedence_rank": 5,
+      "action": "EXCLUDE",
+      "applies_to": ["all_pipelines"],
+      "description": "trip_start_timestamp falls outside the configured half-open target interval [2022-06-01T00:00:00, 2022-07-01T00:00:00) America/Chicago."
+    },
+    "EXCLUDE_NO_SPATIAL_REFERENCE": {
+      "category": "PRIMARY_EXCLUSION",
+      "precedence_rank": 6,
+      "action": "EXCLUDE",
+      "applies_to": ["demand_windows", "community_area_windows"],
+      "description": "Both pickup coordinates (latitude, longitude) and pickup_community_area are missing or null. Trip originated outside Chicago or was suppressed."
+    },
+    "FLAG_COMMUNITY_AREA_MISSING_COORDS_PRESENT": {
+      "category": "QUALITY_FLAG",
+      "action": "RETAIN_WITH_FLAG",
+      "applies_to": ["demand_windows"],
+      "description": "Pickup coordinates are valid and mapped to H3, but pickup_community_area is null (peripheral/boundary tract). Eligible for H3 demand; excluded from community area rollups."
+    },
+    "FLAG_COORDS_MISSING_COMMUNITY_PRESENT": {
+      "category": "QUALITY_FLAG",
+      "action": "RETAIN_WITH_FLAG",
+      "applies_to": ["community_area_windows"],
+      "description": "Pickup coordinates are null, but pickup_community_area is valid. Eligible for community-area rollups; excluded from H3 gridded demand."
+    },
+    "FLAG_NON_POSITIVE_MILES": {
+      "category": "QUALITY_FLAG",
+      "action": "RETAIN_WITH_FLAG",
+      "applies_to": ["trip_metrics"],
+      "description": "trip_miles <= 0.0 or missing. Counted in pickup demand; excluded from speed and distance analytics."
+    },
+    "FLAG_NON_POSITIVE_SECONDS": {
+      "category": "QUALITY_FLAG",
+      "action": "RETAIN_WITH_FLAG",
+      "applies_to": ["trip_metrics"],
+      "description": "trip_seconds <= 0 or missing. Counted in pickup demand; excluded from duration and speed analytics."
+    },
+    "FLAG_ZERO_OR_MISSING_FARE": {
+      "category": "QUALITY_FLAG",
+      "action": "RETAIN_WITH_FLAG",
+      "applies_to": ["trip_metrics"],
+      "description": "fare <= 0.0 or missing. Counted in pickup demand; excluded from revenue analytics."
+    },
+    "FLAG_ZERO_OR_MISSING_TIPS": {
+      "category": "QUALITY_FLAG",
+      "action": "RETAIN_WITH_FLAG",
+      "applies_to": ["trip_metrics"],
+      "description": "tips <= 0.0 or missing. Counted in pickup demand; reflects cash tip omission or zero tip."
+    }
+  }
+}

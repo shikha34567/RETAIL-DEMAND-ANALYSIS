@@ -1,0 +1,158 @@
+# STATUS: DRAFT v0.1. FIRST API = these four endpoints only.
+# Deferred until their backend services work: passengers/ride-requests, driver opportunities,
+# simulation controls (start/pause/reset/surge), actual-vs-predicted series.
+# Frontend types are GENERATED from this file. Backend tests compare app.openapi() to it.
+openapi: 3.0.3
+info:
+  title: RideIntel API
+  version: "0.1"
+servers:
+  - url: /api
+paths:
+  /dashboard:
+    get:
+      summary: KPIs and system summary
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Dashboard" }
+  /zones:
+    get:
+      summary: Zone-level demand, forecast, supply and pressure
+      parameters:
+        - { name: limit, in: query, schema: { type: integer, minimum: 1, maximum: 2000, default: 500 } }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ZoneList" }
+  /models/metrics:
+    get:
+      summary: Held-out test metrics, one entry per model on the identical test set
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ModelMetrics" }
+  /admin/health:
+    get:
+      summary: Result of real health checks (never hard-coded)
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Health" }
+components:
+  schemas:
+    SourceType:
+      type: string
+      description: Every displayed value carries one of these labels.
+      enum: [HISTORICAL, REPLAYED, SIMULATED, OBSERVED, PREDICTED, ESTIMATED]
+    PressureStatus:
+      type: string
+      enum: [NORMAL, ELEVATED, HIGH_PRESSURE, NO_ESTIMATED_CAPACITY, UNKNOWN]
+    InputStatus:
+      type: string
+      enum: [OK, MISSING, STALE]
+    Kpi:
+      type: object
+      required: [name, source_type, value]
+      properties:
+        name: { type: string }
+        source_type: { $ref: "#/components/schemas/SourceType" }
+        value: { type: number, nullable: true, description: "null = data missing, NOT zero" }
+        as_of: { type: string, format: date-time, nullable: true }
+    Dashboard:
+      type: object
+      required: [generated_at, simulation, kpis]
+      properties:
+        generated_at: { type: string, format: date-time }
+        simulation:
+          type: object
+          required: [state]
+          properties:
+            state: { type: string, enum: [NOT_STARTED, RUNNING, PAUSED, UNKNOWN] }
+            simulation_time: { type: string, format: date-time, nullable: true }
+            replay_speed: { type: number, nullable: true }
+        kpis:
+          type: array
+          items: { $ref: "#/components/schemas/Kpi" }
+    Zone:
+      type: object
+      required: [h3_cell, pressure_status, input_status]
+      properties:
+        h3_cell: { type: string }
+        observed_rides: { type: integer, nullable: true }
+        observed_window_start: { type: string, format: date-time, nullable: true }
+        observed_window_complete: { type: boolean, nullable: true }
+        predicted_rides_D: { type: number, nullable: true }
+        forecast_origin: { type: string, format: date-time, nullable: true }
+        target_start: { type: string, format: date-time, nullable: true }
+        target_end: { type: string, format: date-time, nullable: true }
+        available_vehicles_V: { type: integer, nullable: true }
+        capacity_rate_r: { type: number, nullable: true }
+        estimated_capacity_C: { type: number, nullable: true }
+        pressure_index:
+          type: number
+          nullable: true
+          description: "Estimated pressure index D/C. null when C=0 or inputs unknown. Never infinity."
+        pressure_status: { $ref: "#/components/schemas/PressureStatus" }
+        input_status: { $ref: "#/components/schemas/InputStatus" }
+    ZoneList:
+      type: object
+      required: [generated_at, sources, zones]
+      properties:
+        generated_at: { type: string, format: date-time }
+        sources:
+          type: object
+          description: Source label per field group.
+          properties:
+            observed_rides: { $ref: "#/components/schemas/SourceType" }
+            predicted_rides_D: { $ref: "#/components/schemas/SourceType" }
+            available_vehicles_V: { $ref: "#/components/schemas/SourceType" }
+            estimated_capacity_C: { $ref: "#/components/schemas/SourceType" }
+        zones:
+          type: array
+          items: { $ref: "#/components/schemas/Zone" }
+    ModelMetric:
+      type: object
+      required: [model_name, model_version, mae, rmse, wape_status, n_rows]
+      properties:
+        model_name: { type: string, enum: [xgboost, baseline_rolling_avg, baseline_same_time_last_week] }
+        model_version: { type: string }
+        mae: { type: number }
+        rmse: { type: number }
+        wape: { type: number, nullable: true, description: "null when sum(actual)=0" }
+        wape_status: { type: string, enum: [OK, UNDEFINED_ZERO_ACTUAL] }
+        n_rows: { type: integer }
+    ModelMetrics:
+      type: object
+      required: [test_start, test_end, n_rows_excluded, models]
+      properties:
+        test_start: { type: string, format: date-time }
+        test_end: { type: string, format: date-time }
+        n_rows_excluded: { type: integer, description: "Rows dropped so all models share the identical test set" }
+        exclusion_reason: { type: string, nullable: true }
+        models:
+          type: array
+          items: { $ref: "#/components/schemas/ModelMetric" }
+    ComponentHealth:
+      type: object
+      required: [name, status, checked_at]
+      properties:
+        name: { type: string, enum: [fastapi, parquet_store, kafka, spark_job, last_aggregation, last_forecast, database] }
+        status: { type: string, enum: [running, down, unknown] }
+        checked_at: { type: string, format: date-time }
+        detail: { type: string, nullable: true }
+    Health:
+      type: object
+      required: [components]
+      properties:
+        components:
+          type: array
+          items: { $ref: "#/components/schemas/ComponentHealth" }

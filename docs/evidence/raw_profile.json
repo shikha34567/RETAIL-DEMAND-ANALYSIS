@@ -1,0 +1,146 @@
+{
+  "total_records": 639269,
+  "invalid_json_count": 0,
+  "all_fields_observed": [
+    "company",
+    "dropoff_census_tract",
+    "dropoff_centroid_latitude",
+    "dropoff_centroid_location",
+    "dropoff_centroid_longitude",
+    "dropoff_community_area",
+    "extras",
+    "fare",
+    "payment_type",
+    "pickup_census_tract",
+    "pickup_centroid_latitude",
+    "pickup_centroid_location",
+    "pickup_centroid_longitude",
+    "pickup_community_area",
+    "taxi_id",
+    "tips",
+    "tolls",
+    "trip_end_timestamp",
+    "trip_id",
+    "trip_miles",
+    "trip_seconds",
+    "trip_start_timestamp",
+    "trip_total"
+  ],
+  "required_fields_confirmation": {
+    "trip_id": {
+      "present": true,
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "trip_start_timestamp": {
+      "present": true,
+      "missing_count": 0,
+      "missing_pct": 0.0
+    },
+    "pickup_community_area": {
+      "present": true,
+      "missing_count": 55594,
+      "missing_pct": 8.696
+    },
+    "pickup_centroid_latitude": {
+      "present": true,
+      "missing_count": 55268,
+      "missing_pct": 8.645
+    },
+    "pickup_centroid_longitude": {
+      "present": true,
+      "missing_count": 55268,
+      "missing_pct": 8.645
+    },
+    "trip_miles": {
+      "present": true,
+      "missing_count": 6,
+      "missing_pct": 0.001
+    },
+    "fare": {
+      "present": true,
+      "missing_count": 336,
+      "missing_pct": 0.053
+    },
+    "tips": {
+      "present": true,
+      "missing_count": 336,
+      "missing_pct": 0.053
+    },
+    "trip_seconds": {
+      "present": true,
+      "missing_count": 128,
+      "missing_pct": 0.02
+    }
+  },
+  "trip_id_audit": {
+    "total_records": 639269,
+    "missing_count": 0,
+    "unique_count": 639269,
+    "duplicate_count": 0,
+    "supports_deterministic_event_id": true
+  },
+  "timestamp_audit": {
+    "unparseable_count": 0,
+    "non_15min_aligned_count": 0,
+    "min_trip_start_chicago": "2022-06-01T00:00:00-05:00",
+    "max_trip_start_chicago": "2022-06-30T23:45:00-05:00",
+    "min_trip_start_utc": "2022-06-01T05:00:00+00:00",
+    "max_trip_start_utc": "2022-07-01T04:45:00+00:00",
+    "timezone_interpretation_rule": "Raw values represent America/Chicago local time. Must localize to America/Chicago before converting to UTC. Direct UTC interpretation introduces a 5-hour error (CDT = UTC-5)."
+  },
+  "geography_audit": {
+    "usable_coordinates_count": 584001,
+    "usable_coordinates_pct": 91.355,
+    "community_area_only_count": 0,
+    "community_area_only_pct": 0.0,
+    "both_coords_and_community": 583675,
+    "coords_present_community_missing": 326,
+    "missing_all_geography_count": 55268,
+    "missing_all_geography_pct": 8.645,
+    "distinct_pickup_coordinates_count": 317,
+    "distinct_community_areas_count": 77,
+    "wgs84_out_of_range": 0,
+    "outside_chicago_bbox": 0,
+    "unparseable_coords": 0,
+    "spatial_representation_finding": "Coordinates represent centroid discretizations (predominantly Community Area centroids when tract is masked), NOT exact vehicle GPS tracks."
+  },
+  "metrics_audit": {
+    "trip_miles": {
+      "missing_count": 6,
+      "zero_or_negative_count": 81395,
+      "positive_count": 557868,
+      "extreme_gt_100_count": 86,
+      "min": 0.0,
+      "max": 814.4,
+      "mean": 6.38
+    },
+    "trip_seconds": {
+      "missing_count": 128,
+      "zero_or_negative_count": 16071,
+      "positive_count": 623070,
+      "extreme_gt_24h_count": 0,
+      "min": 0.0,
+      "max": 86340.0,
+      "mean": 1255.9
+    },
+    "fare": {
+      "missing_count": 336,
+      "negative_count": 0,
+      "zero_count": 589,
+      "positive_count": 638344,
+      "min": 0.0,
+      "max": 9702.99,
+      "mean": 23.17
+    },
+    "tips": {
+      "missing_count": 336,
+      "negative_count": 0,
+      "zero_count": 286717,
+      "positive_count": 352216,
+      "min": 0.0,
+      "max": 110.0,
+      "mean": 3.07
+    }
+  }
+}

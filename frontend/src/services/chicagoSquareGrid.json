@@ -1,0 +1,4870 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "generator": "RideIntel Square Grid Aggregator",
+    "step_degrees": 0.022,
+    "total_squares": 105,
+    "total_h3_cells": 239
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SQ-00-14",
+      "properties": {
+        "grid_id": "SQ-00-14",
+        "label": "Grid Cell SQ-00-14",
+        "h3_cells": [
+          "8826645613fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.651,
+        "center_lng": -87.611,
+        "lat_min": 41.64,
+        "lat_max": 41.662,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.64
+            ],
+            [
+              -87.6,
+              41.64
+            ],
+            [
+              -87.6,
+              41.662
+            ],
+            [
+              -87.622,
+              41.662
+            ],
+            [
+              -87.622,
+              41.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-00-16",
+      "properties": {
+        "grid_id": "SQ-00-16",
+        "label": "Grid Cell SQ-00-16",
+        "h3_cells": [
+          "8826641937fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.651,
+        "center_lng": -87.567,
+        "lat_min": 41.64,
+        "lat_max": 41.662,
+        "lng_min": -87.578,
+        "lng_max": -87.556
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.578,
+              41.64
+            ],
+            [
+              -87.556,
+              41.64
+            ],
+            [
+              -87.556,
+              41.662
+            ],
+            [
+              -87.578,
+              41.662
+            ],
+            [
+              -87.578,
+              41.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-00-17",
+      "properties": {
+        "grid_id": "SQ-00-17",
+        "label": "Grid Cell SQ-00-17",
+        "h3_cells": [
+          "8826641915fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.651,
+        "center_lng": -87.545,
+        "lat_min": 41.64,
+        "lat_max": 41.662,
+        "lng_min": -87.556,
+        "lng_max": -87.534
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.556,
+              41.64
+            ],
+            [
+              -87.534,
+              41.64
+            ],
+            [
+              -87.534,
+              41.662
+            ],
+            [
+              -87.556,
+              41.662
+            ],
+            [
+              -87.556,
+              41.64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-01-11",
+      "properties": {
+        "grid_id": "SQ-01-11",
+        "label": "Grid Cell SQ-01-11",
+        "h3_cells": [
+          "8826645625fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.673,
+        "center_lng": -87.677,
+        "lat_min": 41.662,
+        "lat_max": 41.684,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.662
+            ],
+            [
+              -87.666,
+              41.662
+            ],
+            [
+              -87.666,
+              41.684
+            ],
+            [
+              -87.688,
+              41.684
+            ],
+            [
+              -87.688,
+              41.662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-01-13",
+      "properties": {
+        "grid_id": "SQ-01-13",
+        "label": "Grid Cell SQ-01-13",
+        "h3_cells": [
+          "8826645639fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.673,
+        "center_lng": -87.633,
+        "lat_min": 41.662,
+        "lat_max": 41.684,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.662
+            ],
+            [
+              -87.622,
+              41.662
+            ],
+            [
+              -87.622,
+              41.684
+            ],
+            [
+              -87.644,
+              41.684
+            ],
+            [
+              -87.644,
+              41.662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-01-17",
+      "properties": {
+        "grid_id": "SQ-01-17",
+        "label": "Grid Cell SQ-01-17",
+        "h3_cells": [
+          "882664191dfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.673,
+        "center_lng": -87.545,
+        "lat_min": 41.662,
+        "lat_max": 41.684,
+        "lng_min": -87.556,
+        "lng_max": -87.534
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.556,
+              41.662
+            ],
+            [
+              -87.534,
+              41.662
+            ],
+            [
+              -87.534,
+              41.684
+            ],
+            [
+              -87.556,
+              41.684
+            ],
+            [
+              -87.556,
+              41.662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-02-09",
+      "properties": {
+        "grid_id": "SQ-02-09",
+        "label": "Grid Cell SQ-02-09",
+        "h3_cells": [
+          "8826645701fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.695,
+        "center_lng": -87.721,
+        "lat_min": 41.684,
+        "lat_max": 41.706,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.684
+            ],
+            [
+              -87.71,
+              41.684
+            ],
+            [
+              -87.71,
+              41.706
+            ],
+            [
+              -87.732,
+              41.706
+            ],
+            [
+              -87.732,
+              41.684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-02-11",
+      "properties": {
+        "grid_id": "SQ-02-11",
+        "label": "Grid Cell SQ-02-11",
+        "h3_cells": [
+          "882664562dfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.695,
+        "center_lng": -87.677,
+        "lat_min": 41.684,
+        "lat_max": 41.706,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.684
+            ],
+            [
+              -87.666,
+              41.684
+            ],
+            [
+              -87.666,
+              41.706
+            ],
+            [
+              -87.688,
+              41.706
+            ],
+            [
+              -87.688,
+              41.684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-02-12",
+      "properties": {
+        "grid_id": "SQ-02-12",
+        "label": "Grid Cell SQ-02-12",
+        "h3_cells": [
+          "8826645663fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.695,
+        "center_lng": -87.655,
+        "lat_min": 41.684,
+        "lat_max": 41.706,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.684
+            ],
+            [
+              -87.644,
+              41.684
+            ],
+            [
+              -87.644,
+              41.706
+            ],
+            [
+              -87.666,
+              41.706
+            ],
+            [
+              -87.666,
+              41.684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-02-13",
+      "properties": {
+        "grid_id": "SQ-02-13",
+        "label": "Grid Cell SQ-02-13",
+        "h3_cells": [
+          "8826645641fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.695,
+        "center_lng": -87.633,
+        "lat_min": 41.684,
+        "lat_max": 41.706,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.684
+            ],
+            [
+              -87.622,
+              41.684
+            ],
+            [
+              -87.622,
+              41.706
+            ],
+            [
+              -87.644,
+              41.706
+            ],
+            [
+              -87.644,
+              41.684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-02-16",
+      "properties": {
+        "grid_id": "SQ-02-16",
+        "label": "Grid Cell SQ-02-16",
+        "h3_cells": [
+          "8826641961fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.695,
+        "center_lng": -87.567,
+        "lat_min": 41.684,
+        "lat_max": 41.706,
+        "lng_min": -87.578,
+        "lng_max": -87.556
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.578,
+              41.684
+            ],
+            [
+              -87.556,
+              41.684
+            ],
+            [
+              -87.556,
+              41.706
+            ],
+            [
+              -87.578,
+              41.706
+            ],
+            [
+              -87.578,
+              41.684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-03-11",
+      "properties": {
+        "grid_id": "SQ-03-11",
+        "label": "Grid Cell SQ-03-11",
+        "h3_cells": [
+          "882664cdb1fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.717,
+        "center_lng": -87.677,
+        "lat_min": 41.706,
+        "lat_max": 41.728,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.706
+            ],
+            [
+              -87.666,
+              41.706
+            ],
+            [
+              -87.666,
+              41.728
+            ],
+            [
+              -87.688,
+              41.728
+            ],
+            [
+              -87.688,
+              41.706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-03-12",
+      "properties": {
+        "grid_id": "SQ-03-12",
+        "label": "Grid Cell SQ-03-12",
+        "h3_cells": [
+          "882664cd97fffff",
+          "882664cdbbfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.717,
+        "center_lng": -87.655,
+        "lat_min": 41.706,
+        "lat_max": 41.728,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.706
+            ],
+            [
+              -87.644,
+              41.706
+            ],
+            [
+              -87.644,
+              41.728
+            ],
+            [
+              -87.666,
+              41.728
+            ],
+            [
+              -87.666,
+              41.706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-03-14",
+      "properties": {
+        "grid_id": "SQ-03-14",
+        "label": "Grid Cell SQ-03-14",
+        "h3_cells": [
+          "882664cca1fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.717,
+        "center_lng": -87.611,
+        "lat_min": 41.706,
+        "lat_max": 41.728,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.706
+            ],
+            [
+              -87.6,
+              41.706
+            ],
+            [
+              -87.6,
+              41.728
+            ],
+            [
+              -87.622,
+              41.728
+            ],
+            [
+              -87.622,
+              41.706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-03-15",
+      "properties": {
+        "grid_id": "SQ-03-15",
+        "label": "Grid Cell SQ-03-15",
+        "h3_cells": [
+          "882664ccb1fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.717,
+        "center_lng": -87.589,
+        "lat_min": 41.706,
+        "lat_max": 41.728,
+        "lng_min": -87.6,
+        "lng_max": -87.578
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.6,
+              41.706
+            ],
+            [
+              -87.578,
+              41.706
+            ],
+            [
+              -87.578,
+              41.728
+            ],
+            [
+              -87.6,
+              41.728
+            ],
+            [
+              -87.6,
+              41.706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-03-16",
+      "properties": {
+        "grid_id": "SQ-03-16",
+        "label": "Grid Cell SQ-03-16",
+        "h3_cells": [
+          "882664cc95fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.717,
+        "center_lng": -87.567,
+        "lat_min": 41.706,
+        "lat_max": 41.728,
+        "lng_min": -87.578,
+        "lng_max": -87.556
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.578,
+              41.706
+            ],
+            [
+              -87.556,
+              41.706
+            ],
+            [
+              -87.556,
+              41.728
+            ],
+            [
+              -87.578,
+              41.728
+            ],
+            [
+              -87.578,
+              41.706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-03-18",
+      "properties": {
+        "grid_id": "SQ-03-18",
+        "label": "Grid Cell SQ-03-18",
+        "h3_cells": [
+          "8826641b23fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.717,
+        "center_lng": -87.523,
+        "lat_min": 41.706,
+        "lat_max": 41.728,
+        "lng_min": -87.534,
+        "lng_max": -87.512
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.534,
+              41.706
+            ],
+            [
+              -87.512,
+              41.706
+            ],
+            [
+              -87.512,
+              41.728
+            ],
+            [
+              -87.534,
+              41.728
+            ],
+            [
+              -87.534,
+              41.706
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-08",
+      "properties": {
+        "grid_id": "SQ-04-08",
+        "label": "Grid Cell SQ-04-08",
+        "h3_cells": [
+          "882664528bfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.739,
+        "center_lng": -87.743,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.754,
+        "lng_max": -87.732
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.754,
+              41.728
+            ],
+            [
+              -87.732,
+              41.728
+            ],
+            [
+              -87.732,
+              41.75
+            ],
+            [
+              -87.754,
+              41.75
+            ],
+            [
+              -87.754,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-10",
+      "properties": {
+        "grid_id": "SQ-04-10",
+        "label": "Grid Cell SQ-04-10",
+        "h3_cells": [
+          "88266452dbfffff",
+          "882664cde7fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.739,
+        "center_lng": -87.699,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.728
+            ],
+            [
+              -87.688,
+              41.728
+            ],
+            [
+              -87.688,
+              41.75
+            ],
+            [
+              -87.71,
+              41.75
+            ],
+            [
+              -87.71,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-12",
+      "properties": {
+        "grid_id": "SQ-04-12",
+        "label": "Grid Cell SQ-04-12",
+        "h3_cells": [
+          "882664cd89fffff",
+          "882664cdd5fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.739,
+        "center_lng": -87.655,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.728
+            ],
+            [
+              -87.644,
+              41.728
+            ],
+            [
+              -87.644,
+              41.75
+            ],
+            [
+              -87.666,
+              41.75
+            ],
+            [
+              -87.666,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-13",
+      "properties": {
+        "grid_id": "SQ-04-13",
+        "label": "Grid Cell SQ-04-13",
+        "h3_cells": [
+          "882664cddbfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.739,
+        "center_lng": -87.633,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.728
+            ],
+            [
+              -87.622,
+              41.728
+            ],
+            [
+              -87.622,
+              41.75
+            ],
+            [
+              -87.644,
+              41.75
+            ],
+            [
+              -87.644,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-14",
+      "properties": {
+        "grid_id": "SQ-04-14",
+        "label": "Grid Cell SQ-04-14",
+        "h3_cells": [
+          "882664cca9fffff",
+          "882664ccadfffff",
+          "882664cce7fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.739,
+        "center_lng": -87.611,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.728
+            ],
+            [
+              -87.6,
+              41.728
+            ],
+            [
+              -87.6,
+              41.75
+            ],
+            [
+              -87.622,
+              41.75
+            ],
+            [
+              -87.622,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-15",
+      "properties": {
+        "grid_id": "SQ-04-15",
+        "label": "Grid Cell SQ-04-15",
+        "h3_cells": [
+          "882664cc85fffff",
+          "882664ccc7fffff",
+          "882664ccebfffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.739,
+        "center_lng": -87.589,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.6,
+        "lng_max": -87.578
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.6,
+              41.728
+            ],
+            [
+              -87.578,
+              41.728
+            ],
+            [
+              -87.578,
+              41.75
+            ],
+            [
+              -87.6,
+              41.75
+            ],
+            [
+              -87.6,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-16",
+      "properties": {
+        "grid_id": "SQ-04-16",
+        "label": "Grid Cell SQ-04-16",
+        "h3_cells": [
+          "882664cc8bfffff",
+          "882664ccc1fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.739,
+        "center_lng": -87.567,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.578,
+        "lng_max": -87.556
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.578,
+              41.728
+            ],
+            [
+              -87.556,
+              41.728
+            ],
+            [
+              -87.556,
+              41.75
+            ],
+            [
+              -87.578,
+              41.75
+            ],
+            [
+              -87.578,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-04-17",
+      "properties": {
+        "grid_id": "SQ-04-17",
+        "label": "Grid Cell SQ-04-17",
+        "h3_cells": [
+          "882664ccd9fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.739,
+        "center_lng": -87.545,
+        "lat_min": 41.728,
+        "lat_max": 41.75,
+        "lng_min": -87.556,
+        "lng_max": -87.534
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.556,
+              41.728
+            ],
+            [
+              -87.534,
+              41.728
+            ],
+            [
+              -87.534,
+              41.75
+            ],
+            [
+              -87.556,
+              41.75
+            ],
+            [
+              -87.556,
+              41.728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-05-09",
+      "properties": {
+        "grid_id": "SQ-05-09",
+        "label": "Grid Cell SQ-05-09",
+        "h3_cells": [
+          "88266452c9fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.761,
+        "center_lng": -87.721,
+        "lat_min": 41.75,
+        "lat_max": 41.772,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.75
+            ],
+            [
+              -87.71,
+              41.75
+            ],
+            [
+              -87.71,
+              41.772
+            ],
+            [
+              -87.732,
+              41.772
+            ],
+            [
+              -87.732,
+              41.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-05-10",
+      "properties": {
+        "grid_id": "SQ-05-10",
+        "label": "Grid Cell SQ-05-10",
+        "h3_cells": [
+          "882664cd3bfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.761,
+        "center_lng": -87.699,
+        "lat_min": 41.75,
+        "lat_max": 41.772,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.75
+            ],
+            [
+              -87.688,
+              41.75
+            ],
+            [
+              -87.688,
+              41.772
+            ],
+            [
+              -87.71,
+              41.772
+            ],
+            [
+              -87.71,
+              41.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-05-11",
+      "properties": {
+        "grid_id": "SQ-05-11",
+        "label": "Grid Cell SQ-05-11",
+        "h3_cells": [
+          "882664cd1bfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.761,
+        "center_lng": -87.677,
+        "lat_min": 41.75,
+        "lat_max": 41.772,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.75
+            ],
+            [
+              -87.666,
+              41.75
+            ],
+            [
+              -87.666,
+              41.772
+            ],
+            [
+              -87.688,
+              41.772
+            ],
+            [
+              -87.688,
+              41.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-05-14",
+      "properties": {
+        "grid_id": "SQ-05-14",
+        "label": "Grid Cell SQ-05-14",
+        "h3_cells": [
+          "882664cc3bfffff",
+          "882664ccedfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.761,
+        "center_lng": -87.611,
+        "lat_min": 41.75,
+        "lat_max": 41.772,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.75
+            ],
+            [
+              -87.6,
+              41.75
+            ],
+            [
+              -87.6,
+              41.772
+            ],
+            [
+              -87.622,
+              41.772
+            ],
+            [
+              -87.622,
+              41.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-05-15",
+      "properties": {
+        "grid_id": "SQ-05-15",
+        "label": "Grid Cell SQ-05-15",
+        "h3_cells": [
+          "882664cc1bfffff",
+          "882664cccdfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.761,
+        "center_lng": -87.589,
+        "lat_min": 41.75,
+        "lat_max": 41.772,
+        "lng_min": -87.6,
+        "lng_max": -87.578
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.6,
+              41.75
+            ],
+            [
+              -87.578,
+              41.75
+            ],
+            [
+              -87.578,
+              41.772
+            ],
+            [
+              -87.6,
+              41.772
+            ],
+            [
+              -87.6,
+              41.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-05-16",
+      "properties": {
+        "grid_id": "SQ-05-16",
+        "label": "Grid Cell SQ-05-16",
+        "h3_cells": [
+          "882664cea1fffff",
+          "882664cea3fffff",
+          "882664cea7fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.761,
+        "center_lng": -87.567,
+        "lat_min": 41.75,
+        "lat_max": 41.772,
+        "lng_min": -87.578,
+        "lng_max": -87.556
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.578,
+              41.75
+            ],
+            [
+              -87.556,
+              41.75
+            ],
+            [
+              -87.556,
+              41.772
+            ],
+            [
+              -87.578,
+              41.772
+            ],
+            [
+              -87.578,
+              41.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-05-17",
+      "properties": {
+        "grid_id": "SQ-05-17",
+        "label": "Grid Cell SQ-05-17",
+        "h3_cells": [
+          "882664ceb1fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.761,
+        "center_lng": -87.545,
+        "lat_min": 41.75,
+        "lat_max": 41.772,
+        "lng_min": -87.556,
+        "lng_max": -87.534
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.556,
+              41.75
+            ],
+            [
+              -87.534,
+              41.75
+            ],
+            [
+              -87.534,
+              41.772
+            ],
+            [
+              -87.556,
+              41.772
+            ],
+            [
+              -87.556,
+              41.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-07",
+      "properties": {
+        "grid_id": "SQ-06-07",
+        "label": "Grid Cell SQ-06-07",
+        "h3_cells": [
+          "8826645215fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.783,
+        "center_lng": -87.765,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.772
+            ],
+            [
+              -87.754,
+              41.772
+            ],
+            [
+              -87.754,
+              41.794
+            ],
+            [
+              -87.776,
+              41.794
+            ],
+            [
+              -87.776,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-08",
+      "properties": {
+        "grid_id": "SQ-06-08",
+        "label": "Grid Cell SQ-06-08",
+        "h3_cells": [
+          "8826645219fffff",
+          "8826645253fffff",
+          "882664cd2dfffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.783,
+        "center_lng": -87.743,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.754,
+        "lng_max": -87.732
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.754,
+              41.772
+            ],
+            [
+              -87.732,
+              41.772
+            ],
+            [
+              -87.732,
+              41.794
+            ],
+            [
+              -87.754,
+              41.794
+            ],
+            [
+              -87.754,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-09",
+      "properties": {
+        "grid_id": "SQ-06-09",
+        "label": "Grid Cell SQ-06-09",
+        "h3_cells": [
+          "882664cd29fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.783,
+        "center_lng": -87.721,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.772
+            ],
+            [
+              -87.71,
+              41.772
+            ],
+            [
+              -87.71,
+              41.794
+            ],
+            [
+              -87.732,
+              41.794
+            ],
+            [
+              -87.732,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-10",
+      "properties": {
+        "grid_id": "SQ-06-10",
+        "label": "Grid Cell SQ-06-10",
+        "h3_cells": [
+          "882664cd15fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.783,
+        "center_lng": -87.699,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.772
+            ],
+            [
+              -87.688,
+              41.772
+            ],
+            [
+              -87.688,
+              41.794
+            ],
+            [
+              -87.71,
+              41.794
+            ],
+            [
+              -87.71,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-12",
+      "properties": {
+        "grid_id": "SQ-06-12",
+        "label": "Grid Cell SQ-06-12",
+        "h3_cells": [
+          "882664cd53fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.783,
+        "center_lng": -87.655,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.772
+            ],
+            [
+              -87.644,
+              41.772
+            ],
+            [
+              -87.644,
+              41.794
+            ],
+            [
+              -87.666,
+              41.794
+            ],
+            [
+              -87.666,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-13",
+      "properties": {
+        "grid_id": "SQ-06-13",
+        "label": "Grid Cell SQ-06-13",
+        "h3_cells": [
+          "882664cc2bfffff",
+          "882664cc63fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.783,
+        "center_lng": -87.633,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.772
+            ],
+            [
+              -87.622,
+              41.772
+            ],
+            [
+              -87.622,
+              41.794
+            ],
+            [
+              -87.644,
+              41.794
+            ],
+            [
+              -87.644,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-14",
+      "properties": {
+        "grid_id": "SQ-06-14",
+        "label": "Grid Cell SQ-06-14",
+        "h3_cells": [
+          "882664cc01fffff",
+          "882664cc55fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.783,
+        "center_lng": -87.611,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.772
+            ],
+            [
+              -87.6,
+              41.772
+            ],
+            [
+              -87.6,
+              41.794
+            ],
+            [
+              -87.622,
+              41.794
+            ],
+            [
+              -87.622,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-06-15",
+      "properties": {
+        "grid_id": "SQ-06-15",
+        "label": "Grid Cell SQ-06-15",
+        "h3_cells": [
+          "882664cc51fffff",
+          "882664cc53fffff",
+          "882664cc57fffff",
+          "882664cc59fffff",
+          "882664cc5dfffff"
+        ],
+        "h3_count": 5,
+        "center_lat": 41.783,
+        "center_lng": -87.589,
+        "lat_min": 41.772,
+        "lat_max": 41.794,
+        "lng_min": -87.6,
+        "lng_max": -87.578
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.6,
+              41.772
+            ],
+            [
+              -87.578,
+              41.772
+            ],
+            [
+              -87.578,
+              41.794
+            ],
+            [
+              -87.6,
+              41.794
+            ],
+            [
+              -87.6,
+              41.772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-07-07",
+      "properties": {
+        "grid_id": "SQ-07-07",
+        "label": "Grid Cell SQ-07-07",
+        "h3_cells": [
+          "882664520bfffff",
+          "8826645257fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.805,
+        "center_lng": -87.765,
+        "lat_min": 41.794,
+        "lat_max": 41.816,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.794
+            ],
+            [
+              -87.754,
+              41.794
+            ],
+            [
+              -87.754,
+              41.816
+            ],
+            [
+              -87.776,
+              41.816
+            ],
+            [
+              -87.776,
+              41.794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-07-09",
+      "properties": {
+        "grid_id": "SQ-07-09",
+        "label": "Grid Cell SQ-07-09",
+        "h3_cells": [
+          "882664cd6dfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.805,
+        "center_lng": -87.721,
+        "lat_min": 41.794,
+        "lat_max": 41.816,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.794
+            ],
+            [
+              -87.71,
+              41.794
+            ],
+            [
+              -87.71,
+              41.816
+            ],
+            [
+              -87.732,
+              41.816
+            ],
+            [
+              -87.732,
+              41.794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-07-10",
+      "properties": {
+        "grid_id": "SQ-07-10",
+        "label": "Grid Cell SQ-07-10",
+        "h3_cells": [
+          "882664cd09fffff",
+          "882664cd0dfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.805,
+        "center_lng": -87.699,
+        "lat_min": 41.794,
+        "lat_max": 41.816,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.794
+            ],
+            [
+              -87.688,
+              41.794
+            ],
+            [
+              -87.688,
+              41.816
+            ],
+            [
+              -87.71,
+              41.816
+            ],
+            [
+              -87.71,
+              41.794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-07-12",
+      "properties": {
+        "grid_id": "SQ-07-12",
+        "label": "Grid Cell SQ-07-12",
+        "h3_cells": [
+          "882664cf33fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.805,
+        "center_lng": -87.655,
+        "lat_min": 41.794,
+        "lat_max": 41.816,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.794
+            ],
+            [
+              -87.644,
+              41.794
+            ],
+            [
+              -87.644,
+              41.816
+            ],
+            [
+              -87.666,
+              41.816
+            ],
+            [
+              -87.666,
+              41.794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-07-13",
+      "properties": {
+        "grid_id": "SQ-07-13",
+        "label": "Grid Cell SQ-07-13",
+        "h3_cells": [
+          "882664cf13fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.805,
+        "center_lng": -87.633,
+        "lat_min": 41.794,
+        "lat_max": 41.816,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.794
+            ],
+            [
+              -87.622,
+              41.794
+            ],
+            [
+              -87.622,
+              41.816
+            ],
+            [
+              -87.644,
+              41.816
+            ],
+            [
+              -87.644,
+              41.794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-07-14",
+      "properties": {
+        "grid_id": "SQ-07-14",
+        "label": "Grid Cell SQ-07-14",
+        "h3_cells": [
+          "882664cc45fffff",
+          "882664cc47fffff",
+          "882664cc49fffff",
+          "882664cc4dfffff"
+        ],
+        "h3_count": 4,
+        "center_lat": 41.805,
+        "center_lng": -87.611,
+        "lat_min": 41.794,
+        "lat_max": 41.816,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.794
+            ],
+            [
+              -87.6,
+              41.794
+            ],
+            [
+              -87.6,
+              41.816
+            ],
+            [
+              -87.622,
+              41.816
+            ],
+            [
+              -87.622,
+              41.794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-07-15",
+      "properties": {
+        "grid_id": "SQ-07-15",
+        "label": "Grid Cell SQ-07-15",
+        "h3_cells": [
+          "882664cc4bfffff",
+          "882664ce23fffff",
+          "882664ce35fffff",
+          "882664ce37fffff"
+        ],
+        "h3_count": 4,
+        "center_lat": 41.805,
+        "center_lng": -87.589,
+        "lat_min": 41.794,
+        "lat_max": 41.816,
+        "lng_min": -87.6,
+        "lng_max": -87.578
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.6,
+              41.794
+            ],
+            [
+              -87.578,
+              41.794
+            ],
+            [
+              -87.578,
+              41.816
+            ],
+            [
+              -87.6,
+              41.816
+            ],
+            [
+              -87.6,
+              41.794
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-08-10",
+      "properties": {
+        "grid_id": "SQ-08-10",
+        "label": "Grid Cell SQ-08-10",
+        "h3_cells": [
+          "882664cd4dfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.827,
+        "center_lng": -87.699,
+        "lat_min": 41.816,
+        "lat_max": 41.838,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.816
+            ],
+            [
+              -87.688,
+              41.816
+            ],
+            [
+              -87.688,
+              41.838
+            ],
+            [
+              -87.71,
+              41.838
+            ],
+            [
+              -87.71,
+              41.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-08-11",
+      "properties": {
+        "grid_id": "SQ-08-11",
+        "label": "Grid Cell SQ-08-11",
+        "h3_cells": [
+          "882664cf21fffff",
+          "882664cf2bfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.827,
+        "center_lng": -87.677,
+        "lat_min": 41.816,
+        "lat_max": 41.838,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.816
+            ],
+            [
+              -87.666,
+              41.816
+            ],
+            [
+              -87.666,
+              41.838
+            ],
+            [
+              -87.688,
+              41.838
+            ],
+            [
+              -87.688,
+              41.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-08-12",
+      "properties": {
+        "grid_id": "SQ-08-12",
+        "label": "Grid Cell SQ-08-12",
+        "h3_cells": [
+          "882664cf01fffff",
+          "882664cf03fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.827,
+        "center_lng": -87.655,
+        "lat_min": 41.816,
+        "lat_max": 41.838,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.816
+            ],
+            [
+              -87.644,
+              41.816
+            ],
+            [
+              -87.644,
+              41.838
+            ],
+            [
+              -87.666,
+              41.838
+            ],
+            [
+              -87.666,
+              41.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-08-13",
+      "properties": {
+        "grid_id": "SQ-08-13",
+        "label": "Grid Cell SQ-08-13",
+        "h3_cells": [
+          "882664cf11fffff",
+          "882664cf19fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.827,
+        "center_lng": -87.633,
+        "lat_min": 41.816,
+        "lat_max": 41.838,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.816
+            ],
+            [
+              -87.622,
+              41.816
+            ],
+            [
+              -87.622,
+              41.838
+            ],
+            [
+              -87.644,
+              41.838
+            ],
+            [
+              -87.644,
+              41.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-08-14",
+      "properties": {
+        "grid_id": "SQ-08-14",
+        "label": "Grid Cell SQ-08-14",
+        "h3_cells": [
+          "882664ce21fffff",
+          "882664ce25fffff",
+          "882664ce27fffff",
+          "882664ce2dfffff",
+          "882664cf1bfffff",
+          "882664cf53fffff",
+          "882664cf5bfffff"
+        ],
+        "h3_count": 7,
+        "center_lat": 41.827,
+        "center_lng": -87.611,
+        "lat_min": 41.816,
+        "lat_max": 41.838,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.816
+            ],
+            [
+              -87.6,
+              41.816
+            ],
+            [
+              -87.6,
+              41.838
+            ],
+            [
+              -87.622,
+              41.838
+            ],
+            [
+              -87.622,
+              41.816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-09-10",
+      "properties": {
+        "grid_id": "SQ-09-10",
+        "label": "Grid Cell SQ-09-10",
+        "h3_cells": [
+          "882664c8d7fffff",
+          "882664cab7fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.849,
+        "center_lng": -87.699,
+        "lat_min": 41.838,
+        "lat_max": 41.86,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.838
+            ],
+            [
+              -87.688,
+              41.838
+            ],
+            [
+              -87.688,
+              41.86
+            ],
+            [
+              -87.71,
+              41.86
+            ],
+            [
+              -87.71,
+              41.838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-09-11",
+      "properties": {
+        "grid_id": "SQ-09-11",
+        "label": "Grid Cell SQ-09-11",
+        "h3_cells": [
+          "882664cf61fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.849,
+        "center_lng": -87.677,
+        "lat_min": 41.838,
+        "lat_max": 41.86,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.838
+            ],
+            [
+              -87.666,
+              41.838
+            ],
+            [
+              -87.666,
+              41.86
+            ],
+            [
+              -87.688,
+              41.86
+            ],
+            [
+              -87.688,
+              41.838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-09-12",
+      "properties": {
+        "grid_id": "SQ-09-12",
+        "label": "Grid Cell SQ-09-12",
+        "h3_cells": [
+          "882664cf45fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.849,
+        "center_lng": -87.655,
+        "lat_min": 41.838,
+        "lat_max": 41.86,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.838
+            ],
+            [
+              -87.644,
+              41.838
+            ],
+            [
+              -87.644,
+              41.86
+            ],
+            [
+              -87.666,
+              41.86
+            ],
+            [
+              -87.666,
+              41.838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-09-13",
+      "properties": {
+        "grid_id": "SQ-09-13",
+        "label": "Grid Cell SQ-09-13",
+        "h3_cells": [
+          "882664c1b5fffff",
+          "882664cf41fffff",
+          "882664cf4bfffff",
+          "882664cf51fffff",
+          "882664cf55fffff",
+          "882664cf5dfffff"
+        ],
+        "h3_count": 6,
+        "center_lat": 41.849,
+        "center_lng": -87.633,
+        "lat_min": 41.838,
+        "lat_max": 41.86,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.838
+            ],
+            [
+              -87.622,
+              41.838
+            ],
+            [
+              -87.622,
+              41.86
+            ],
+            [
+              -87.644,
+              41.86
+            ],
+            [
+              -87.644,
+              41.838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-09-14",
+      "properties": {
+        "grid_id": "SQ-09-14",
+        "label": "Grid Cell SQ-09-14",
+        "h3_cells": [
+          "882664c1b1fffff",
+          "882664cf59fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.849,
+        "center_lng": -87.611,
+        "lat_min": 41.838,
+        "lat_max": 41.86,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.838
+            ],
+            [
+              -87.6,
+              41.838
+            ],
+            [
+              -87.6,
+              41.86
+            ],
+            [
+              -87.622,
+              41.86
+            ],
+            [
+              -87.622,
+              41.838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-10-07",
+      "properties": {
+        "grid_id": "SQ-10-07",
+        "label": "Grid Cell SQ-10-07",
+        "h3_cells": [
+          "882664c831fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.871,
+        "center_lng": -87.765,
+        "lat_min": 41.86,
+        "lat_max": 41.882,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.86
+            ],
+            [
+              -87.754,
+              41.86
+            ],
+            [
+              -87.754,
+              41.882
+            ],
+            [
+              -87.776,
+              41.882
+            ],
+            [
+              -87.776,
+              41.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-10-08",
+      "properties": {
+        "grid_id": "SQ-10-08",
+        "label": "Grid Cell SQ-10-08",
+        "h3_cells": [
+          "882664c817fffff",
+          "882664c81bfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.871,
+        "center_lng": -87.743,
+        "lat_min": 41.86,
+        "lat_max": 41.882,
+        "lng_min": -87.754,
+        "lng_max": -87.732
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.754,
+              41.86
+            ],
+            [
+              -87.732,
+              41.86
+            ],
+            [
+              -87.732,
+              41.882
+            ],
+            [
+              -87.754,
+              41.882
+            ],
+            [
+              -87.754,
+              41.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-10-09",
+      "properties": {
+        "grid_id": "SQ-10-09",
+        "label": "Grid Cell SQ-10-09",
+        "h3_cells": [
+          "882664c8cbfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.871,
+        "center_lng": -87.721,
+        "lat_min": 41.86,
+        "lat_max": 41.882,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.86
+            ],
+            [
+              -87.71,
+              41.86
+            ],
+            [
+              -87.71,
+              41.882
+            ],
+            [
+              -87.732,
+              41.882
+            ],
+            [
+              -87.732,
+              41.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-10-10",
+      "properties": {
+        "grid_id": "SQ-10-10",
+        "label": "Grid Cell SQ-10-10",
+        "h3_cells": [
+          "882664caabfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.871,
+        "center_lng": -87.699,
+        "lat_min": 41.86,
+        "lat_max": 41.882,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.86
+            ],
+            [
+              -87.688,
+              41.86
+            ],
+            [
+              -87.688,
+              41.882
+            ],
+            [
+              -87.71,
+              41.882
+            ],
+            [
+              -87.71,
+              41.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-10-11",
+      "properties": {
+        "grid_id": "SQ-10-11",
+        "label": "Grid Cell SQ-10-11",
+        "h3_cells": [
+          "882664ca95fffff",
+          "882664ca97fffff",
+          "882664ca9dfffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.871,
+        "center_lng": -87.677,
+        "lat_min": 41.86,
+        "lat_max": 41.882,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.86
+            ],
+            [
+              -87.666,
+              41.86
+            ],
+            [
+              -87.666,
+              41.882
+            ],
+            [
+              -87.688,
+              41.882
+            ],
+            [
+              -87.688,
+              41.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-10-12",
+      "properties": {
+        "grid_id": "SQ-10-12",
+        "label": "Grid Cell SQ-10-12",
+        "h3_cells": [
+          "882664ca91fffff",
+          "882664ca99fffff",
+          "882664ca9bfffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.871,
+        "center_lng": -87.655,
+        "lat_min": 41.86,
+        "lat_max": 41.882,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.86
+            ],
+            [
+              -87.644,
+              41.86
+            ],
+            [
+              -87.644,
+              41.882
+            ],
+            [
+              -87.666,
+              41.882
+            ],
+            [
+              -87.666,
+              41.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-10-13",
+      "properties": {
+        "grid_id": "SQ-10-13",
+        "label": "Grid Cell SQ-10-13",
+        "h3_cells": [
+          "882664c1a3fffff",
+          "882664c1a7fffff",
+          "882664c1a9fffff",
+          "882664c1abfffff"
+        ],
+        "h3_count": 4,
+        "center_lat": 41.871,
+        "center_lng": -87.633,
+        "lat_min": 41.86,
+        "lat_max": 41.882,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.86
+            ],
+            [
+              -87.622,
+              41.86
+            ],
+            [
+              -87.622,
+              41.882
+            ],
+            [
+              -87.644,
+              41.882
+            ],
+            [
+              -87.644,
+              41.86
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-11-07",
+      "properties": {
+        "grid_id": "SQ-11-07",
+        "label": "Grid Cell SQ-11-07",
+        "h3_cells": [
+          "882664c807fffff",
+          "882664c80bfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.893,
+        "center_lng": -87.765,
+        "lat_min": 41.882,
+        "lat_max": 41.904,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.882
+            ],
+            [
+              -87.754,
+              41.882
+            ],
+            [
+              -87.754,
+              41.904
+            ],
+            [
+              -87.776,
+              41.904
+            ],
+            [
+              -87.776,
+              41.882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-11-09",
+      "properties": {
+        "grid_id": "SQ-11-09",
+        "label": "Grid Cell SQ-11-09",
+        "h3_cells": [
+          "882664c85bfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.893,
+        "center_lng": -87.721,
+        "lat_min": 41.882,
+        "lat_max": 41.904,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.882
+            ],
+            [
+              -87.71,
+              41.882
+            ],
+            [
+              -87.71,
+              41.904
+            ],
+            [
+              -87.732,
+              41.904
+            ],
+            [
+              -87.732,
+              41.882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-11-11",
+      "properties": {
+        "grid_id": "SQ-11-11",
+        "label": "Grid Cell SQ-11-11",
+        "h3_cells": [
+          "882664ca81fffff",
+          "882664cac3fffff",
+          "882664cac7fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.893,
+        "center_lng": -87.677,
+        "lat_min": 41.882,
+        "lat_max": 41.904,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.882
+            ],
+            [
+              -87.666,
+              41.882
+            ],
+            [
+              -87.666,
+              41.904
+            ],
+            [
+              -87.688,
+              41.904
+            ],
+            [
+              -87.688,
+              41.882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-11-12",
+      "properties": {
+        "grid_id": "SQ-11-12",
+        "label": "Grid Cell SQ-11-12",
+        "h3_cells": [
+          "882664cad1fffff",
+          "882664cad7fffff",
+          "882664cad9fffff",
+          "882664caddfffff"
+        ],
+        "h3_count": 4,
+        "center_lat": 41.893,
+        "center_lng": -87.655,
+        "lat_min": 41.882,
+        "lat_max": 41.904,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.882
+            ],
+            [
+              -87.644,
+              41.882
+            ],
+            [
+              -87.644,
+              41.904
+            ],
+            [
+              -87.666,
+              41.904
+            ],
+            [
+              -87.666,
+              41.882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-11-13",
+      "properties": {
+        "grid_id": "SQ-11-13",
+        "label": "Grid Cell SQ-11-13",
+        "h3_cells": [
+          "882664c133fffff",
+          "882664c1adfffff",
+          "882664c1e1fffff",
+          "882664c1e5fffff",
+          "882664c1e7fffff",
+          "882664c1edfffff"
+        ],
+        "h3_count": 6,
+        "center_lat": 41.893,
+        "center_lng": -87.633,
+        "lat_min": 41.882,
+        "lat_max": 41.904,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.882
+            ],
+            [
+              -87.622,
+              41.882
+            ],
+            [
+              -87.622,
+              41.904
+            ],
+            [
+              -87.644,
+              41.904
+            ],
+            [
+              -87.644,
+              41.882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-11-14",
+      "properties": {
+        "grid_id": "SQ-11-14",
+        "label": "Grid Cell SQ-11-14",
+        "h3_cells": [
+          "882664c1e3fffff",
+          "882664c1e9fffff",
+          "882664c1ebfffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.893,
+        "center_lng": -87.611,
+        "lat_min": 41.882,
+        "lat_max": 41.904,
+        "lng_min": -87.622,
+        "lng_max": -87.6
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.622,
+              41.882
+            ],
+            [
+              -87.6,
+              41.882
+            ],
+            [
+              -87.6,
+              41.904
+            ],
+            [
+              -87.622,
+              41.904
+            ],
+            [
+              -87.622,
+              41.882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-12-10",
+      "properties": {
+        "grid_id": "SQ-12-10",
+        "label": "Grid Cell SQ-12-10",
+        "h3_cells": [
+          "882664ca11fffff",
+          "882664ca15fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.915,
+        "center_lng": -87.699,
+        "lat_min": 41.904,
+        "lat_max": 41.926,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.904
+            ],
+            [
+              -87.688,
+              41.904
+            ],
+            [
+              -87.688,
+              41.926
+            ],
+            [
+              -87.71,
+              41.926
+            ],
+            [
+              -87.71,
+              41.904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-12-11",
+      "properties": {
+        "grid_id": "SQ-12-11",
+        "label": "Grid Cell SQ-12-11",
+        "h3_cells": [
+          "882664c127fffff",
+          "882664ca1bfffff",
+          "882664cac1fffff",
+          "882664cac9fffff",
+          "882664cacdfffff"
+        ],
+        "h3_count": 5,
+        "center_lat": 41.915,
+        "center_lng": -87.677,
+        "lat_min": 41.904,
+        "lat_max": 41.926,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.904
+            ],
+            [
+              -87.666,
+              41.904
+            ],
+            [
+              -87.666,
+              41.926
+            ],
+            [
+              -87.688,
+              41.926
+            ],
+            [
+              -87.688,
+              41.904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-12-12",
+      "properties": {
+        "grid_id": "SQ-12-12",
+        "label": "Grid Cell SQ-12-12",
+        "h3_cells": [
+          "882664c107fffff",
+          "882664c123fffff",
+          "882664c131fffff",
+          "882664c135fffff",
+          "882664c137fffff",
+          "882664c13dfffff",
+          "882664cacbfffff"
+        ],
+        "h3_count": 7,
+        "center_lat": 41.915,
+        "center_lng": -87.655,
+        "lat_min": 41.904,
+        "lat_max": 41.926,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.904
+            ],
+            [
+              -87.644,
+              41.904
+            ],
+            [
+              -87.644,
+              41.926
+            ],
+            [
+              -87.666,
+              41.926
+            ],
+            [
+              -87.666,
+              41.904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-12-13",
+      "properties": {
+        "grid_id": "SQ-12-13",
+        "label": "Grid Cell SQ-12-13",
+        "h3_cells": [
+          "882664c103fffff",
+          "882664c115fffff",
+          "882664c117fffff",
+          "882664c139fffff",
+          "882664c13bfffff"
+        ],
+        "h3_count": 5,
+        "center_lat": 41.915,
+        "center_lng": -87.633,
+        "lat_min": 41.904,
+        "lat_max": 41.926,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.904
+            ],
+            [
+              -87.622,
+              41.904
+            ],
+            [
+              -87.622,
+              41.926
+            ],
+            [
+              -87.644,
+              41.926
+            ],
+            [
+              -87.644,
+              41.904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-05",
+      "properties": {
+        "grid_id": "SQ-13-05",
+        "label": "Grid Cell SQ-13-05",
+        "h3_cells": [
+          "882664cb05fffff",
+          "882664cb39fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.937,
+        "center_lng": -87.809,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.82,
+        "lng_max": -87.798
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.82,
+              41.926
+            ],
+            [
+              -87.798,
+              41.926
+            ],
+            [
+              -87.798,
+              41.948
+            ],
+            [
+              -87.82,
+              41.948
+            ],
+            [
+              -87.82,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-07",
+      "properties": {
+        "grid_id": "SQ-13-07",
+        "label": "Grid Cell SQ-13-07",
+        "h3_cells": [
+          "882664cb1bfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.937,
+        "center_lng": -87.765,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.926
+            ],
+            [
+              -87.754,
+              41.926
+            ],
+            [
+              -87.754,
+              41.948
+            ],
+            [
+              -87.776,
+              41.948
+            ],
+            [
+              -87.776,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-08",
+      "properties": {
+        "grid_id": "SQ-13-08",
+        "label": "Grid Cell SQ-13-08",
+        "h3_cells": [
+          "882664ca21fffff",
+          "882664ca29fffff",
+          "882664ca3dfffff",
+          "882664ca63fffff"
+        ],
+        "h3_count": 4,
+        "center_lat": 41.937,
+        "center_lng": -87.743,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.754,
+        "lng_max": -87.732
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.754,
+              41.926
+            ],
+            [
+              -87.732,
+              41.926
+            ],
+            [
+              -87.732,
+              41.948
+            ],
+            [
+              -87.754,
+              41.948
+            ],
+            [
+              -87.754,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-09",
+      "properties": {
+        "grid_id": "SQ-13-09",
+        "label": "Grid Cell SQ-13-09",
+        "h3_cells": [
+          "882664ca01fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.937,
+        "center_lng": -87.721,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.926
+            ],
+            [
+              -87.71,
+              41.926
+            ],
+            [
+              -87.71,
+              41.948
+            ],
+            [
+              -87.732,
+              41.948
+            ],
+            [
+              -87.732,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-10",
+      "properties": {
+        "grid_id": "SQ-13-10",
+        "label": "Grid Cell SQ-13-10",
+        "h3_cells": [
+          "882664ca0bfffff",
+          "882664ca1dfffff",
+          "882664ca57fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.937,
+        "center_lng": -87.699,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.926
+            ],
+            [
+              -87.688,
+              41.926
+            ],
+            [
+              -87.688,
+              41.948
+            ],
+            [
+              -87.71,
+              41.948
+            ],
+            [
+              -87.71,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-11",
+      "properties": {
+        "grid_id": "SQ-13-11",
+        "label": "Grid Cell SQ-13-11",
+        "h3_cells": [
+          "882664c121fffff",
+          "882664c125fffff",
+          "882664c12dfffff",
+          "882664c167fffff",
+          "882664ca5bfffff"
+        ],
+        "h3_count": 5,
+        "center_lat": 41.937,
+        "center_lng": -87.677,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.926
+            ],
+            [
+              -87.666,
+              41.926
+            ],
+            [
+              -87.666,
+              41.948
+            ],
+            [
+              -87.688,
+              41.948
+            ],
+            [
+              -87.688,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-12",
+      "properties": {
+        "grid_id": "SQ-13-12",
+        "label": "Grid Cell SQ-13-12",
+        "h3_cells": [
+          "882664c105fffff",
+          "882664c129fffff",
+          "882664c12bfffff",
+          "882664c161fffff",
+          "882664c163fffff",
+          "882664c16bfffff"
+        ],
+        "h3_count": 6,
+        "center_lat": 41.937,
+        "center_lng": -87.655,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.926
+            ],
+            [
+              -87.644,
+              41.926
+            ],
+            [
+              -87.644,
+              41.948
+            ],
+            [
+              -87.666,
+              41.948
+            ],
+            [
+              -87.666,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-13-13",
+      "properties": {
+        "grid_id": "SQ-13-13",
+        "label": "Grid Cell SQ-13-13",
+        "h3_cells": [
+          "882664c101fffff",
+          "882664c10dfffff",
+          "882664c147fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.937,
+        "center_lng": -87.633,
+        "lat_min": 41.926,
+        "lat_max": 41.948,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.926
+            ],
+            [
+              -87.622,
+              41.926
+            ],
+            [
+              -87.622,
+              41.948
+            ],
+            [
+              -87.644,
+              41.948
+            ],
+            [
+              -87.644,
+              41.926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-14-07",
+      "properties": {
+        "grid_id": "SQ-14-07",
+        "label": "Grid Cell SQ-14-07",
+        "h3_cells": [
+          "882664cb59fffff",
+          "882664d9b3fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.959,
+        "center_lng": -87.765,
+        "lat_min": 41.948,
+        "lat_max": 41.97,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.948
+            ],
+            [
+              -87.754,
+              41.948
+            ],
+            [
+              -87.754,
+              41.97
+            ],
+            [
+              -87.776,
+              41.97
+            ],
+            [
+              -87.776,
+              41.948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-14-08",
+      "properties": {
+        "grid_id": "SQ-14-08",
+        "label": "Grid Cell SQ-14-08",
+        "h3_cells": [
+          "882664ca61fffff",
+          "882664ca67fffff",
+          "882664d997fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.959,
+        "center_lng": -87.743,
+        "lat_min": 41.948,
+        "lat_max": 41.97,
+        "lng_min": -87.754,
+        "lng_max": -87.732
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.754,
+              41.948
+            ],
+            [
+              -87.732,
+              41.948
+            ],
+            [
+              -87.732,
+              41.97
+            ],
+            [
+              -87.754,
+              41.97
+            ],
+            [
+              -87.754,
+              41.948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-14-09",
+      "properties": {
+        "grid_id": "SQ-14-09",
+        "label": "Grid Cell SQ-14-09",
+        "h3_cells": [
+          "882664ca4dfffff",
+          "882664ca6bfffff",
+          "882664d993fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.959,
+        "center_lng": -87.721,
+        "lat_min": 41.948,
+        "lat_max": 41.97,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.948
+            ],
+            [
+              -87.71,
+              41.948
+            ],
+            [
+              -87.71,
+              41.97
+            ],
+            [
+              -87.732,
+              41.97
+            ],
+            [
+              -87.732,
+              41.948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-14-11",
+      "properties": {
+        "grid_id": "SQ-14-11",
+        "label": "Grid Cell SQ-14-11",
+        "h3_cells": [
+          "882664c165fffff",
+          "882664ca59fffff",
+          "882664d8bbfffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.959,
+        "center_lng": -87.677,
+        "lat_min": 41.948,
+        "lat_max": 41.97,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.948
+            ],
+            [
+              -87.666,
+              41.948
+            ],
+            [
+              -87.666,
+              41.97
+            ],
+            [
+              -87.688,
+              41.97
+            ],
+            [
+              -87.688,
+              41.948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-14-12",
+      "properties": {
+        "grid_id": "SQ-14-12",
+        "label": "Grid Cell SQ-14-12",
+        "h3_cells": [
+          "882664c169fffff",
+          "882664c16dfffff",
+          "882664d891fffff",
+          "882664d893fffff",
+          "882664d895fffff",
+          "882664d897fffff"
+        ],
+        "h3_count": 6,
+        "center_lat": 41.959,
+        "center_lng": -87.655,
+        "lat_min": 41.948,
+        "lat_max": 41.97,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.948
+            ],
+            [
+              -87.644,
+              41.948
+            ],
+            [
+              -87.644,
+              41.97
+            ],
+            [
+              -87.666,
+              41.97
+            ],
+            [
+              -87.666,
+              41.948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-14-13",
+      "properties": {
+        "grid_id": "SQ-14-13",
+        "label": "Grid Cell SQ-14-13",
+        "h3_cells": [
+          "882664c145fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.959,
+        "center_lng": -87.633,
+        "lat_min": 41.948,
+        "lat_max": 41.97,
+        "lng_min": -87.644,
+        "lng_max": -87.622
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.644,
+              41.948
+            ],
+            [
+              -87.622,
+              41.948
+            ],
+            [
+              -87.622,
+              41.97
+            ],
+            [
+              -87.644,
+              41.97
+            ],
+            [
+              -87.644,
+              41.948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-00",
+      "properties": {
+        "grid_id": "SQ-15-00",
+        "label": "Grid Cell SQ-15-00",
+        "h3_cells": [
+          "8827593433fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.981,
+        "center_lng": -87.919,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.93,
+        "lng_max": -87.908
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.93,
+              41.97
+            ],
+            [
+              -87.908,
+              41.97
+            ],
+            [
+              -87.908,
+              41.992
+            ],
+            [
+              -87.93,
+              41.992
+            ],
+            [
+              -87.93,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-01",
+      "properties": {
+        "grid_id": "SQ-15-01",
+        "label": "Grid Cell SQ-15-01",
+        "h3_cells": [
+          "88275934edfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.981,
+        "center_lng": -87.897,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.908,
+        "lng_max": -87.886
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.908,
+              41.97
+            ],
+            [
+              -87.886,
+              41.97
+            ],
+            [
+              -87.886,
+              41.992
+            ],
+            [
+              -87.908,
+              41.992
+            ],
+            [
+              -87.908,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-02",
+      "properties": {
+        "grid_id": "SQ-15-02",
+        "label": "Grid Cell SQ-15-02",
+        "h3_cells": [
+          "88275934cdfffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.981,
+        "center_lng": -87.875,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.886,
+        "lng_max": -87.864
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.886,
+              41.97
+            ],
+            [
+              -87.864,
+              41.97
+            ],
+            [
+              -87.864,
+              41.992
+            ],
+            [
+              -87.886,
+              41.992
+            ],
+            [
+              -87.886,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-04",
+      "properties": {
+        "grid_id": "SQ-15-04",
+        "label": "Grid Cell SQ-15-04",
+        "h3_cells": [
+          "88275936b1fffff",
+          "88275936bbfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.981,
+        "center_lng": -87.831,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.842,
+        "lng_max": -87.82
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.842,
+              41.97
+            ],
+            [
+              -87.82,
+              41.97
+            ],
+            [
+              -87.82,
+              41.992
+            ],
+            [
+              -87.842,
+              41.992
+            ],
+            [
+              -87.842,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-05",
+      "properties": {
+        "grid_id": "SQ-15-05",
+        "label": "Grid Cell SQ-15-05",
+        "h3_cells": [
+          "8827593699fffff",
+          "882759369bfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.981,
+        "center_lng": -87.809,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.82,
+        "lng_max": -87.798
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.82,
+              41.97
+            ],
+            [
+              -87.798,
+              41.97
+            ],
+            [
+              -87.798,
+              41.992
+            ],
+            [
+              -87.82,
+              41.992
+            ],
+            [
+              -87.82,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-06",
+      "properties": {
+        "grid_id": "SQ-15-06",
+        "label": "Grid Cell SQ-15-06",
+        "h3_cells": [
+          "882664cb49fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 41.981,
+        "center_lng": -87.787,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.798,
+        "lng_max": -87.776
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.798,
+              41.97
+            ],
+            [
+              -87.776,
+              41.97
+            ],
+            [
+              -87.776,
+              41.992
+            ],
+            [
+              -87.798,
+              41.992
+            ],
+            [
+              -87.798,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-07",
+      "properties": {
+        "grid_id": "SQ-15-07",
+        "label": "Grid Cell SQ-15-07",
+        "h3_cells": [
+          "882664d9b5fffff",
+          "882664d9bdfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.981,
+        "center_lng": -87.765,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.97
+            ],
+            [
+              -87.754,
+              41.97
+            ],
+            [
+              -87.754,
+              41.992
+            ],
+            [
+              -87.776,
+              41.992
+            ],
+            [
+              -87.776,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-08",
+      "properties": {
+        "grid_id": "SQ-15-08",
+        "label": "Grid Cell SQ-15-08",
+        "h3_cells": [
+          "882664d98bfffff",
+          "882664d99dfffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 41.981,
+        "center_lng": -87.743,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.754,
+        "lng_max": -87.732
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.754,
+              41.97
+            ],
+            [
+              -87.732,
+              41.97
+            ],
+            [
+              -87.732,
+              41.992
+            ],
+            [
+              -87.754,
+              41.992
+            ],
+            [
+              -87.754,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-09",
+      "properties": {
+        "grid_id": "SQ-15-09",
+        "label": "Grid Cell SQ-15-09",
+        "h3_cells": [
+          "882664d999fffff",
+          "882664d9d3fffff",
+          "882664d9d7fffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 41.981,
+        "center_lng": -87.721,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.732,
+        "lng_max": -87.71
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.732,
+              41.97
+            ],
+            [
+              -87.71,
+              41.97
+            ],
+            [
+              -87.71,
+              41.992
+            ],
+            [
+              -87.732,
+              41.992
+            ],
+            [
+              -87.732,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-10",
+      "properties": {
+        "grid_id": "SQ-15-10",
+        "label": "Grid Cell SQ-15-10",
+        "h3_cells": [
+          "882664d8a1fffff",
+          "882664d8a3fffff",
+          "882664d8a9fffff",
+          "882664d8abfffff"
+        ],
+        "h3_count": 4,
+        "center_lat": 41.981,
+        "center_lng": -87.699,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.97
+            ],
+            [
+              -87.688,
+              41.97
+            ],
+            [
+              -87.688,
+              41.992
+            ],
+            [
+              -87.71,
+              41.992
+            ],
+            [
+              -87.71,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-11",
+      "properties": {
+        "grid_id": "SQ-15-11",
+        "label": "Grid Cell SQ-15-11",
+        "h3_cells": [
+          "882664d883fffff",
+          "882664d885fffff",
+          "882664d88dfffff",
+          "882664d8b9fffff",
+          "882664d8bdfffff"
+        ],
+        "h3_count": 5,
+        "center_lat": 41.981,
+        "center_lng": -87.677,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.97
+            ],
+            [
+              -87.666,
+              41.97
+            ],
+            [
+              -87.666,
+              41.992
+            ],
+            [
+              -87.688,
+              41.992
+            ],
+            [
+              -87.688,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-15-12",
+      "properties": {
+        "grid_id": "SQ-15-12",
+        "label": "Grid Cell SQ-15-12",
+        "h3_cells": [
+          "882664d889fffff",
+          "882664d88bfffff",
+          "882664d89dfffff",
+          "882664d8d5fffff",
+          "882664d8d7fffff"
+        ],
+        "h3_count": 5,
+        "center_lat": 41.981,
+        "center_lng": -87.655,
+        "lat_min": 41.97,
+        "lat_max": 41.992,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.97
+            ],
+            [
+              -87.644,
+              41.97
+            ],
+            [
+              -87.644,
+              41.992
+            ],
+            [
+              -87.666,
+              41.992
+            ],
+            [
+              -87.666,
+              41.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-16-05",
+      "properties": {
+        "grid_id": "SQ-16-05",
+        "label": "Grid Cell SQ-16-05",
+        "h3_cells": [
+          "88275936d5fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 42.003,
+        "center_lng": -87.809,
+        "lat_min": 41.992,
+        "lat_max": 42.014,
+        "lng_min": -87.82,
+        "lng_max": -87.798
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.82,
+              41.992
+            ],
+            [
+              -87.798,
+              41.992
+            ],
+            [
+              -87.798,
+              42.014
+            ],
+            [
+              -87.82,
+              42.014
+            ],
+            [
+              -87.82,
+              41.992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-16-07",
+      "properties": {
+        "grid_id": "SQ-16-07",
+        "label": "Grid Cell SQ-16-07",
+        "h3_cells": [
+          "882664d985fffff"
+        ],
+        "h3_count": 1,
+        "center_lat": 42.003,
+        "center_lng": -87.765,
+        "lat_min": 41.992,
+        "lat_max": 42.014,
+        "lng_min": -87.776,
+        "lng_max": -87.754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.776,
+              41.992
+            ],
+            [
+              -87.754,
+              41.992
+            ],
+            [
+              -87.754,
+              42.014
+            ],
+            [
+              -87.776,
+              42.014
+            ],
+            [
+              -87.776,
+              41.992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-16-10",
+      "properties": {
+        "grid_id": "SQ-16-10",
+        "label": "Grid Cell SQ-16-10",
+        "h3_cells": [
+          "882664d833fffff",
+          "882664d8e1fffff",
+          "882664d8e3fffff",
+          "882664d8e5fffff",
+          "882664d8e7fffff",
+          "882664d8edfffff"
+        ],
+        "h3_count": 6,
+        "center_lat": 42.003,
+        "center_lng": -87.699,
+        "lat_min": 41.992,
+        "lat_max": 42.014,
+        "lng_min": -87.71,
+        "lng_max": -87.688
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.71,
+              41.992
+            ],
+            [
+              -87.688,
+              41.992
+            ],
+            [
+              -87.688,
+              42.014
+            ],
+            [
+              -87.71,
+              42.014
+            ],
+            [
+              -87.71,
+              41.992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-16-11",
+      "properties": {
+        "grid_id": "SQ-16-11",
+        "label": "Grid Cell SQ-16-11",
+        "h3_cells": [
+          "882664d8c7fffff",
+          "882664d8cdfffff",
+          "882664d8ebfffff"
+        ],
+        "h3_count": 3,
+        "center_lat": 42.003,
+        "center_lng": -87.677,
+        "lat_min": 41.992,
+        "lat_max": 42.014,
+        "lng_min": -87.688,
+        "lng_max": -87.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.688,
+              41.992
+            ],
+            [
+              -87.666,
+              41.992
+            ],
+            [
+              -87.666,
+              42.014
+            ],
+            [
+              -87.688,
+              42.014
+            ],
+            [
+              -87.688,
+              41.992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SQ-16-12",
+      "properties": {
+        "grid_id": "SQ-16-12",
+        "label": "Grid Cell SQ-16-12",
+        "h3_cells": [
+          "882664d8c1fffff",
+          "882664d8c3fffff"
+        ],
+        "h3_count": 2,
+        "center_lat": 42.003,
+        "center_lng": -87.655,
+        "lat_min": 41.992,
+        "lat_max": 42.014,
+        "lng_min": -87.666,
+        "lng_max": -87.644
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.666,
+              41.992
+            ],
+            [
+              -87.644,
+              41.992
+            ],
+            [
+              -87.644,
+              42.014
+            ],
+            [
+              -87.666,
+              42.014
+            ],
+            [
+              -87.666,
+              41.992
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

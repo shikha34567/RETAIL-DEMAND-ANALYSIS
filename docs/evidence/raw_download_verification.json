@@ -1,0 +1,14 @@
+{
+  "dataset_id": "wrvz-psew",
+  "date_interval": "[2022-06-01T00:00:00, 2022-07-01T00:00:00)",
+  "expected_count": 639269,
+  "actual_count": 639269,
+  "count_verified": true,
+  "unique_trip_ids": 639269,
+  "global_duplicates": 0,
+  "file_path": "data\\raw\\chicago_taxi_trips_2022-06.jsonl",
+  "file_size_bytes": 585444485,
+  "file_size_mb": 558.32,
+  "sha256_checksum": "c87b096ad1d243927d557be981483f233bc1ee71109c80d64490c77882d08b23",
+  "timestamp_utc": "2026-10-10T16:54:52.884290Z"
+}

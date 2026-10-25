@@ -1,0 +1,151 @@
+{
+  "dataset_id": "wrvz-psew",
+  "sample_size": 1000,
+  "date_slice": "2022-06-01",
+  "missing_counts": {
+    "trip_id": 0,
+    "pickup_coordinates": 110,
+    "pickup_community_area": 110,
+    "pickup_census_tract": 923
+  },
+  "timestamp_minutes": [
+    "00",
+    "15",
+    "30",
+    "45"
+  ],
+  "timestamp_seconds": [
+    "00.000"
+  ],
+  "distinct_coordinates": 75,
+  "total_valid_coordinate_rows": 890,
+  "sample_distinct_coordinates": [
+    [
+      "41.980264315",
+      "-87.913624596"
+    ],
+    [
+      "41.899602111",
+      "-87.633308037"
+    ],
+    [
+      "41.717493036",
+      "-87.648895072"
+    ],
+    [
+      "41.775928827",
+      "-87.666596265"
+    ],
+    [
+      "41.663670652",
+      "-87.540935513"
+    ]
+  ],
+  "sample_records": [
+    {
+      "trip_id": "201a6702e802acdb7659a2f1a3f6018cbe7933f0",
+      "taxi_id": "5067aae3d9e1474101b1df5c6b7fe79389e429ea7d820315b964dade113f9db00fd09bdaae86c17e22b9e197059dbc86b2c7e36ce25358737993f757f0b26e94",
+      "trip_start_timestamp": "2022-06-01T00:00:00.000",
+      "trip_end_timestamp": "2022-06-01T00:00:00.000",
+      "trip_seconds": "445",
+      "trip_miles": "2.42",
+      "pickup_community_area": "28",
+      "dropoff_community_area": "8",
+      "fare": "11",
+      "tips": "2.59",
+      "tolls": "0",
+      "extras": "0",
+      "trip_total": "13.59",
+      "payment_type": "Mobile",
+      "company": "Flash Cab",
+      "pickup_centroid_latitude": "41.874005383",
+      "pickup_centroid_longitude": "-87.66351755",
+      "pickup_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.6635175498,
+          41.874005383
+        ]
+      },
+      "dropoff_centroid_latitude": "41.899602111",
+      "dropoff_centroid_longitude": "-87.633308037",
+      "dropoff_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.6333080367,
+          41.899602111
+        ]
+      }
+    },
+    {
+      "trip_id": "944074994bcd0f418645d42f515d022e3c870acb",
+      "taxi_id": "1bb291b27cad860cc5e09ee3aea1261128edd297b00374adfcc6e40321f6310ee5b8472821d03d84ae58d1c7773410fd3c81cafd92ff2f3a1534df351322a0a5",
+      "trip_start_timestamp": "2022-06-01T00:00:00.000",
+      "trip_end_timestamp": "2022-06-01T00:15:00.000",
+      "trip_seconds": "1625",
+      "trip_miles": "18.15",
+      "pickup_community_area": "76",
+      "dropoff_community_area": "8",
+      "fare": "44.75",
+      "tips": "0",
+      "tolls": "0",
+      "extras": "4",
+      "trip_total": "48.75",
+      "payment_type": "Cash",
+      "company": "Sun Taxi",
+      "pickup_centroid_latitude": "41.980264315",
+      "pickup_centroid_longitude": "-87.913624596",
+      "pickup_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.913624596,
+          41.9802643146
+        ]
+      },
+      "dropoff_centroid_latitude": "41.899602111",
+      "dropoff_centroid_longitude": "-87.633308037",
+      "dropoff_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.6333080367,
+          41.899602111
+        ]
+      }
+    },
+    {
+      "trip_id": "9ae53da6993ff87edc8e0628af16635711b73975",
+      "taxi_id": "561fbb8af15689fe33fb11b96905cfb95d11ac44700c1a476e474b9b19d4dc24fec8cbfe3df913dc2ee78f919bd0b1cb416be0bc3b0a431d4335bfae2df63278",
+      "trip_start_timestamp": "2022-06-01T00:00:00.000",
+      "trip_end_timestamp": "2022-06-01T00:00:00.000",
+      "trip_seconds": "255",
+      "trip_miles": "0.83",
+      "pickup_community_area": "8",
+      "dropoff_community_area": "28",
+      "fare": "10",
+      "tips": "4",
+      "tolls": "0",
+      "extras": "0",
+      "trip_total": "14.5",
+      "payment_type": "Credit Card",
+      "company": "Flash Cab",
+      "pickup_centroid_latitude": "41.899602111",
+      "pickup_centroid_longitude": "-87.633308037",
+      "pickup_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.6333080367,
+          41.899602111
+        ]
+      },
+      "dropoff_centroid_latitude": "41.874005383",
+      "dropoff_centroid_longitude": "-87.66351755",
+      "dropoff_centroid_location": {
+        "type": "Point",
+        "coordinates": [
+          -87.6635175498,
+          41.874005383
+        ]
+      }
+    }
+  ]
+}

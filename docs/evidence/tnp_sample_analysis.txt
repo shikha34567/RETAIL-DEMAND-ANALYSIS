@@ -1,0 +1,22 @@
+Fetched 1000 records from 2022-06-01 TNP Trips.
+
+--- NULL / PRESENCE ANALYSIS (N = 1000) ---
+Missing trip_id: 0 (0.0%)
+Missing pickup_lat/lon: 46 (4.6%)
+Missing pickup_community_area: 46 (4.6%)
+Missing pickup_census_tract: 634 (63.4%)
+
+--- TIMESTAMP PRECISION ANALYSIS ---
+Unique start minutes observed: ['00']
+Unique start seconds observed: ['00.000']
+
+--- COORDINATE CLUSTERING ANALYSIS ---
+Total non-null coordinate rows: 954
+Distinct (lat, lon) coordinates: 137
+Compression ratio (distinct coords / valid rows): 0.144
+
+--- TRIP ID ANALYSIS ---
+Trip IDs count: 1000, Unique trip IDs: 1000
+Sample trip_id: 7bfe1231590ba8c2503a6663f4fbd5013c1b1883 (Length: 40)
+
+Saved evidence to docs/evidence/tnp_sample_analysis.json

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RideIntelStreamingEvent",
+  "description": "Schema for RideIntel ride pickup events published to Kafka and consumed by Spark Structured Streaming.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "event_id",
+    "trip_id",
+    "event_ts",
+    "h3_cell",
+    "pickup_latitude",
+    "pickup_longitude",
+    "dataset_id",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": ["1.0.0"]
+    },
+    "event_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$",
+      "description": "Deterministic SHA-1 event ID."
+    },
+    "trip_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Source Chicago taxi trip ID."
+    },
+    "event_ts": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp."
+    },
+    "h3_cell": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{15}$",
+      "description": "H3 Resolution 8 cell index in lowercase hex."
+    },
+    "pickup_latitude": {
+      "type": "number",
+      "minimum": 41.6,
+      "maximum": 42.1,
+      "description": "Centroid latitude in Chicago bounds."
+    },
+    "pickup_longitude": {
+      "type": "number",
+      "minimum": -87.95,
+      "maximum": -87.5,
+      "description": "Centroid longitude in Chicago bounds."
+    },
+    "pickup_community_area": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 77,
+      "description": "Chicago Community Area ID (1-77), or null."
+    },
+    "dataset_id": {
+      "type": "string",
+      "enum": ["wrvz-psew"]
+    },
+    "provenance": {
+      "type": "string",
+      "enum": ["HISTORICAL_REPLAY", "REPLAYED"]
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-10-11T07:14:25Z",
+    "dataset_id": "wrvz-psew",
+    "dataset_period": "2022-06",
+    "cleaned_parquet_path": "data\\interim\\cleaned_trips_2022-06\\cleaned_trips.parquet",
+    "total_eligible_trips": 584001,
+    "h3_resolution": 8,
+    "total_distinct_occupied_cells": 239,
+    "aggregation_duration_seconds": 1.3624
+  },
+  "candidate_rules_comparison": {
+    "1": {
+      "threshold_min_trips": 1,
+      "retained_zones_count": 239,
+      "retained_zones_pct": 100.0,
+      "dropped_zones_count": 0,
+      "dropped_zones_pct": 0.0,
+      "retained_trips_count": 584001,
+      "retained_trips_coverage_pct": 100.0,
+      "dropped_trips_count": 0,
+      "dropped_trips_pct": 0.0
+    },
+    "2": {
+      "threshold_min_trips": 2,
+      "retained_zones_count": 217,
+      "retained_zones_pct": 90.79,
+      "dropped_zones_count": 22,
+      "dropped_zones_pct": 9.21,
+      "retained_trips_count": 583979,
+      "retained_trips_coverage_pct": 99.9962,
+      "dropped_trips_count": 22,
+      "dropped_trips_pct": 0.0038
+    },
+    "5": {
+      "threshold_min_trips": 5,
+      "retained_zones_count": 165,
+      "retained_zones_pct": 69.04,
+      "dropped_zones_count": 74,
+      "dropped_zones_pct": 30.96,
+      "retained_trips_count": 583835,
+      "retained_trips_coverage_pct": 99.9716,
+      "dropped_trips_count": 166,
+      "dropped_trips_pct": 0.0284
+    },
+    "10": {
+      "threshold_min_trips": 10,
+      "retained_zones_count": 139,
+      "retained_zones_pct": 58.16,
+      "dropped_zones_count": 100,
+      "dropped_zones_pct": 41.84,
+      "retained_trips_count": 583659,
+      "retained_trips_coverage_pct": 99.9414,
+      "dropped_trips_count": 342,
+      "dropped_trips_pct": 0.0586
+    },
+    "25": {
+      "threshold_min_trips": 25,
+      "retained_zones_count": 126,
+      "retained_zones_pct": 52.72,
+      "dropped_zones_count": 113,
+      "dropped_zones_pct": 47.28,
+      "retained_trips_count": 583467,
+      "retained_trips_coverage_pct": 99.9086,
+      "dropped_trips_count": 534,
+      "dropped_trips_pct": 0.0914
+    },
+    "50": {
+      "threshold_min_trips": 50,
+      "retained_zones_count": 117,
+      "retained_zones_pct": 48.95,
+      "dropped_zones_count": 122,
+      "dropped_zones_pct": 51.05,
+      "retained_trips_count": 583161,
+      "retained_trips_coverage_pct": 99.8562,
+      "dropped_trips_count": 840,
+      "dropped_trips_pct": 0.1438
+    },
+    "100": {
+      "threshold_min_trips": 100,
+      "retained_zones_count": 106,
+      "retained_zones_pct": 44.35,
+      "dropped_zones_count": 133,
+      "dropped_zones_pct": 55.65,
+      "retained_trips_count": 582362,
+      "retained_trips_coverage_pct": 99.7193,
+      "dropped_trips_count": 1639,
+      "dropped_trips_pct": 0.2807
+    }
+  },
+  "selected_operational_rule": {
+    "rule_name": "MIN_HISTORICAL_TRIPS_10",
+    "status": "PROVISIONAL_OPERATIONAL_CHOICE",
+    "description": "H3 Resolution 8 cells with >= 10 observed historical pickups in June 2022 (provisional operational choice; pending forecasting evaluation).",
+    "threshold_min_trips": 10,
+    "retained_operational_zones": 139,
+    "retained_operational_zones_pct": 58.16,
+    "excluded_dormant_zones": 100,
+    "excluded_dormant_zones_pct": 41.84,
+    "retained_trips_count": 583659,
+    "retained_trips_coverage_pct": 99.9414,
+    "excluded_trips_count": 342,
+    "excluded_trips_pct": 0.0586,
+    "distribution_across_retained_zones": {
+      "total_zones": 139,
+      "total_trips": 583659,
+      "coverage_pct": 99.9414,
+      "min": 10,
+      "p10": 25.8,
+      "p25": 111.5,
+      "median": 436.0,
+      "p75": 2070.0,
+      "p90": 8980.600000000004,
+      "p95": 22153.999999999993,
+      "p99": 58807.14000000002,
+      "max": 66000,
+      "mean": 4198.99,
+      "std": 11020.83
+    }
+  },
+  "zero_observation_handling_strategy": {
+    "monthly_totals_vs_window_completeness": "Monthly trip counts alone cannot establish window-level zero percentages without window completeness aggregation. Zero-filling is deferred until complete 15-minute streaming/batch windows are established against zone_universe.",
+    "in_demand_windows": "Absent zone-windows are NOT treated as zeroes. Finalized windows write only observed demand (ride_count > 0).",
+    "in_forecasting_and_features": "Downstream feature pipelines zero-fill ONLY against operational zones in zone_universe, and ONLY for complete 15-minute windows.",
+    "in_dashboard_and_apis": "If an operational zone has 0 observed rides in a complete window, observed_rides = 0. If D=0 and C=0, estimated pressure index is 0.0 with status NORMAL (Rule 3). Incomplete windows remain null."
+  },
+  "temporal_leakage_assessment": {
+    "is_operational_universe_scope": "RETROSPECTIVE_FULL_MONTH",
+    "is_operational_universe_warning": "The is_operational_universe column in zone_universe.parquet reflects full-month June 2022 retrospective status. It must NOT be treated as leakage-safe eligibility for chronological forecasting evaluation. Phase 3 must derive training-window eligibility independently.",
+    "retrospective_scope": "Full-month June 2022 operational qualification is retrospective and descriptive. Catalog existence does not imply evaluation-safe operational eligibility.",
+    "dataset_interval_utc": {
+      "start_inclusive": "2022-06-01T05:00:00Z",
+      "end_exclusive": "2022-07-01T05:00:00Z",
+      "total_duration_hours": 720.0,
+      "note": "Half-open [start, end). Start = 2022-06-01 00:00:00 CDT. End = 2022-07-01 00:00:00 CDT."
+    },
+    "leakage_sensitivity_demonstration": {
+      "split_utc": "2022-06-22T05:00:00Z",
+      "split_local": "2022-06-22T00:00:00-05:00 (midnight CDT)",
+      "train_interval": "[2022-06-01T05:00:00Z, 2022-06-22T05:00:00Z)",
+      "test_interval": "[2022-06-22T05:00:00Z, 2022-07-01T05:00:00Z)",
+      "train_duration_days": 21.0,
+      "test_duration_days": 9.0,
+      "train_operational_zones_count": 135,
+      "full_month_operational_zones_count": 139,
+      "leaked_zones_count": 4,
+      "leaked_zones": [
+        "882664528bfffff",
+        "882664cf4bfffff",
+        "882664d89dfffff",
+        "882664d8d5fffff"
+      ],
+      "leaked_zones_detail": {
+        "882664528bfffff": {
+          "train_trips": 7,
+          "full_trips": 10
+        },
+        "882664cf4bfffff": {
+          "train_trips": 8,
+          "full_trips": 14
+        },
+        "882664d89dfffff": {
+          "train_trips": 7,
+          "full_trips": 15
+        },
+        "882664d8d5fffff": {
+          "train_trips": 5,
+          "full_trips": 11
+        }
+      },
+      "finding": "Zones that qualify under >=10 threshold only because test-period trips are included represent temporal lookahead. Full-month is_operational_universe must not be used as evaluation eligibility."
+    },
+    "phase3_leakage_safe_rule": "In Phase 3 forecasting, operational zone eligibility must be determined strictly on the training partition (t < T_split), never using future test data.",
+    "phase3_downstream_handling_policy": {
+      "zones_in_training_eligibility": "Included in zero-filling, forecasting model training, and evaluation for that split.",
+      "zones_absent_from_training_eligibility": "Excluded from zero-filling and model evaluation for that split. Predictions are not generated. Dashboard shows NON_OPERATIONAL or omits them from the forecasting grid.",
+      "catalog_preservation": "All 239 observed cells remain in zone_universe.parquet as a historical reference catalog regardless of split-specific eligibility."
+    }
+  },
+  "unresolved_limitations": [
+    "Centroid Truncation: All source coordinates are anonymized by the City of Chicago to census tract or community centroids (317 unique coordinates). Hexagon boundaries reflect centroid groupings rather than true street-corner hail coordinates.",
+    "Single-Month Seasonality: June 2022 represents summer tourism and warm weather travel. Low-volume peripheral zones may exhibit different demand during winter months or bad weather events.",
+    "Threshold Provisional: The 10-trip threshold remains provisional until chronological forecasting backtests evaluate alternatives."
+  ]
+}

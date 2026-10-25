@@ -1,0 +1,48 @@
+# RideIntel settings. Every value marked ASSUMPTION is a scenario choice, not a measured fact.
+window_minutes: 15
+horizon_minutes: 30
+
+h3:
+  resolution: 8            # SELECTED in Phase 1 Task 5 (H3 Resolution Comparison)
+
+streaming:
+  bootstrap_servers: "localhost:9092"
+  topic: "ride_events_res8"
+  consumer_group: "rideintel_spark_streaming"
+  window_minutes: 15
+  watermark: "10 minutes"
+  # Deduplication horizon == watermark. Duplicates arriving later than this may be accepted again.
+  dedup_horizon: "10 minutes"
+  dedup_keys: ["event_id", "event_ts"]   # event_ts in the key lets Spark expire dedup state
+  checkpoint_dir: "data/checkpoints/streaming_window_agg"
+  output_dir: "data/processed/streaming_window_agg"
+
+simulation:
+  random_seed: 42
+  fleet_size: 2500            # ASSUMPTION: Total simulated active fleet across Chicago
+  availability_ratio: 0.60    # ASSUMPTION: Fraction of fleet with status AVAILABLE (60%)
+  min_zone_vehicles: 0        # Allow zero-supply zones to evaluate zero-capacity handling
+
+capacity:
+  rate_r: 2.0                 # ASSUMPTION: pickups one AVAILABLE vehicle can serve per 30 minutes
+
+pressure:
+  elevated_ratio: 0.8         # ASSUMPTION: P >= 0.8 -> ELEVATED / MODERATE
+  high_ratio: 1.0             # ASSUMPTION: P > 1.0  -> HIGH_PRESSURE / HIGH
+  critical_ratio: 1.2         # ASSUMPTION: P >= 1.2 -> CRITICAL
+  stale_after_minutes: 15     # vehicle snapshot or forecast older than this -> UNKNOWN
+
+surge:
+  min_surge_demand: 5.0       # Minimum forecast rides in 30m to qualify for surge alert
+  surge_ratio_threshold: 1.2  # Demand / Capacity ratio >= 1.2 triggers surge flag
+  growth_threshold: 1.3       # Demand / Baseline >= 1.3 triggers surge flag
+
+
+
+zone_universe:
+  rule: "MIN_HISTORICAL_TRIPS_10"   # Selected in Phase 1 Task 6 (>= 10 historical trips)
+  min_trips: 10
+  resolution: 8
+
+display:
+  timezone: "America/Chicago" # frontend display only; storage is always UTC

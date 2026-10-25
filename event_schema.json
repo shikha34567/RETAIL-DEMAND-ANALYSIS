@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rideintel/event_schema/v0.1",
+  "title": "RideEvent (Kafka topic: ride-events)",
+  "description": "STATUS: DRAFT v0.1. Freeze only after docs/dataset_card.md records the real pickup geography. event_id is deterministic: sha1(dataset_id + ':' + trip_id), so retries and restarts reproduce the same ID. Spark adds processed_at; it is NOT part of the message. Windows use event_ts only. Spark dedup keys: event_id + event_ts, within the watermark horizon (see config/settings.yaml).",
+  "type": "object",
+  "required": ["schema_version", "event_id", "trip_id", "event_ts", "emitted_at", "source_type", "dataset_id"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "0.1" },
+    "event_id": { "type": "string", "minLength": 8, "description": "Deterministic hash of dataset_id and trip_id." },
+    "trip_id": { "type": "string" },
+    "event_ts": { "type": "string", "format": "date-time", "description": "Historical pickup time, UTC (ISO 8601, ends with Z). Drives all windows." },
+    "emitted_at": { "type": "string", "format": "date-time", "description": "When the producer published the event, UTC." },
+    "source_type": { "enum": ["HISTORICAL_REPLAY", "SIMULATED"], "description": "Historical records stay HISTORICAL_REPLAY even when replayed." },
+    "dataset_id": { "type": "string", "description": "Exact dataset from docs/dataset_card.md." },
+    "pickup_lat": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+    "pickup_lon": { "type": ["number", "null"], "minimum": -180, "maximum": 180 },
+    "pickup_area_id": { "type": ["string", "null"], "description": "Community area or tract id, if the dataset has no usable coordinates." },
+    "simulation_run_id": { "type": ["string", "null"], "description": "Set only for SIMULATED events (e.g. surge injection)." }
+  },
+  "anyOf": [
+    { "required": ["pickup_lat", "pickup_lon"], "properties": { "pickup_lat": { "type": "number" }, "pickup_lon": { "type": "number" } } },
+    { "required": ["pickup_area_id"], "properties": { "pickup_area_id": { "type": "string" } } }
+  ]
+}

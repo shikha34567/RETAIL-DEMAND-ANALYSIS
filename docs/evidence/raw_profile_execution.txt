@@ -1,0 +1,56 @@
+﻿Streaming and profiling data\raw\chicago_taxi_trips_2022-06.jsonl...
+  Processed 100,000 records...
+  Processed 200,000 records...
+  Processed 300,000 records...
+  Processed 400,000 records...
+  Processed 500,000 records...
+  Processed 600,000 records...
+
+=======================================================
+RAW DATASET PROFILING SUMMARY (READ-ONLY AUDIT)
+=======================================================
+Source file: data\raw\chicago_taxi_trips_2022-06.jsonl
+Total records: 639,269
+Invalid JSON lines: 0
+
+--- 1. REQUIRED FIELDS AUDIT ---
+  trip_id                     : Missing =      0 ( 0.00%)
+  trip_start_timestamp        : Missing =      0 ( 0.00%)
+  pickup_community_area       : Missing = 55,594 ( 8.70%)
+  pickup_centroid_latitude    : Missing = 55,268 ( 8.64%)
+  pickup_centroid_longitude   : Missing = 55,268 ( 8.64%)
+  trip_miles                  : Missing =      6 ( 0.00%)
+  fare                        : Missing =    336 ( 0.05%)
+  tips                        : Missing =    336 ( 0.05%)
+  trip_seconds                : Missing =    128 ( 0.02%)
+
+--- 2. TRIP ID & DETERMINISM ---
+  Unique trip_ids: 639,269
+  Duplicates: 0
+  Missing: 0
+  Supports sha1(dataset_id:trip_id): True
+
+--- 3. TIMESTAMP RANGE & TIMEZONE ---
+  Chicago Local Range: 2022-06-01T00:00:00-05:00 to 2022-06-30T23:45:00-05:00
+  UTC Range:           2022-06-01T05:00:00+00:00 to 2022-07-01T04:45:00+00:00
+  Non-15min-aligned:   0
+  Unparseable:         0
+  Rule:                Raw values represent America/Chicago local time. Must localize to America/Chicago before converting to UTC. Direct UTC interpretation introduces a 5-hour error (CDT = UTC-5).
+
+--- 4. GEOGRAPHY & CENTROID AUDIT ---
+  Usable coordinates (lat & lon): 584,001 (91.355%)
+  Community-area-only:            0 (0.0%)
+  Missing all geography:          55,268 (8.645%)
+  Distinct pickup coords pairs:   317
+  Distinct community areas:       77
+  WGS84 out-of-range:             0
+  Outside Chicago bounding box:   0
+  Spatial Note:                   Coordinates represent centroid discretizations (predominantly Community Area centroids when tract is masked), NOT exact vehicle GPS tracks.
+
+--- 5. METRICS DATA QUALITY ---
+  Trip Miles   <= 0: 81,395 | > 0: 557,868 | Max: 814.4 | Mean: 6.38
+  Trip Seconds <= 0: 16,071 | > 0: 623,070 | Max: 86340.0 | Mean: 1255.9
+  Fare < 0: 0 | == 0: 589 | > 0: 638,344 | Min: 0.0 | Max: 9702.99
+  Tips < 0: 0 | == 0: 286,717 | > 0: 352,216 | Max: 110.0
+
+Saved profiling evidence JSON to docs\evidence\raw_profile.json

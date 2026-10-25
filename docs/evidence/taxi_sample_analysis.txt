@@ -1,0 +1,23 @@
+Fetched 1000 records from 2022-06-01 Taxi Trips.
+
+--- NULL / PRESENCE ANALYSIS (N = 1000) ---
+Missing trip_id: 0 (0.0%)
+Missing pickup_lat/lon: 110 (11.0%)
+Missing pickup_community_area: 110 (11.0%)
+Missing pickup_census_tract: 923 (92.3%)
+
+--- TIMESTAMP PRECISION ANALYSIS ---
+Unique start minutes observed: ['00', '15', '30', '45']
+Unique start seconds observed: ['00.000']
+
+--- COORDINATE CLUSTERING ANALYSIS ---
+Total non-null coordinate rows: 890
+Distinct (lat, lon) coordinates: 75
+Compression ratio (distinct coords / valid rows): 0.084
+Sample distinct coordinates (first 5): [('41.980264315', '-87.913624596'), ('41.899602111', '-87.633308037'), ('41.717493036', '-87.648895072'), ('41.775928827', '-87.666596265'), ('41.663670652', '-87.540935513')]
+
+--- TRIP ID ANALYSIS ---
+Trip IDs count: 1000, Unique trip IDs: 1000
+Sample trip_id: 201a6702e802acdb7659a2f1a3f6018cbe7933f0 (Length: 40)
+
+Saved evidence to docs/evidence/taxi_sample_analysis.json

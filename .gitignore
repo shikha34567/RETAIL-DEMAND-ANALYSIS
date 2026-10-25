@@ -1,0 +1,42 @@
+# RideIntel Git Ignore
+
+# Python & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+**/node_modules/
+**/dist/
+frontend/dist/
+frontend/node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Environment & IDE
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Data Exclusions (large raw datasets > 1GB)
+data/raw/
+data/interim/
+data/checkpoints/
+
+# Retain essential processed demo artifacts and schemas
+!data/
+!data/contracts/
+!data/contracts/**
+!data/processed/
+!data/processed/**

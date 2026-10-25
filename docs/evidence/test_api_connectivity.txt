@@ -1,0 +1,15 @@
+Testing connectivity to Socrata Chicago Open Data API...
+URL: https://data.cityofchicago.org/resource/wrvz-psew.json?%24where=trip_start_timestamp+%3E%3D+%272022-06-01T00%3A00%3A00%27+and+trip_start_timestamp+%3C+%272022-07-01T00%3A00%3A00%27&%24limit=5&%24order=trip_start_timestamp+ASC%2C+trip_id+ASC
+Response Status: 200
+Records returned: 5
+Sample trip_id: 1331f7a37850d9673b465e85cffa6c369d5cf5af
+Sample start_ts: 2022-06-01T00:00:00.000
+
+Relevant Response Headers:
+  X-SODA2-Fields: ["trip_id","taxi_id","trip_start_timestamp","trip_end_timestamp","trip_seconds","trip_miles","pickup_census_tract","dropoff_census_tract","pickup_community_area","dropoff_community_area","fare","tips","tolls","extras","trip_total","payment_type","company","pickup_centroid_latitude","pickup_centroid_longitude","pickup_centroid_location","dropoff_centroid_latitude","dropoff_centroid_longitude","dropoff_centroid_location"]
+  X-SODA2-Types: ["text","text","floating_timestamp","floating_timestamp","number","number","text","text","number","number","number","number","number","number","number","text","text","number","number","point","number","number","point"]
+  X-Socrata-Region: aws-us-east-1-fedramp-prod
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json;charset=utf-8
+
+SUCCESS: Small date-filtered API request succeeded.
